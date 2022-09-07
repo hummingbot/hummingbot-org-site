@@ -9,14 +9,60 @@ import { Container } from '../../elements/layout'
 import { LinkButton } from '../../elements/buttons'
 import LiquidityMiningIllustration from './assets/bots_mining_illustration.svg'
 
-function ProductsServices() {
+function WhatCanYouDo() {
   return (
     <Section id='products-services' tw='py-8 md:py-12 lg:py-36 xl:py-60' style={{zIndex: '10', background: 'url(/assets/OvalGradient.svg) no-repeat 50% 20%'}}>
       <Container tw='mb-xl'>
-        <H4 isWhite isBold>Products & Services</H4>
-        <H6 isWhite isLight style={{opacity: '0.6'}}>Empowering companies to take control of token liquidity</H6>
+        <H4 isWhite isBold>What can you do with Hummingbot?</H4>
+        {/* <H6 isWhite isLight style={{opacity: '0.6'}}>Empowering companies to take control of token liquidity</H6> */}
+        <CustomContainer>
+          <LeftColumn>
+            <H6 isBold>For Token Issuers</H6>
+          </LeftColumn>
+          <RightColumn>
+            <ThreeColumnHolder>
+              <Column>
+                <TitleP>Liquidity from decentralized market making.</TitleP>
+                <LightP>Token issuers can get liquidity from our community of individual traders.</LightP>
+              </Column>
+              <Column>
+                <TitleP>Marketing value / public promotion</TitleP>
+                <LightP>Get exposure to a large community of early adopters and crypto evangelists.</LightP>
+              </Column>
+              <Column>
+                <TitleP>Cheaper and more diversified alternative.</TitleP>
+                <LightP>Low cost. You provide the reward pool, let our community take care of the rest.</LightP>
+              </Column>
+            </ThreeColumnHolder>
+          </RightColumn>
+        </CustomContainer>
+        <CustomContainer>
+          <LeftColumn>
+            <H6 isBold>For Traders</H6>
+          </LeftColumn>
+          <RightColumn>
+            <ThreeColumnHolder>
+              <Column>
+                <TitleP>Get rewarded for providing liquidity.</TitleP>
+                <LightP>Individual traders can receive rewards by market making for the specified campaigns.</LightP>
+              </Column>
+              <Column>
+                <TitleP>Support your favorite token projects</TitleP>
+                <LightP>Earn additional returns while “hodling” your favorite tokens.</LightP>
+              </Column>
+              <Column>
+                <TitleP>Use Hummingbot Client or your own solutions.</TitleP>
+                <LightP>Use HB Client’s built-in strategies alternative platforms or even your own MM solutions. Miner is open to all.</LightP>
+              </Column>
+            </ThreeColumnHolder>
+          </RightColumn>
+        </CustomContainer>
+
       </Container>
-      <Container tw='mb-sm block md:flex'>
+
+
+
+      {/* <Container tw='mb-sm block md:flex'>
         <BoxMiner tw='p-sm md:p-md'>
           <H5 isBold tw='leading-none text-terminal!'>Hummingbot Miner</H5>
           <P isWhite isMedium tw='relative z-20 mt-sm max-w-[100%] md:max-w-[50%]'>
@@ -61,12 +107,14 @@ function ProductsServices() {
           </div>
           <Link to='/contact-us'><LinkButton label='CONTACT US' tw='mt-sm'/></Link>
         </Box>
-      </Container>
+      </Container> */}
+
+
     </Section>
   )
 }
 
-export default ProductsServices
+export default WhatCanYouDo
 
 const Box = styled.div(props => ({
   background: 'rgba(15, 25, 36, 0.6)',
@@ -108,3 +156,31 @@ function Cross({...props}) {
     </svg>
   );
 }
+
+const CustomContainer = styled.div(() => [
+  tw`my-md flex flex-col md:(flex-row my-xl)`,
+])
+
+const LeftColumn = styled.div(() => [
+  tw`w-full pb-xs md:(w-1/4 pr-xl)`,
+])
+
+const RightColumn = styled.div(() => [
+  tw`w-full md:w-3/4`,
+])
+
+const TitleP = styled(P)(() => [
+  tw`text-terminal`,
+])
+
+const LightP = styled(P)(() => [
+  tw`text-white mt-xxs md:mt-xs opacity-70`,
+])
+
+const Column = styled.div(() => [
+  tw`w-full pb-md sm:(w-1/3 pr-xs)`,
+])
+
+const ThreeColumnHolder = styled.div(() => [
+  tw`flex flex-col pt-md border-t-2 border-terminal sm:(flex-row pt-xs)`,
+])

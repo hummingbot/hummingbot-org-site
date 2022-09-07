@@ -3,7 +3,8 @@ import { Section } from '@hummingbot/hbui/elements/layout'
 import Layout from '../ui/components/Layout'
 import Navigation from '../ui/components/Navigation'
 import Hero from '../ui/components/home/Hero'
-import ProductsServices from '../ui/components/home/ProductsServices'
+import Metrics from '../ui/components/home/Metrics'
+import WhatCanYouDo from '../ui/components/home/WhatYouCanDo'
 import WhoWeAre from '../ui/components/home/WhoWeAre'
 import Investors from '../ui/components/home/Investors'
 import Footer from '../ui/components/footer'
@@ -16,7 +17,8 @@ function Home() {
       <Section>
         <Navigation />
         <Hero />
-        <ProductsServices />
+        <Metrics />
+        <WhatCanYouDo />
         <Investors />
         <WhoWeAre />
         <Footer />

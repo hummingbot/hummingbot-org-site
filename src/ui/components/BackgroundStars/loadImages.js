@@ -1,7 +1,7 @@
-import binance from "../logos/binance.png"
-import avalanche from "../logos/avalanche.png"
-import dydx from "../logos/dydx.png"
-import uniswap from "../logos/uniswap.png"
+import binance from "./logos/binance.png"
+import avalanche from "./logos/avalanche.png"
+import dydx from "./logos/dydx.png"
+import uniswap from "./logos/uniswap.png"
 
 export const loadImages = PIXI => {
   const loader = new PIXI.Loader()

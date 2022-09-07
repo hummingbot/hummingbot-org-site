@@ -3,15 +3,17 @@ import React from 'react'
 import tw, { styled } from 'twin.macro'
 import NavBar from './NavBar'
 
-const siteNameA = 'CoinAlpha'
+const siteNameA = 'Hummingbot'
 const siteNameB = ''
 const linksRight = [
-  { url: '/#products-services', label: 'Products & Services' },
-  { url: '/#investors', label: 'Investors' },
-  { url: '/#who-we-are', label: 'Who We Are' },
-  { url: '/contact-us', label: 'Contact us' },
-  // { url: '/#open-source', label: 'Open Source' },
-  { url: '/miner', label: 'Miner' },
+  { url: '/miner', label: 'Learn' },
+  { url: '/miner', label: 'Exchanges' },
+  { url: '/miner', label: 'Community' },
+  { url: '/miner', label: 'Developers' },
+  { url: '/miner', label: 'Governance' },
+  { url: '/miner', label: 'Blog' },
+  { url: '/miner', label: 'FAQ' },
+  { url: '/miner', label: 'Test Drive' },
 ]
 
 function Navigation({ disableBreakcrumbs }) {
@@ -23,7 +25,7 @@ function Navigation({ disableBreakcrumbs }) {
         siteNameB={siteNameB}
         linksLeft={null}
         linksRight={linksRight}
-        logo="coinalpha"
+        logo="hummingbot"
       />
     </RootDiv>
   )

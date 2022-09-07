@@ -73,7 +73,7 @@ const initPixi = (PIXXI, resources, id) => {
   ticker.start()
 }
 
-export const Background = ({...props}) => {
+export const BackgroundNodes = ({...props}) => {
   const [loaded, setLoaded] = useState(false)
   useEffect(() => {
     // Pixi imported here to prevent fail while deploying

@@ -1,11 +1,11 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import tw, { styled } from 'twin.macro'
-import { Section, Container } from '@hummingbot/hbui/elements/layout'
+import { Section } from '@hummingbot/hbui/elements/layout'
+import { Container } from '../../elements/layout' /* custom container with more left-right padding */
 import { H1, H6 } from '@hummingbot/hbui/elements/typography'
-import { Background } from "./Background"
+import { BackgroundStars } from "../BackgroundStars"
 import GradOval from './assets/OvalGradientLower.svg'
-
 import { ItemsRow } from '@hummingbot/hbui/elements/layout'
 import { CustomRoundButton, ExternalLinkButton } from "../../elements/buttons"
 
@@ -16,16 +16,17 @@ function Hero() {
         <img src={GradOval} alt='test' style={{zIndex: '0', position: 'relative', top: '-50%', left: '-50%', width: '1989px', height: '1083px'}} />
       </div>
       <span tw='hidden md:inline'>
-        <Background />
+        <BackgroundStars />
       </span>
       <Section tw='h-[500px] md:h-[700px] lg:h-[800px]' style={{justifyContent: 'center'}}>
         <Container tw='z-10 pt-0 pb-7 md:pb-8 lg:pb-9 xl:pb-10'>
           <CustomH1 isBold tw='lg:max-w-4xl pb-xs'>Open Source<br />Market Making</CustomH1>
-          <H6 tw='text-white max-w-[700px] mb-lg'>Hummingbot is open source software that helps you build market making and arbitrage bots that run on any crypto exchange, centralized or decentralized.</H6>
+          <H6 tw='text-white max-w-[700px] mb-lg'>Hummingbot is open source software that helps you build <strong>market making 
+          and arbitrage bots</strong> that run on any crypto exchange, <strong>centralized or decentralized</strong>.</H6>
           <a href="https://miner.hummingbot.io" target='_blank' rel="noreferrer">
             <ItemsRow>
-              <CustomRoundButton isLarge>Get started</CustomRoundButton>
-              <ExternalLinkButton isLarge label="View docs" />
+              <CustomRoundButton isLarge>Learn Market Making</CustomRoundButton>
+              <ExternalLinkButton isLarge label="Get Started" />
             </ItemsRow>
           </a>
         </Container>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import styled from "styled-components"
-import { getParentSize } from "../helpers/getParentSize"
+import { getParentSize } from "./getParentSize"
 import { loadImages } from "./loadImages"
 import { Particle } from "./Particle"
 
@@ -146,7 +146,7 @@ const initPixi = (PIXXI, resources, id) => {
 
 // let timeOutFunctionId;
 
-export const Background = () => {
+export const BackgroundStars = () => {
   const [loaded, setLoaded] = useState(false)
   useEffect(() => {
     // Pixi imported here to prevent fail while deploying

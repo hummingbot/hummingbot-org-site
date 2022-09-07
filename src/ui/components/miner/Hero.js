@@ -5,7 +5,7 @@ import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { P, H1 } from '@hummingbot/hbui/elements/typography'
 import { CustomRoundButton } from '../../elements/buttons'
 import { GradientSideLine } from '../../elements/layout'
-import { Background } from "./Background"
+import { BackgroundNodes } from '../BackgroundNodes'
 import GradOval from './assets/OvalGradientLower.svg'
 
 function Hero() {
@@ -15,7 +15,7 @@ function Hero() {
         <img src={GradOval} alt='test' style={{zIndex: '0', position: 'relative', top: '-50%', left: '-50%', width: '1989px', height: '1083px'}} />
       </div>
       <span tw='hidden md:inline'>
-        <Background />
+        <BackgroundNodes />
       </span>
       <Section tw='h-[500px] md:h-[700px] lg:h-[800px]' style={{justifyContent: 'center'}}>
         <Container tw='z-10 pt-0 pb-7 md:pb-8 lg:pb-9 xl:pb-10'>
