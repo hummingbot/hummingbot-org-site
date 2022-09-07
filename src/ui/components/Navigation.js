@@ -6,7 +6,6 @@ import NavBar from './NavBar'
 const siteNameA = 'Hummingbot'
 const siteNameB = ''
 const linksRight = [
-  { url: '/miner', label: 'Learn' },
   { url: '/miner', label: 'Exchanges' },
   { url: '/miner', label: 'Community' },
   { url: '/miner', label: 'Developers' },
