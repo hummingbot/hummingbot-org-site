@@ -5,10 +5,10 @@ import { Helmet } from "react-helmet"
 function Seo({ pageTitle }) {
 
   const metaData = {
-    title: 'CoinAlpha, Inc',
-    description: 'CoinAlpha delivers trusted software solutions and services specializing in crypto market making on centralized and decentralized exchanges.',
-    author: 'CoinAlpha, Inc',
-    siteUrl: 'https://coinalpha.com/',
+    title: 'Hummingbot',
+    description: 'Hummingbot is open source software that helps you run market making and arbitrage trading bots on any crypto centralized and decentralized exchange',
+    author: 'Hummingbot',
+    siteUrl: 'https://hummingbot.org/',
     locale: 'en'
   }
 

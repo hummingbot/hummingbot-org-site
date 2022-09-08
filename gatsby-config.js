@@ -8,21 +8,21 @@ const {
   // GATSBY_AMPLITUDE_ID,
 } = process.env
 
-const siteUrl = `https://coinalpha.com`
+const siteUrl = `https://hummingbot.org`
 
 module.exports = {
   flags: {
     DEV_SSR: false,
   },
   siteMetadata: {
-    title: `CoinAlpha, Inc.`,
-    description: `CoinAlpha delivers trusted software solutions and services specializing in crypto market making on centralized and decentralized exchanges.`,
-    secondaryDescription: `Liquidity solutions for centralized and decentralized exchanges.`,
+    title: `Hummingbot`,
+    description: `Hummingbot is open source software that helps you run market making and arbitrage trading bots on any crypto centralized and decentralized exchange`,
+    secondaryDescription: `Build and run your own market making and arbitrage bots with Hummingbot`,
     locale: "en",
-    author: `CoinAlpha, Inc.`,
+    author: `Hummingbot Foundation`,
     siteUrl: siteUrl,
-    githubUrl: `https://github.com/CoinAlpha`,
-    discordUrl: `https://discord.gg/V4PfK2tHC6`,
+    githubUrl: `https://github.com/hummingbot/hummingbot`,
+    discordUrl: `https://discord.gg/hummingbot`,
   },
   plugins: [
     `gatsby-plugin-remove-fingerprints`,
@@ -88,7 +88,7 @@ module.exports = {
     //     background_color: `#663399`,
     //     theme_color: `#663399`,
     //     display: `minimal-ui`,
-           icon: './src/svgs/favicon.svg',
+           icon: './src/svgs/favicon.png',
        },
      },
   ],

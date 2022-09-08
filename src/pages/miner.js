@@ -11,7 +11,7 @@ import WhatIsMiner from '../ui/components/miner/WhatIsMiner'
 import HowItWorks from '../ui/components/miner/HowItWorks'
 import RewardFactors from '../ui/components/miner/RewardFactors'
 import BecomeMarketMaker from '../ui/components/miner/BecomeMarketMaker'
-import Strategies from '../ui/components/miner/Strategies'
+import Strategies from '../ui/components/home/Strategies'
 import ActionBlock from '../ui/components/miner/ActionBlock'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"

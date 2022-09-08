@@ -6,13 +6,13 @@ import NavBar from './NavBar'
 const siteNameA = 'Hummingbot'
 const siteNameB = ''
 const linksRight = [
-  { url: '/miner', label: 'FAQ' },
-  { url: '/miner', label: 'Test Drive' },
-  { url: 'https://hummingbot.org/community', label: 'Community' },
+  { url: 'https://hummingbot.org/docs', label: 'Docs' },
   { url: 'https://hummingbot.org/developers', label: 'Developers' },
+  { url: 'https://hummingbot.org/community', label: 'Community' },
   { url: 'https://hummingbot.org/governance', label: 'Governance' },
   { url: 'https://blog.hummingbot.org', label: 'Blog' },
   { url: 'https://hummingbot.thinkific.com', label: 'Botcamp' },
+  { url: '/miner', label: 'Test Drive' },
 ]
 
 function Navigation({ disableBreakcrumbs }) {

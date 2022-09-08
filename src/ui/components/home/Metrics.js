@@ -32,8 +32,8 @@ function Metrics() {
             <ItemsRow>
               <CEXContainer>Binance</CEXContainer>
               <CEXContainer>FTX</CEXContainer>
-              <CEXContainer>Coinbase</CEXContainer>
               <CEXContainer>Kucoin</CEXContainer>
+              <CEXContainer>Gate.io</CEXContainer>
               <LinkContainer>
                 <a href="https://hummingbot.org/exchanges" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="See 30+ more" />
