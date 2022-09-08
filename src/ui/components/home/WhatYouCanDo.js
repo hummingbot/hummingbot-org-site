@@ -8,51 +8,72 @@ import { H4, H5, H6, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
 import { LinkButton } from '../../elements/buttons'
 import LiquidityMiningIllustration from './assets/bots_mining_illustration.svg'
+import { ExternalLinkButton } from "../../elements/buttons"
+
+
 
 function WhatCanYouDo() {
   return (
-    <Section id='products-services' tw='py-8 md:py-12 lg:py-36 xl:py-60' style={{zIndex: '10', background: 'url(/assets/OvalGradient.svg) no-repeat 50% 20%'}}>
-      <Container tw='mb-xl'>
+    <Section id='products-services' tw='py-8 md:py-12 lg:py-36' style={{zIndex: '10', background: 'url(/assets/OvalGradient.svg) no-repeat 50% 20%'}}>
+      <Container>
         <H4 isWhite isBold>What can you do with Hummingbot?</H4>
         {/* <H6 isWhite isLight style={{opacity: '0.6'}}>Empowering companies to take control of token liquidity</H6> */}
         <CustomContainer>
           <LeftColumn>
-            <H6 isBold>For Token Issuers</H6>
+            <H6 isBold>Traders & Developers</H6>
           </LeftColumn>
           <RightColumn>
             <ThreeColumnHolder>
               <Column>
-                <TitleP>Liquidity from decentralized market making.</TitleP>
-                <LightP>Token issuers can get liquidity from our community of individual traders.</LightP>
+                <TitleP>Learn to build HFT bots</TitleP>
+                <LightP>Join Hummingbot BotCamp and build your own custom HFT and market making bots</LightP>
+                <a href="https://hummingbot.thinkific.com" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="Hummingbot BotCamp" />
+                </a>
               </Column>
               <Column>
-                <TitleP>Marketing value / public promotion</TitleP>
-                <LightP>Get exposure to a large community of early adopters and crypto evangelists.</LightP>
+                <TitleP>Earn liquidity mining rewards</TitleP>
+                <LightP>Run market making bots on Miner and earn rewards based on open order volume</LightP>
+                <a href="https://coinalpha.com/miner" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="Hummingbot Miner" />
+                </a>
               </Column>
               <Column>
-                <TitleP>Cheaper and more diversified alternative.</TitleP>
-                <LightP>Low cost. You provide the reward pool, let our community take care of the rest.</LightP>
+                <TitleP>Capture HBOT bounties</TitleP>
+                <LightP>Earn HBOT bounties by fixing bugs and contributing to the Hummingbot codebase</LightP>
+                <a href="https://hummingbot.org/maintenance/bounties" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="Bounties" />
+                </a>
               </Column>
             </ThreeColumnHolder>
           </RightColumn>
         </CustomContainer>
         <CustomContainer>
           <LeftColumn>
-            <H6 isBold>For Traders</H6>
+            <H6 isBold>Exchanges & Protocols</H6>
           </LeftColumn>
           <RightColumn>
             <ThreeColumnHolder>
               <Column>
-                <TitleP>Get rewarded for providing liquidity.</TitleP>
-                <LightP>Individual traders can receive rewards by market making for the specified campaigns.</LightP>
+                <TitleP>Tap into our global market maker community</TitleP>
+                <LightP>Become a certified exchange and access thousands of market makers globally</LightP>
+                <a href="https://hummingbot.org/maintenance/certification" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="Exchange Certification" />
+                </a>
               </Column>
               <Column>
-                <TitleP>Support your favorite token projects</TitleP>
-                <LightP>Earn additional returns while “hodling” your favorite tokens.</LightP>
+                <TitleP>Run professional-grade market making strategies</TitleP>
+                <LightP>Save money vs hiring market makers by running your own market making bots</LightP>
+                <a href="https://hummingbot.org/strategies" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="Hummingbot Strategies" />
+                </a>
               </Column>
               <Column>
-                <TitleP>Use Hummingbot Client or your own solutions.</TitleP>
-                <LightP>Use HB Client’s built-in strategies alternative platforms or even your own MM solutions. Miner is open to all.</LightP>
+                <TitleP>Add your own connector to the Hummingbot codebase</TitleP>
+                <LightP>Build and contribute your CEX and DEX connectors to our open source codebase</LightP>
+                <a href="https://hummingbot.org/developers" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="Developer Docs" />
+                </a>
               </Column>
             </ThreeColumnHolder>
           </RightColumn>
@@ -174,7 +195,7 @@ const TitleP = styled(P)(() => [
 ])
 
 const LightP = styled(P)(() => [
-  tw`text-white mt-xxs md:mt-xs opacity-70`,
+  tw`text-white mt-xxs md:mt-xs opacity-70 mb-xs`,
 ])
 
 const Column = styled.div(() => [

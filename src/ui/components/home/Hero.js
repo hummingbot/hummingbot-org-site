@@ -28,7 +28,7 @@ function Hero() {
           <ItemsRow>
             <CustomRoundButton isLarge>Test Drive</CustomRoundButton>
             <a href="https://hummingbot.thinkific.com">
-              <ExternalLinkButton isLarge label="Learn How in Hummingbot Botcamp" />
+              <ExternalLinkButton isLarge label="Learn with Botcamp" />
             </a>
           </ItemsRow>
           <div tw='absolute hidden lg:block xl:(right-[20%]) lg:(right-[2%]) top-[30%]'>
