@@ -14,7 +14,7 @@ import { ExternalLinkButton } from "../../elements/buttons"
 
 function WhatCanYouDo() {
   return (
-    <Section id='products-services' tw='py-8 md:py-12 lg:py-36' style={{zIndex: '10', background: 'url(/assets/OvalGradient.svg) no-repeat 50% 20%'}}>
+    <Section id='products-services' tw='py-8 md:py-12 lg:py-36'>
       <Container>
         <H4 isWhite isBold>What can you do with Hummingbot?</H4>
         {/* <H6 isWhite isLight style={{opacity: '0.6'}}>Empowering companies to take control of token liquidity</H6> */}

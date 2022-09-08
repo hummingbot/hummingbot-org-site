@@ -86,11 +86,11 @@ const RightColumn = styled.div(() => [
 ])
 
 const CEXContainer = styled(H6)(() => [
-  tw`md:(mx-md) mr-sm mb-sm text-terminal`,
+  tw`md:(mx-md) mr-sm text-terminal`,
 ])
 
 const DEXContainer = styled(H6)(() => [
-  tw`md:(mx-md) mr-sm mb-sm text-blue`,
+  tw`md:(mx-md) mr-sm text-blue`,
 ])
 
 const LinkContainer = styled.div(() => [

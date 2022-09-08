@@ -2,7 +2,7 @@ import React from "react"
 import styled from 'styled-components'
 import { Section, Container } from "@hummingbot/hbui/elements/layout"
 import FooterLinks from "./FooterLinks"
-import FooterDisclaimer from "./FooterDisclaimer"
+// import FooterDisclaimer from "./FooterDisclaimer"
 
 const Footer = ({ isPrimary, hideContactUs }) => (
   <Section style={{background: '#0F1924', zIndex:'2'}}>
@@ -10,7 +10,7 @@ const Footer = ({ isPrimary, hideContactUs }) => (
     <Container>
       <FooterLinks />
     </Container>
-    <FooterDisclaimer isPrimary />
+    {/* <FooterDisclaimer isPrimary /> */}
   </Section>
 )
 

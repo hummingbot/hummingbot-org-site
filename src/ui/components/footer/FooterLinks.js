@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import CoinAlphaLogo from "../../../svgs/CoinAlphaLogo"
+import HummingbotLogo from "../../../svgs/HummingbotLogo"
 import { P, H6 } from '@hummingbot/hbui/elements/typography'
 import { communities } from "../../../config/communities"
 import globalLinks from "../../../config/global"
@@ -12,17 +12,20 @@ const FooterLinks = () => {
       <div tw='md:(flex justify-between)'>
         <div style={{ position: "relative" }}>
           <LogoA href='/'>
-            <CoinAlphaLogo />
+            <HummingbotLogo />
             <H6 isWhite isBold tw='text-2xl'>
-              CoinAlpha
+              Hummingbot
             </H6>
           </LogoA>
         </div>
         <div tw='md:(w-[340px])'>
           <div tw='flex mt-md md:mt-0'>
             <LinksHolder>
-              <a href="https://hummingbot.io/en/blog/" target='_blank' rel="noreferrer">
+              <a href="https://blog.hummingbot.org" target='_blank' rel="noreferrer">
                 <P isMedium>Blog</P>
+              </a>
+              <a href="https://hummingbot.discourse.group" target='_blank' rel="noreferrer">
+                <P isMedium>Forum</P>
               </a>
               <a href={globalLinks.pressKitUrl} target='_blank' rel="noreferrer">
                 <P isMedium>Press Kit</P>
@@ -35,12 +38,9 @@ const FooterLinks = () => {
               <Link to='/privacy-policy'>
                 <P isMedium>Privacy Policy</P>
               </Link>
-              <Link to='/cookie-policy'>
-                <P isMedium>Cookie Policy</P>
+              <Link to='/aml-policy'>
+                <P isMedium>AML Policy</P>
               </Link>
-              <a href={'https://hummingbot.io/en' + globalLinks.miningPolicyUrl} target='_blank' rel="noreferrer">
-                <P isMedium>Liquidity Mining Policy</P>
-              </a>
             </LinksHolder>
           </div>
         </div>
@@ -48,7 +48,7 @@ const FooterLinks = () => {
 
       <div tw='mt-xl flex justify-between'>
         <CopyrightTextHolder>
-          <CopyrightText>{`© CoinAlpha ${new Date().getFullYear()}`}</CopyrightText>
+          <CopyrightText>{`© Hummingbot Foundation ${new Date().getFullYear()}`}</CopyrightText>
         </CopyrightTextHolder>
         <div tw='w-auto md:w-[340px]'>
           <IconsRow>

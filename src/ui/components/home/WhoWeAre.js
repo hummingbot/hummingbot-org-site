@@ -3,7 +3,7 @@ import React from 'react'
 import tw from 'twin.macro'
 import styled from 'styled-components'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { LinkButton } from '../../elements/buttons'
+import { ExternalLinkButton } from '../../elements/buttons'
 import { H5, P, Body, Green } from '@hummingbot/hbui/elements/typography'
 import HummingbotLogo from "../../../svgs/HummingbotLogo"
 import CoinAlphaLogo from "../../../svgs/CoinAlphaLogo"
@@ -14,31 +14,27 @@ function WhoWeAre() {
       <Container tw='block md:flex' style={{zIndex: '5', position: 'relative'}}>
         <Side tw='self-start pr-0 md:pr-xl'>
           <LogoHolder>
-            <CoinAlphaLogo />
-            <H5 isWhite isBold tw='ml-xxs! text-3xl!'>
-              CoinAlpha
+            <HummingbotLogo />
+            <H5 isWhite isBold tw='ml-xs! text-3xl!'>
+              Hummingbot Foundation
             </H5>
           </LogoHolder>
-          <P tw='mt-[8px] leading-tight max-w-none md:max-w-[560px]' isWhite>
-            CoinAlpha, the original creator of Hummingbot, is an active member of and contributor to the Hummingbot ecosystem and community.
-          </P>
-          <br />
-          <P tw='mt-[8px] leading-tight opacity-60 max-w-none md:max-w-[560px]' isWhite>
-            We build advanced tooling and systems on top of Hummingbot, working alongside the Foundation to democratize algorithmic trading and promote user adoption.
+          <P tw='mt-[8px] mb-sm leading-tight max-w-none md:max-w-[560px]' isWhite>
+            Open souce foundation that coordinates decentralized maintenance and enables HBOT token holders to steer the evolution of the Hummingbot codebase.
           </P>
         </Side>
         <Side tw='self-start mt-xxl md:mt-0' className='Side'>
           <LogoHolder>
-            <HummingbotLogo />
-            <H5 isWhite isBold tw='ml-xs! text-3xl!'>
-              Hummingbot
+            <CoinAlphaLogo />
+            <H5 isWhite isBold tw='ml-xxs! text-3xl!'>
+              CoinAlpha, Inc.
             </H5>
           </LogoHolder>
-          <Body tw='leading-tight max-w-none md:max-w-[560px]' isWhite style={{ marginTop: "8px" }}>
-            An independent, non-profit foundation that coordinates the advancement of the Hummingbot <Green>open-source code base</Green>.
-          </Body>
-          <a href="https://hummingbot.org">
-            <LinkButton label='Foundation website' />
+          <P tw='mt-[8px] mb-sm leading-tight max-w-none md:max-w-[560px]' isWhite>
+            The company that originally created Hummingbot, CoinAlpha provides liquidity solutions to exchanges, protocols, token issuers, trading firms, and other institutions.
+          </P>
+          <a href="https://coinalpha.com">
+            <ExternalLinkButton label='CoinAlpha website' target="_blank" rel="noreferrer"/>
           </a>
         </Side>
       </Container>
