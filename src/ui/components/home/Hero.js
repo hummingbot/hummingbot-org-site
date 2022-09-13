@@ -1,8 +1,8 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import tw, { styled } from 'twin.macro'
+import { Link } from 'gatsby'
 import { css, keyframes } from "styled-components";
-
 import { Section } from '@hummingbot/hbui/elements/layout'
 import { Container } from '../../elements/layout' /* custom container with more left-right padding */
 import { H1, H6 } from '@hummingbot/hbui/elements/typography'
@@ -26,7 +26,9 @@ function Hero() {
           <H6 tw='text-white max-w-[600px] mb-lg'>Hummingbot is open source software that helps you build <strong>high-frequency crypto trading bots
           </strong> that specialize in market making and arbitrage strategies</H6>
           <ItemsRow>
-            <CustomRoundButton isLarge>Test Drive</CustomRoundButton>
+            <Link to="/test-drive">
+              <CustomRoundButton isLarge>Test Drive</CustomRoundButton>
+            </Link>
             <a href="https://hummingbot.thinkific.com">
               <ExternalLinkButton isLarge label="Learn with Botcamp" />
             </a>

@@ -47,6 +47,7 @@ const linksRight = [
     subLinks: [
       { label: 'FAQ', url: 'https://hummingbot.org/faq', external: true },
       { label: 'Blog', url: 'https://blog.hummingbot.org', external: true },
+      { label: 'Newsletter', url: 'https://hummingbot.substack.com', external: true },
     ] 
   },
 

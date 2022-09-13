@@ -24,8 +24,8 @@ const FooterLinks = () => {
               <a href="https://blog.hummingbot.org" target='_blank' rel="noreferrer">
                 <P isMedium>Blog</P>
               </a>
-              <a href="https://hummingbot.discourse.group" target='_blank' rel="noreferrer">
-                <P isMedium>Forum</P>
+              <a href="https://hummingbot.substack.com" target='_blank' rel="noreferrer">
+                <P isMedium>Newsletter</P>
               </a>
               <a href={globalLinks.pressKitUrl} target='_blank' rel="noreferrer">
                 <P isMedium>Press Kit</P>

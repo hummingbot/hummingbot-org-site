@@ -1,7 +1,6 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import { styled } from 'twin.macro'
-import { Link } from 'gatsby'
 import { Section, ItemsRow } from '@hummingbot/hbui/elements/layout'
 import { H4, H5, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'

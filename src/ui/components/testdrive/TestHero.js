@@ -9,7 +9,7 @@ import { Button } from "@hummingbot/hbui/components/button"
 import { CustomRoundButton } from '../../elements/buttons'
 import { validateEmail } from "../../../helpers/validate"
 import { GradientSideLine } from '../../elements/layout'
-import { BackgroundNodes } from '../BackgroundNodes'
+import { BackgroundStars } from '../BackgroundStars'
 import getWindowDimensions from "../../../helpers/useWindowDimensions"
 import GradOval from './assets/OvalGradientLower.svg'
 
@@ -27,7 +27,7 @@ function TestHero() {
         <img src={GradOval} alt='test' style={{zIndex: '0', position: 'relative', top: '-50%', left: '-50%', width: '1989px', height: '1083px'}} />
       </div>
       <span tw='hidden md:inline'>
-        <BackgroundNodes />
+        <BackgroundStars />
       </span>
       <Section tw='h-[500px] md:h-[700px] lg:h-[800px]' style={{justifyContent: 'center'}}>
         <Container tw='z-10 pt-0 pb-7 md:pb-8 lg:pb-9 xl:pb-10'>
@@ -47,12 +47,11 @@ function TestHero() {
               />
             </div>
             <br/>
-            <Button
-              isSuccess
+            <CustomRoundButton
               isLarge
-              label="Start Test Drive"
-              onClick={() => {console.log("clicked")}}
-            />
+              onClick={() => {console.log("clicked")}}>
+              Start Test Drive
+            </CustomRoundButton>  
           </div>
         )}
           <div tw='absolute hidden lg:block xl:(right-[20%]) lg:(right-[2%]) top-[30%]'>

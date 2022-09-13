@@ -9,7 +9,7 @@ import Features from '../ui/components/home/Features'
 import Strategies from '../ui/components/home/Strategies'
 import Governance from '../ui/components/home/Governance'
 import WhoWeAre from '../ui/components/home/WhoWeAre'
-import Investors from '../ui/components/home/Investors'
+import ActionBlock from '../ui/components/ActionBlock'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
@@ -26,6 +26,7 @@ function Home() {
         <Strategies />
         <Governance />
         <WhoWeAre />
+        <ActionBlock />
         <Footer />
       </Section>
     </Layout>
