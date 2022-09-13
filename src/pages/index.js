@@ -25,7 +25,6 @@ function Home() {
         <WhatCanYouDo />
         <Strategies />
         <Governance />
-        <Investors />
         <WhoWeAre />
         <Footer />
       </Section>

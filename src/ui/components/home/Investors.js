@@ -8,11 +8,11 @@ import { H2 } from '@hummingbot/hbui/elements/typography'
 function Backers() {
   return (
     <Section id='investors'>
-      <GradientContainer style={{zIndex: '1', position: 'relative', pointerEvents: 'none', width: '100%'}}>
+      {/* <GradientContainer style={{zIndex: '1', position: 'relative', pointerEvents: 'none', width: '100%'}}>
         <GradientContainerInner>
           <ColorGradient style={{position: 'relative', left: '-815px', top: '-250px', transform: 'scale(1.4)', overflow: 'hidden'}} />
         </GradientContainerInner>
-      </GradientContainer>
+      </GradientContainer> */}
       <Section tw='bg-[#0F1924] pt-24 pb-36' style={{position: 'relative', zIndex: '2'}}>
         <Container>
           <CustomH2 tw='max-w-none mx-auto! text-center leading-tight mb-xl! pb-6 md:max-w-[60%]' isBold>Backed by world-class investors and advisors</CustomH2>
