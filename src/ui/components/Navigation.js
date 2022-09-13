@@ -32,7 +32,7 @@ const linksRight = [
       { label: 'HBOT', url: 'https://hummingbot.org/hbot', external: true },
       { label: 'Whitepaper', url: 'https://hummingbot.org/governance/whitepaper', external: true },
       { label: 'Snapshot', url: 'https://snapshot.org/hbot.eth', external: true },
-      { label: 'Forum', url: 'https://hummingbot.discourse.group', external: true },
+      { label: 'Forum', url: 'https://forum.hummingbot.org', external: true },
     ] 
   },
   { url: null,

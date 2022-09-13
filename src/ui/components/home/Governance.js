@@ -43,7 +43,7 @@ function Governance() {
           <a href="https://discord.gg/hummingbot" target='_blank' rel="noreferrer">
             <ExternalLinkButton isLarge label="Discord" />
           </a>
-          <a href="https://hummingbot.discourse.group" target='_blank' rel="noreferrer">
+          <a href="https://forum.hummingbot.org" target='_blank' rel="noreferrer">
             <ExternalLinkButton isLarge label="Forum" />
           </a>
           </ItemsRow>
