@@ -3,8 +3,8 @@ import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section } from '@hummingbot/hbui/elements/layout'
 import { Container } from '../../elements/layout'
-import { H4, P, Green } from '@hummingbot/hbui/elements/typography'
-import { CustomRoundButton, ExternalLinkButton } from '../../elements/buttons'
+import { H4, P } from '@hummingbot/hbui/elements/typography'
+import { ExternalLinkButton } from '../../elements/buttons'
 import GradOval from './assets/OvalGradientLower.svg'
 
 function Strategies() {
@@ -62,7 +62,6 @@ function Strategies() {
           </a>
         </LargeBox>
       </Container>
-      <BottomGradientLine />
     </Section>
   )
 }
@@ -115,15 +114,3 @@ const BoxesHeaderP = styled(HeaderP)(() => [
 const BoxesDescP = styled(DescP)(() => [
   tw`pl-[28px]`,
 ])
-
-const CustomButton = styled(CustomRoundButton)(() => [
-  tw`mt-xs w-full md:(mt-0 w-auto)`,
-])
-
-const BottomGradientLine = styled.div({
-  bottom: '0',
-  left: '0',
-  width: '100%',
-  height: '3px',
-  background: 'linear-gradient(270deg, #00C2CE 25.96%, #318DFF 100%)',
-})
