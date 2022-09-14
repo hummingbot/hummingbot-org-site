@@ -26,9 +26,9 @@ function Hero() {
           <H6 tw='text-white max-w-[600px] mb-lg'>Hummingbot is open source software that helps you build <strong>high-frequency crypto trading bots
           </strong> that specialize in market making and arbitrage strategies</H6>
           <ItemsRow>
-            <Link to="/test-drive">
-              <CustomRoundButton isLarge>Test Drive</CustomRoundButton>
-            </Link>
+          <a href="/test-drive">
+            <CustomRoundButton  isLarge>Test Drive</CustomRoundButton>
+          </a>
             <a href="https://hummingbot.thinkific.com">
               <ExternalLinkButton isLarge label="Learn with Botcamp" />
             </a>

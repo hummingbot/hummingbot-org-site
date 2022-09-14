@@ -1,6 +1,6 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import tw, { styled } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { P, H1,H2 } from '@hummingbot/hbui/elements/typography'
@@ -8,17 +8,84 @@ import { TextInput } from "@hummingbot/hbui/elements/input"
 import { Button } from "@hummingbot/hbui/components/button"
 import { CustomRoundButton } from '../../elements/buttons'
 import { validateEmail } from "../../../helpers/validate"
+import { showNotify } from '../../../helpers/notify'
 import { GradientSideLine } from '../../elements/layout'
 import { BackgroundStars } from '../BackgroundStars'
 import getWindowDimensions from "../../../helpers/useWindowDimensions"
 import GradOval from './assets/OvalGradientLower.svg'
 
+import IframeComm from "../../elements/IframeCommon"
+
+
 function TestHero() {
   const { isDesktop } = getWindowDimensions()
   const [userEmail, setEmail] = useState("")
+  const iframeRef = useRef()
+  const [loading, setLoad] = useState(false)
+  const [inputActive, setInputActive] = useState(false)
+  const instance = useRef(null)
+
+  const sendEvent = ({ event, eventInfo }) => {
+    const amplitudeTrackingContext = {
+      "context.app": "io_site",
+      "context.locale": window?.location.pathname,
+      "context.currentPageUrl": window?.location.href,
+    }
+
+    instance.current?.logEvent(event, {
+      ...eventInfo,
+      ...amplitudeTrackingContext,
+    })
+  }
+
+  const onReceiveMessage = e => {
+    setLoad(false)
+    if (e.status) {
+      window?.open(e.text, "_blank")
+    } else {
+      showNotify(e.text, false)
+    }
+  }
+
+  const gotoBot = () => {
+    if (!validateEmail(userEmail)) {
+      showNotify("User email is invalid!", false)
+      return
+    }
+
+    setLoad(true)
+
+    //TODO: This has to be replaced with env variables. 
+    const postData = {
+      owner_email: userEmail,
+      project: `Hummingbot 1.7.0`,
+      token: "5dba96595c024b75ad3eef16933b752b",
+    }
+
+    sendEvent({
+      event: "[test drive page] submit email address",
+    })
+
+    iframeRef?.current?.sendMessage(postData)
+  }
+
+
+  const handleBlur = () => {
+    if (userEmail === "") {
+      setInputActive(false)
+    } else {
+      setInputActive(true)
+    }
+  }
 
   const handleChange = value => {
     setEmail(value)
+    const testValue = value || userEmail
+    if (testValue === "") {
+      setInputActive(false)
+    } else {
+      setInputActive(true)
+    }
   }
 
   return (
@@ -40,6 +107,8 @@ function TestHero() {
               <TextInput
                 type="text"
                 name="email"
+                onFocus={() => setInputActive(true)}
+                onBlur={handleBlur}
                 hasError={!validateEmail(userEmail)}
                 placeholder="Enter your email"
                 value={userEmail}
@@ -49,9 +118,9 @@ function TestHero() {
             <br/>
             <CustomRoundButton
               isLarge
-              onClick={() => {console.log("clicked")}}>
-              Start Test Drive
-            </CustomRoundButton>  
+              label="Start Test Drive"
+              onClick={() => gotoBot()}
+            >Start Test Drive</CustomRoundButton>
           </div>
         )}
           <div tw='absolute hidden lg:block xl:(right-[20%]) lg:(right-[2%]) top-[30%]'>
@@ -60,6 +129,15 @@ function TestHero() {
         </Container>
       </Section>
       <BottomGradientLine />
+      <IframeComm
+        ref={iframeRef}
+        attributes={{
+          src: "https://hummingbot-test-drive.appsembler.com/isc/newdeploy/",
+          width: "0",
+          height: "0",
+        }}
+        handleReceiveMessage={onReceiveMessage}
+      />
     </Section>
   )
 }
