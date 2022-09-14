@@ -8,7 +8,7 @@ import { ExternalLinkButton, ExternalLinkButtonBlue, CustomRoundButton } from ".
 
 function Metrics() {
   return (
-    <Section>
+    <Section style={{background: '#0F1924', zIndex:'2'}}>
       <Container>
         <MetricsGrid tw='flex flex-col items-center mt-sm mb-lg sm:(flex-row justify-between)'>
           <div>
