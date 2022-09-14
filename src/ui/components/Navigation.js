@@ -5,7 +5,7 @@ import NavBar from '@hummingbot/hbui/components/navigation/NavBar'
 import { Link } from 'gatsby'
 
 const siteNameA = 'Hummingbot'
-const siteNameB = 'Foundation'
+const siteNameB = ''
 const userData = null
 const linksRight = [
   { url: null,
