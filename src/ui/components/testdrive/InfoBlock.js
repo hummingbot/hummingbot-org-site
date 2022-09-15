@@ -84,7 +84,7 @@ function InfoBlock() {
   }
 
   return (
-    <Section tw='z-10 py-8 md:py-12 lg:py-36 xl:py-60' style={{background: 'url(/assets/OvalGradient.svg) no-repeat 50% 20%'}}>
+    <Section tw='z-10 py-8 md:py-12 lg:py-24 xl:py-36' style={{background: 'url(/assets/OvalGradient.svg) no-repeat 50% 20%'}}>
       <Container tw='mb-xl'>
         <Columns>
 

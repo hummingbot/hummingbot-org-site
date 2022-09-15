@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/blog/*         https://blog.hummingbot.org/:splat           301
+/en/blog/*      https://blog.hummingbot.org/:splat           301
+/about/*        https://docs.hummingbot.org/about/:splat     301
+/faq/*          https://docs.hummingbot.org/faq/:splat       301
