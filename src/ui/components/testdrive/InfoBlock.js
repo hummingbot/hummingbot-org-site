@@ -138,7 +138,7 @@ function InfoBlock() {
             <a href="https://www.youtube.com/watch?v=8j4T3HEAML8" target='_blank' rel="noreferrer">
               <ExternalLinkButton tw='justify-between mb-xxs min-w-[280px]' isLarge label='Test Drive demo video' />
             </a>
-            <a href="https://hummingbot.org/operation/" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/operation/" target='_blank' rel="noreferrer">
               <ExternalLinkButton tw='justify-between min-w-[280px]' isLarge label='Docs: Basic Operations' />
             </a>
           </ColumnB>

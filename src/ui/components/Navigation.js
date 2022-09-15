@@ -11,16 +11,16 @@ const linksRight = [
   { url: null,
     label: 'Learn',
     subLinks: [
-      { label: 'Docs', url: 'https://hummingbot.org/docs', external: true },
+      { label: 'Docs', url: 'https://docs.hummingbot.org', external: true },
       { label: 'Botcamp', url: 'https://hummingbot.thinkific.com', external: true },
       { label: 'Events', url: 'https//lu.ma', external: true },
-      { label: 'Community', url: 'https://hummingbot.org/community', external: true },
+      { label: 'Community', url: 'https://docs.hummingbot.org', external: true },
     ] 
   },
   { url: null,
     label: 'Developers',
     subLinks: [
-      { label: 'Developer Docs', url: 'https://hummingbot.org/developers', external: true },
+      { label: 'Developer Docs', url: 'https://docs.hummingbot.org/developers', external: true },
       { label: 'Github', url: 'https://github.com/hummingbot/hummingbot', external: true },
       { label: 'Botcamp', url: 'https://hummingbot.thinkific.com', external: true }
     ] 
@@ -28,9 +28,9 @@ const linksRight = [
   { url: null,
     label: 'Governance',
     subLinks: [
-      { label: 'Governance', url: 'https://hummingbot.org/governance', external: true },
-      { label: 'HBOT', url: 'https://hummingbot.org/hbot', external: true },
-      { label: 'Whitepaper', url: 'https://hummingbot.org/governance/whitepaper', external: true },
+      { label: 'Governance', url: 'https://docs.hummingbot.org/governance', external: true },
+      { label: 'HBOT', url: 'https://docs.hummingbot.org/hbot', external: true },
+      { label: 'Whitepaper', url: 'https://docs.hummingbot.org/governance/whitepaper', external: true },
       { label: 'Snapshot', url: 'https://snapshot.org/hbot.eth', external: true },
       { label: 'Forum', url: 'https://forum.hummingbot.org', external: true },
     ] 
@@ -45,7 +45,7 @@ const linksRight = [
   { url: null,
     label: 'About',
     subLinks: [
-      { label: 'FAQ', url: 'https://hummingbot.org/faq', external: true },
+      { label: 'FAQ', url: 'https://docs.hummingbot.org/faq', external: true },
       { label: 'Blog', url: 'https://blog.hummingbot.org', external: true },
       { label: 'Newsletter', url: 'https://hummingbot.substack.com', external: true },
     ] 

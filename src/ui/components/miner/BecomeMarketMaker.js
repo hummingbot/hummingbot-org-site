@@ -16,7 +16,7 @@ function BecomeMarketMaker() {
         <a href="https://github.com/hummingbot/hummingbot/releases" target='_blank' rel="noreferrer">
           <ExternalLinkButton tw='mb-xxs' isLarge label='Install Hummingbot' />
         </a>
-        <a href="https://hummingbot.org/installation/" target='_blank' rel="noreferrer">
+        <a href="https://docs.hummingbot.org/installation/" target='_blank' rel="noreferrer">
           <ExternalLinkButton isLarge label='Hummingbot Installation Guide' />
         </a>
         <div tw='absolute hidden xl:block right-0 top-[30%]'>
