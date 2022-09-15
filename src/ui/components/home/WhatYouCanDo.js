@@ -39,7 +39,7 @@ function WhatCanYouDo() {
               <Column>
                 <TitleP>Capture HBOT bounties</TitleP>
                 <LightP>Earn HBOT bounties by fixing bugs and contributing to the Hummingbot codebase</LightP>
-                <a href="https://hummingbot.org/maintenance/bounties" target="_blank" rel="noreferrer">
+                <a href="https://docs.hummingbot.org/maintenance/bounties" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="Bounties" />
                 </a>
               </Column>
@@ -55,21 +55,21 @@ function WhatCanYouDo() {
               <Column>
                 <TitleP>Tap into our global market maker community</TitleP>
                 <LightP>Become a certified exchange and access thousands of market makers globally</LightP>
-                <a href="https://hummingbot.org/maintenance/certification" target="_blank" rel="noreferrer">
+                <a href="https://docs.hummingbot.org/maintenance/certification" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="Exchange Certification" />
                 </a>
               </Column>
               <Column>
                 <TitleP>Own your liquidity with self-serve market making</TitleP>
                 <LightP>Save money vs hiring market makers by running your own market making bots</LightP>
-                <a href="https://hummingbot.org/strategies" target="_blank" rel="noreferrer">
+                <a href="https://docs.hummingbot.org/strategies" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="Hummingbot Strategies" />
                 </a>
               </Column>
               <Column>
                 <TitleP>Add your own connector to the Hummingbot codebase</TitleP>
                 <LightP>Build and contribute your CEX and DEX connectors to our open source codebase</LightP>
-                <a href="https://hummingbot.org/developers" target="_blank" rel="noreferrer">
+                <a href="https://docs.hummingbot.org/developers" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="Developer Docs" />
                 </a>
               </Column>

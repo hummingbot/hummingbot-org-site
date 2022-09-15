@@ -17,7 +17,7 @@ function Strategies() {
         <H4 isBold>Explore our library of customizable strategies and scripts</H4>
         <Columns>
           <Column>
-            <a href="https://hummingbot.org/strategies/pure-market-making/" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/strategies/pure-market-making/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
                 <BoxesHeaderP>Pure Market Making</BoxesHeaderP>
@@ -26,7 +26,7 @@ function Strategies() {
             </a>
           </Column>
           <Column>
-            <a href="https://hummingbot.org/strategies/cross-exchange-market-making/" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/strategies/cross-exchange-market-making/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
                 <BoxesHeaderP>Cross-Exchange Market Making</BoxesHeaderP>
@@ -35,7 +35,7 @@ function Strategies() {
             </a>
           </Column>
           <Column>
-            <a href="https://hummingbot.org/strategies/avellaneda-market-making/" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/strategies/avellaneda-market-making/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
                 <BoxesHeaderP>Avellaneda Market Making</BoxesHeaderP>
@@ -44,7 +44,7 @@ function Strategies() {
             </a>
           </Column>
           <Column>
-            <a href="https://hummingbot.org/strategies/amm-arbitrage/" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/strategies/amm-arbitrage/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
                 <BoxesHeaderP>AMM Arbitrage</BoxesHeaderP>
@@ -57,7 +57,7 @@ function Strategies() {
           <div>
             <DescP><span tw="text-terminal">Scripts</span> let you define any trading strategy with just a few lines of Python.</DescP>
           </div>
-          <a href="https://hummingbot.org/developers/scripts/" target='_blank' rel="noreferrer">
+          <a href="https://docs.hummingbot.org/developers/scripts/" target='_blank' rel="noreferrer">
             <ExternalLinkButton isLarge label="Explore Scripts" />
           </a>
         </LargeBox>

@@ -35,7 +35,7 @@ function Metrics() {
               <CEXContainer>Kucoin</CEXContainer>
               <CEXContainer>Gate.io</CEXContainer>
               <LinkContainer>
-                <a href="https://hummingbot.org/exchanges" target="_blank" rel="noreferrer">
+                <a href="https://docs.hummingbot.org/exchanges" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="See 30+ more" />
                 </a>
               </LinkContainer>
@@ -53,7 +53,7 @@ function Metrics() {
               <DEXContainer>TraderJoe</DEXContainer>
               <DEXContainer>Serum</DEXContainer>
               <LinkContainer>
-                <a href="https://hummingbot.org/gateway/exchanges/amm" target="_blank" rel="noreferrer">
+                <a href="https://docs.hummingbot.org/gateway/exchanges" target="_blank" rel="noreferrer">
                   <ExternalLinkButtonBlue isLarge label="See 10+ more" />
                 </a>
               </LinkContainer>

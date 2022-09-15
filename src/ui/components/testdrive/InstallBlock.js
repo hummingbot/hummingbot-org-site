@@ -14,7 +14,7 @@ function InstallBlock() {
         <CustomH2 tw='max-w-none mx-auto! text-center leading-tight mb-xl! pb-6 md:max-w-[60%]' isBold>
           Ready for the real thing?
         </CustomH2>
-          <a href="https://hummingbot.org/installation/" target='_blank' rel="noreferrer">
+          <a href="https://docs.hummingbot.org/installation/" target='_blank' rel="noreferrer">
             <Button isTerminal isLarge label="Install Hummingbot" tw="max-w-none mx-auto! text-center" />
           </a>
       </Container>

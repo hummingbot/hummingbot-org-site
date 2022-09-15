@@ -22,10 +22,10 @@ function Governance() {
           </P>
           <br />
           <ItemsRow>
-            <a href="https://hummingbot.org/hbot" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/hbot" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge label="HBOT Token" />
             </a>
-            <a href="https://hummingbot.org/governance/whitepaper" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/governance/whitepaper" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge label="Whitepaper" />
             </a>            
           </ItemsRow>
