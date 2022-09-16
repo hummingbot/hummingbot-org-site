@@ -6,6 +6,7 @@ import { Section } from '@hummingbot/hbui/elements/layout'
 import { Container } from '../../elements/layout' /* custom container with more left-right padding */
 import { H6, H3, H4, H5, P, Green } from '@hummingbot/hbui/elements/typography'
 import { TextInput } from "@hummingbot/hbui/elements/input"
+import Spinner from '@hummingbot/hbui/components/spinner'
 import { ExternalLinkButton, CustomRoundButton } from '../../elements/buttons'
 import { validateEmail } from "../../../helpers/validate"
 import { showNotify } from '../../../helpers/notify'
@@ -153,6 +154,12 @@ function InfoBlock() {
         }}
         handleReceiveMessage={onReceiveMessage}
       />
+      {loading && (
+          <Spinner
+            center
+            radius={80} 
+          />
+      )}
     </Section>
   )
 }
