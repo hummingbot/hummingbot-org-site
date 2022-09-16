@@ -1,7 +1,7 @@
 /blog/*             https://blog.hummingbot.org/:splat                  301
 /en/blog/*          https://blog.hummingbot.org/:splat                  301
-/academy/           https://blog.hummingbot.org/tags/academy            301
-/en/academy/        https://blog.hummingbot.org/tags/academy            301
+/academy/           https://blog.hummingbot.org/tag/academy             301
+/en/academy/        https://blog.hummingbot.org/tag/academy             301
 /academy/*          https://blog.hummingbot.org/:splat                  301
 /en/academy/*       https://blog.hummingbot.org/:splat                  301
 /about/*            https://docs.hummingbot.org/about/:splat            301
