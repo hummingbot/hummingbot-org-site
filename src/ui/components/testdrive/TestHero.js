@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState, useRef } from 'react'
 import tw, { styled } from 'twin.macro'
+import ClipLoader from "react-spinners/ClipLoader"
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { P, H1,H2 } from '@hummingbot/hbui/elements/typography'
 import { TextInput } from "@hummingbot/hbui/elements/input"
@@ -58,8 +59,8 @@ function TestHero() {
     //TODO: This has to be replaced with env variables. 
     const postData = {
       owner_email: userEmail,
-      project: `Hummingbot 1.7.0`,
-      token: "5dba96595c024b75ad3eef16933b752b",
+      project: `Hummingbot ${process.env.GATSBY_TEST_DRIVE_VERSION}`,
+      token: process.env.GATSBY_TEST_DRIVE_TOKEN,
     }
 
     sendEvent({
@@ -138,11 +139,28 @@ function TestHero() {
         }}
         handleReceiveMessage={onReceiveMessage}
       />
+      {loading && (
+        <StyledLoader>
+          <ClipLoader color={"#33ccff"} size={80} />
+        </StyledLoader>
+      )}
     </Section>
   )
 }
 
 export default TestHero
+
+const StyledLoader = styled.div({
+  color: "#33ccff",
+  position: "fixed",
+  left: "calc(50vw - 30px)",
+  top: "calc(50vh - 30px)",
+  zIndex: 1,
+  "&>span": {
+    borderWidth: "5px",
+  },
+})
+
 
 const CustomH1 = styled(H1)({
   background: 'linear-gradient(270deg, #00C2CE 25.96%, #318DFF 100%)',
