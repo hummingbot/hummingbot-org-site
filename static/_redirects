@@ -1,5 +1,9 @@
 /blog/*             https://blog.hummingbot.org/:splat                  301
 /en/blog/*          https://blog.hummingbot.org/:splat                  301
+/academy/           https://blog.hummingbot.org/tags/academy            301
+/en/academy/        https://blog.hummingbot.org/tags/academy            301
+/academy/*          https://blog.hummingbot.org/:splat                  301
+/en/academy/*       https://blog.hummingbot.org/:splat                  301
 /about/*            https://docs.hummingbot.org/about/:splat            301
 /faq/*              https://docs.hummingbot.org/faq/:splat              301
 /hbot/*             https://docs.hummingbot.org/hbot/:splat             301
@@ -12,6 +16,7 @@
 /operation/*        https://docs.hummingbot.org/operation/:splat        301
 /strategies/*       https://docs.hummingbot.org/strategies/:splat       301
 /exchanges/*        https://docs.hummingbot.org/exchanges/:splat        301
+/gateway/*          https://docs.hummingbot.org/gateway/:splat          301
 /global-configs/*   https://docs.hummingbot.org/global-configs/:splat   301
 /strategy-configs/* https://docs.hummingbot.org/strategy-configs/:splat 301
 /troubleshooting/*  https://docs.hummingbot.org/troubleshooting/:splat  301
