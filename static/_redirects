@@ -1,4 +1,9 @@
-/blog/*             https://blog.hummingbot.org/:splat                  301
+/events             https://hummingbot.org/                             301
+en/events           https://hummingbot.org/                             301
+/solutions          https://coinalpha.com/                              301
+en/solutions        https://coinalpha.com/                              301
+/contact            https://hummingbot.org/                             301
+en/contact          https://hummingbot.org/                             301
 /en/blog/*          https://blog.hummingbot.org/:splat                  301
 /academy/           https://blog.hummingbot.org/tag/academy             301
 /en/academy/        https://blog.hummingbot.org/tag/academy             301

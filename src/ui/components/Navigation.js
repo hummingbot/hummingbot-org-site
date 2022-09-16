@@ -13,8 +13,8 @@ const linksRight = [
     subLinks: [
       { label: 'Docs', url: 'https://docs.hummingbot.org', external: true },
       { label: 'Botcamp', url: 'https://hummingbot.thinkific.com', external: true },
-      { label: 'Events', url: 'https//lu.ma', external: true },
-      { label: 'Community', url: 'https://docs.hummingbot.org', external: true },
+      { label: 'Academy', url: 'https//blog.hummingbot.org/tag/academy', external: true },
+      { label: 'Community', url: 'https://docs.hummingbot.org/community', external: true },
     ] 
   },
   { url: null,
@@ -36,21 +36,23 @@ const linksRight = [
     ] 
   },
   { url: null,
-    label: 'CoinAlpha',
+    label: 'Miner',
     subLinks: [
-      { label: 'CoinAlpha', url: 'https://coinalpha.com', external: true },
       { label: 'Hummingbot Miner', url: 'https://miner.hummingbot.io', external: true },
+      { label: 'Miner FAQ', url: 'https://coinalpha.com/miner', external: true },
     ] 
   },
   { url: null,
     label: 'About',
     subLinks: [
       { label: 'FAQ', url: 'https://docs.hummingbot.org/faq', external: true },
-      { label: 'Blog', url: 'https://blog.hummingbot.org', external: true },
-      { label: 'Newsletter', url: 'https://hummingbot.substack.com', external: true },
+      { label: 'Hummingbot Foundation', url: 'https://docs.hummingbot.org/about', external: true },
+      { label: 'CoinAlpha', url: 'https://coinalpha.com', external: true },
     ] 
   },
-
+  { url: 'https://blog.hummingbot.org',
+    label: 'Blog'
+  },
 ]
 const linksLeft = null
 const linkCTA = {
