@@ -1,12 +1,6 @@
-require("dotenv").config()
-const {
-  NODE_ENV,
-  // CONTENTFUL_SPACE_ID,
-  // CONTENTFUL_ACCESS_TOKEN,
-  CONTEXT: NETLIFY_ENV = NODE_ENV,
-  // GOOGLE_TAG_MANAGER_ID = "GTM-W3556WN",
-  // GATSBY_AMPLITUDE_ID,
-} = process.env
+require("dotenv").config({
+  path: `.env`,
+})
 
 const siteUrl = `https://hummingbot.org`
 
@@ -79,17 +73,25 @@ module.exports = {
     //     queries: require("./src/utils/algolia-queries"),
     //   },
     // },
-{
-       resolve: 'gatsby-plugin-manifest',
-       options: {
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
     //     name: `CoinAlpha, Inc.`,
     //     short_name: `starter`,
     //     start_url: `/`,
     //     background_color: `#663399`,
     //     theme_color: `#663399`,
     //     display: `minimal-ui`,
-           icon: './src/svgs/favicon.png',
+      icon: './src/svgs/favicon.png',
        },
      },
+     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GOOGLE_TAG_MANAGER_ID,
+        includeInDevelopment: true,
+        // exclude: ["/preview/**", "https://"],
+      },
+    },
   ],
 }

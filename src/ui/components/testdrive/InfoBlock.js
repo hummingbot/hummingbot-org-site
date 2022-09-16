@@ -53,14 +53,14 @@ function InfoBlock() {
     //TODO: This has to be replaced with env variables. 
     const postData = {
       owner_email: userEmail,
-      project: `Hummingbot 1.7.0`,
-      token: "5dba96595c024b75ad3eef16933b752b",
+      project: `Hummingbot ${process.env.GATSBY_TEST_DRIVE_VERSION}`,
+      token: process.env.GATSBY_TEST_DRIVE_TOKEN,
     }
 
     // sendEvent({
     //   event: "[test drive page] submit email address",
     // })
-
+    console.log(postData)
     iframeRef?.current?.sendMessage(postData)
   }
 
