@@ -31,7 +31,7 @@ const linksRight = [
       { label: 'Governance', url: 'https://docs.hummingbot.org/governance', external: true },
       { label: 'HBOT', url: 'https://docs.hummingbot.org/hbot', external: true },
       { label: 'Whitepaper', url: 'https://docs.hummingbot.org/governance/whitepaper', external: true },
-      { label: 'Snapshot', url: 'https://snapshot.org/hbot.eth', external: true },
+      { label: 'Snapshot', url: 'https://snapshot.org/#/hbot.eth', external: true },
       { label: 'Forum', url: 'https://forum.hummingbot.org', external: true },
     ] 
   },
