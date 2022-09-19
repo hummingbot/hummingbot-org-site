@@ -28,4 +28,5 @@ en/contact          https://hummingbot.org/                             301
 /glossary/*         https://docs.hummingbot.org/glossary/:splat         301
 /developers/*       https://docs.hummingbot.org/developers/:splat       301
 /release-notes/*    https://docs.hummingbot.org/release-notes/:splat    301
+/docs/*             https://docs.hummingbot.org/*                       301
 /support-hummingbot/*   https://docs.hummingbot.org/support-hummingbot/:splat             301
