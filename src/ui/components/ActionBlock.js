@@ -15,7 +15,7 @@ function ActionBlock() {
             <div tw='flex justify-between mb-md'>
               <H5 tw='font-bold text-white leading-none'>Learn the dark arts of market making with Hummingbot BotCamp</H5>
             </div>
-            <a href="https://hummingbot.thinkific.com">
+            <a href="https://hummingbot.thinkific.com" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge tw='w-full' label="Learn with BotCamp" />
             </a>
           </ColumnA>

@@ -54,7 +54,7 @@ function Governance() {
             Vote without paying gas on pull requests, bounties, elections, and other proposals.
           </P>
           <br />
-          <a href="https://snapshot.org/hbot-eth" target='_blank' rel="noreferrer">
+          <a href="https://snapshot.org/#/hbot.eth" target='_blank' rel="noreferrer">
             <ExternalLinkButton isLarge label="Snapshot" />
           </a>
         </Box>

@@ -13,7 +13,7 @@ const linksRight = [
     subLinks: [
       { label: 'Docs', url: 'https://docs.hummingbot.org', external: true },
       { label: 'Botcamp', url: 'https://hummingbot.thinkific.com', external: true },
-      { label: 'Academy', url: 'https//blog.hummingbot.org/tag/academy', external: true },
+      { label: 'Academy', url: 'https://blog.hummingbot.org/tag/academy', external: true },
       { label: 'Community', url: 'https://docs.hummingbot.org/community', external: true },
     ] 
   },
@@ -31,7 +31,7 @@ const linksRight = [
       { label: 'Governance', url: 'https://docs.hummingbot.org/governance', external: true },
       { label: 'HBOT', url: 'https://docs.hummingbot.org/hbot', external: true },
       { label: 'Whitepaper', url: 'https://docs.hummingbot.org/governance/whitepaper', external: true },
-      { label: 'Snapshot', url: 'https://snapshot.org/hbot.eth', external: true },
+      { label: 'Snapshot', url: 'https://snapshot.org/#/hbot.eth', external: true },
       { label: 'Forum', url: 'https://forum.hummingbot.org', external: true },
     ] 
   },
