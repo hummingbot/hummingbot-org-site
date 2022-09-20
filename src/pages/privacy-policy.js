@@ -17,19 +17,19 @@ function PrivacyPolicy() {
         <Navigation />
         <Container>
           <div tw='py-36 mb-36 border-b border-green'>
-            <H1><Green>Privacy Policy</Green> of coinalpha.com</H1>
+            <H1><Green>Privacy Policy</Green> of hummingbot.org</H1>
             <Body>This Website collects some Personal Data from its Users.</Body>
           </div>
           <br />
-          <P isBold isItalic>Latest update: June 20, 2019</P>
+          <P isBold isItalic>Latest update: August 31, 2022</P>
           <br />
           <P isGreen><Bold>Owner and Data Controller</Bold></P>
           <br />
-          <P>CoinAlpha, Inc.</P>
-          <P>800 W. El Camino Real, Suite 180</P>
-          <P>Mountain View, CA 94040</P>
+          <P>Hummingbot Foundation</P>
+          <P>KY1-1002 Grand Cayman</P>
+          <P>Cayman Islands</P>
           <br />
-          <P>Owner contact email: <a href='mailto:contact@coinalpha.com' target='_blank' rel="noreferrer">contact@coinalpha.com</a></P>
+          <P>Owner contact email: <a href='mailto:contact@hummingbot.org' target='_blank' rel="noreferrer">contact@hummingbot.org</a></P>
           <br />
           <P isGreen><Bold>Types of Data collected</Bold></P>
           <br />

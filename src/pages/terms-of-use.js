@@ -22,7 +22,7 @@ function TermsOfUse() {
           <br />
           <P isGreen isBold isItalic>LAST REVISED ON: July 14, 2022</P>
           <br />
-          <P>The websites located at https://coinalpha.com, https://support.hummingbot.io/hc/en-us, https://miner.hummingbot.io/ and any site with the domain coinalpa.com (https://*.coinalpha.com) (collectively, the "Site") are copyrighted works belonging to CoinAlpha, Inc. ("<Bold>Company</Bold>", "<Bold>us</Bold>", "<Bold>our</Bold>", and "<Bold>we</Bold>"). Certain features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the Site in connection with such features. All such additional terms, guidelines, and rules are incorporated by reference into these Terms.</P>
+          <P>The websites located at https://hummingbot.org, https://docs.hummingbot.org, https://blog.hummingbot.org/ and any site with the domain hummingbot.org (https://*.hummingbot.org) (collectively, the "Site") are copyrighted works belonging to Hummingbot Fondation ("<Bold>Company</Bold>", "<Bold>us</Bold>", "<Bold>our</Bold>", and "<Bold>we</Bold>"). Certain features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the Site in connection with such features. All such additional terms, guidelines, and rules are incorporated by reference into these Terms.</P>
           <br />
           <P>These terms of use (these "<Bold>Terms</Bold>") set forth the legally binding terms and conditions that govern your use of the Site. By accessing or using the Site, you are accepting these Terms (on behalf of yourself or the entity that you represent), and you represent and warrant that you have the right, authority, and capacity to enter into these terms (on behalf of yourself or the entity that you represent). You may not access or use the Site or accept the terms if you are not at least 18 years old. If you do not agree with all of the provisions of these terms, do not access and/or use the Site.</P>
           <br />
@@ -151,25 +151,23 @@ function TermsOfUse() {
           <br />
           <P><Bold>8.7 Entire Terms</Bold>. These Terms constitute the entire agreement between you and us regarding the use of the Site. Our failure to exercise or enforce any right or provision of these Terms shall not operate as a waiver of such right or provision. The section titles in these Terms are for convenience only and have no legal or contractual effect. The word "including" means "including without limitation". If any provision of these Terms is, for any reason, held to be invalid or unenforceable, the other provisions of these Terms will be unimpaired and the invalid or unenforceable provision will be deemed modified so that it is valid and enforceable to the maximum extent permitted by law. Your relationship to Company is that of an independent contractor, and neither party is an agent or partner of the other. These Terms, and your rights and obligations herein, may not be assigned, subcontracted, delegated, or otherwise transferred by you without Company’s prior written consent, and any attempted assignment, subcontract, delegation, or transfer in violation of the foregoing will be null and void. Company may freely assign these Terms. The terms and conditions set forth in these Terms shall be binding upon assignees.</P>
           <br />
-          <P><Bold>8.8 Copyright/Trademark Information</Bold>. Copyright © 2019 CoinAlpha, Inc. All rights reserved. All trademarks, logos and service marks ("Marks") displayed on the Site are our property or the property of other third parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.</P>
+          <P><Bold>8.8 Copyright/Trademark Information</Bold>. Copyright © 2022 Hummingbot Foundation All rights reserved. All trademarks, logos and service marks ("Marks") displayed on the Site are our property or the property of other third parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.</P>
           <br />
           <P isGreen isBold>8.9 Contact Information:</P>
           <br />
-          <P isGreen isBold>CoinAlpha, Inc.</P>
+          <P isGreen isBold>Hummingbot Foundation</P>
           <P>
             Address:<br />
-            800 West El Camino Real Street<br />
-            Suite 180<br />
-            Mountain View, CA 94040<br />
-            Telephone: +1 415/548-1018<br />
-            Email: <a href='mailto:contact@coinalpha.com' target='_blank' rel="noreferrer">contact@coinalpha.com</a>
+            KY1-1002 Grand Caymant<br />
+            Cayman Islands<br />
+            Email: <a href='mailto:contact@hummingbot.org' target='_blank' rel="noreferrer">contact@hummingbot.org</a>
           </P>
           <br /><br />
           <H5 isGreen isBold>9. Updating this Policy</H5>
           <br />
-          <P>CoinAlpha reserves the right, at its sole discretion, to update, modify, and/or make any changes to the terms of this policy, including in order to improve Services or comply with any applicable law, regulations, or orders.</P>
+          <P>Hummingbot Foundation reserves the right, at its sole discretion, to update, modify, and/or make any changes to the terms of this policy, including in order to improve Services or comply with any applicable law, regulations, or orders.</P>
           <br />
-          <P>Upon updating this policy, CoinAlpha will give notice to its Users on this page and possibly within the Software and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to CoinAlpha. Should the changes affect processing activities performed on the basis of user consent, CoinAlpha shall collect new consent from the user, where required.</P>
+          <P>Upon updating this policy, Hummingbot Foundation will give notice to its Users on this page and possibly within the Software and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to Hummingbot Foundation. Should the changes affect processing activities performed on the basis of user consent, Hummingbot Foundation shall collect new consent from the user, where required.</P>
           <br />
           <P tw='mb-36'>It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.</P>
         </Container>
