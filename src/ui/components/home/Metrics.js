@@ -1,67 +1,68 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import tw, { css, styled } from 'twin.macro'
-import { Section, ItemsRow } from '@hummingbot/hbui/elements/layout'
+import { Section, ItemsRow, Container } from '@hummingbot/hbui/elements/layout'
 import { H2, H6, P } from '@hummingbot/hbui/elements/typography'
-import { Container } from '../../elements/layout'
-import { ExternalLinkButton, ExternalLinkButtonBlue, CustomRoundButton } from "../../elements/buttons"
+import { Container as CustomContainer } from '../../elements/layout'
+import { ExternalLinkButton, CustomRoundButton } from "../../elements/buttons"
 
 function Metrics() {
   return (
-    <Section style={{background: '#0F1924', zIndex:'2'}}>
-      <Container>
-        <MetricsGrid tw='flex flex-col items-center mt-sm mb-lg sm:(flex-row justify-between)'>
+    <Section tw='py-24 lg:(py-32) border-t-2 border-b-2 border-terminal' style={{background: '#0F1924'}}>
+      <CustomContainer>
+        <MetricsGrid tw='flex flex-col items-center mb-lg sm:(flex-row justify-between)'>
           <div>
-            <H2>100M+</H2>
-            <P>Avg 24H Volume</P>
+            <H2 isHeavy tw='leading-none'>100M+</H2>
+            <P tw='mt-xxs'>Avg 24H Volume</P>
           </div>
           <div>
-            <H2>1M+</H2>
-            <P>All-Time Downloads</P>
+            <H2 isHeavy tw='leading-none'>1M+</H2>
+            <P tw='mt-xxs'>All-Time Downloads</P>
           </div>
           <div>
-            <H2>13+</H2>
-            <P>HFT Strategies</P>
+            <H2 isHeavy tw='leading-none'>13+</H2>
+            <P tw='mt-xxs'>HFT Strategies</P>
           </div>
         </MetricsGrid>
-        <CustomContainer>
-          <LeftColumn>
-            <H6 isBold>CEX Connectors</H6>
-          </LeftColumn>
-          <RightColumn>
-            <ItemsRow>
-              <CEXContainer>Binance</CEXContainer>
-              <CEXContainer>FTX</CEXContainer>
-              <CEXContainer>Kucoin</CEXContainer>
-              <CEXContainer>Gate.io</CEXContainer>
-              <LinkContainer>
-                <a href="https://docs.hummingbot.org/exchanges" target="_blank" rel="noreferrer">
+      </CustomContainer>
+      <CustomContainer>
+        <TwoColumns>
+          <div tw='mb-lg lg:(mb-0)'>
+            <H6 isBold tw='col-span-3 border-b-2 border-blue text-terminal pb-xxs mb-xxs'>CEX Connectors</H6>
+            <div>
+              <Columns>
+                <H6 isMedium tw='text-terminal'>Binance</H6>
+                <H6 isMedium tw='text-terminal'>FTX</H6>
+                <H6 isMedium tw='text-terminal'>Kucoin</H6>
+                <H6 isMedium tw='text-terminal'>Gate.io</H6>
+              </Columns>
+              <br />
+              <div tw='col-span-3'>
+                <a tw='inline-flex' href="https://docs.hummingbot.org/exchanges" target="_blank" rel="noreferrer">
                   <ExternalLinkButton isLarge label="See 30+ more" />
                 </a>
-              </LinkContainer>
-            </ItemsRow>
-          </RightColumn>
-        </CustomContainer>
-        <CustomContainer>
-          <LeftColumn>
-            <H6 isBold>DEX Connectors</H6>
-          </LeftColumn>
-          <RightColumn>
-            <ItemsRow>
-              <DEXContainer>Uniswap</DEXContainer>
-              <DEXContainer>dYdX</DEXContainer>
-              <DEXContainer>TraderJoe</DEXContainer>
-              <DEXContainer>Serum</DEXContainer>
-              <LinkContainer>
-                <a href="https://docs.hummingbot.org/gateway/exchanges" target="_blank" rel="noreferrer">
-                  <ExternalLinkButtonBlue isLarge label="See 10+ more" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <H6 isBold tw='col-span-3 border-b-2 border-magenta text-terminal pb-xxs mb-xxs'>DEX Connectors</H6>
+            <div>
+              <Columns>
+                <H6 isMedium tw='text-terminal'>Uniswap</H6>
+                <H6 isMedium tw='text-terminal'>dYdX</H6>
+                <H6 isMedium tw='text-terminal'>TraderJoe</H6>
+                <H6 isMedium tw='text-terminal'>Serum</H6>
+              </Columns>
+              <br />
+              <div tw='col-span-3'>
+                <a tw='inline-flex' href="https://docs.hummingbot.org/gateway/exchanges" target="_blank" rel="noreferrer">
+                  <ExternalLinkButton isLarge label="See 10+ more" />
                 </a>
-              </LinkContainer>
-            </ItemsRow>
-          </RightColumn>
-        </CustomContainer>
-      </Container>
-      <BottomGradientLine />
+              </div>
+            </div>
+          </div>
+        </TwoColumns>
+      </CustomContainer>
     </Section>
   )
 }
@@ -73,8 +74,11 @@ const MetricsGrid = styled.div({
   maxWidth: '800px',
 })
 
-const CustomContainer = styled.div(() => [
-  tw`flex flex-col sm:(flex-row my-sm)`,
+const TwoColumns = styled.div(() => [
+  tw`grid grid-cols-1 gap-0 lg:(grid-cols-2 gap-8)`,
+])
+const Columns = styled.div(() => [
+  tw`grid grid-cols-4 gap-0`,
 ])
 
 const LeftColumn = styled.div(() => [
@@ -96,11 +100,3 @@ const DEXContainer = styled(H6)(() => [
 const LinkContainer = styled.div(() => [
   tw`md:(mx-md) sm:(mx-sm)`,
 ])
-
-const BottomGradientLine = styled.div({
-  bottom: '0',
-  left: '0',
-  width: '100%',
-  height: '3px',
-  background: 'linear-gradient(270deg, #00C2CE 25.96%, #318DFF 100%)',
-})
