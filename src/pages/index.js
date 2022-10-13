@@ -17,18 +17,16 @@ function Home() {
   return (
     <Layout>
       <Seo pageTitle="Home" />
-      <Section>
-        <Navigation />
-        <Hero />
-        <Metrics />
-        <Features />
-        <WhatCanYouDo />
-        <Strategies />
-        <Governance />
-        <WhoWeAre />
-        <ActionBlock />
-        <Footer />
-      </Section>
+      <Navigation />
+      <Hero />
+      <Metrics />
+      <Features />
+      <WhatCanYouDo />
+      <Strategies />
+      <Governance />
+      <WhoWeAre />
+      <ActionBlock />
+      <Footer />
     </Layout>
   )
 }
