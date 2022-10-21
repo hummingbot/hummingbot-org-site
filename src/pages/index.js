@@ -1,5 +1,4 @@
 import React from 'react'
-import { Section } from '@hummingbot/hbui/elements/layout'
 import Layout from '../ui/components/Layout'
 import Navigation from '../ui/components/Navigation'
 import Hero from '../ui/components/home/Hero'
