@@ -10,7 +10,7 @@ function BotcampHero() {
   return (
     <Section>
       <Container tw='py-60'>
-        <H1 tw='w-full lg:max-w-4xl'>Learn the dark arts of market making</H1>
+        <H1 tw='w-full lg:max-w-4xl leading-tight'>Learn the dark arts of market making</H1>
         <H6 tw='pb-md'>Build high-frequency trading & market making strategies</H6>
         <a href="https://hummingbot.thinkific.com" target="_blank" rel="noreferrer">
           <ExternalLinkButton isLarge label="Sign up now" />
