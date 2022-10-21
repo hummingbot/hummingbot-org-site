@@ -1701,10 +1701,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@hummingbot/hbui@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.4.2.tgz#d61b528c628281c6c73cc4da184d132eab5cc1bb"
-  integrity sha512-RN4QJduNCGWsN0JIfwn1+ooJxLH7ZssSRcXl/cnK6AuNFVvNwwGfAaK/f9HSozeVbW5/3ZiZsIMAfpAVpGW6Yg==
+"@hummingbot/hbui@^1.4.31":
+  version "1.4.31"
+  resolved "https://registry.yarnpkg.com/@hummingbot/hbui/-/hbui-1.4.31.tgz#aa08a82a958c65235a7f4b2c208a4d3768ce5980"
+  integrity sha512-25oIc7kVJ6KkPegNEJk1AANaE745WvrFNF9IzfMsHC2tlmX7FDY00fdMIxyE8oybu+PE/sEbfSBRmUeobK9qcg==
   dependencies:
     "@babel/cli" "^7.17.6"
     "@babel/core" "^7.13.8"

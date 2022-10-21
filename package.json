@@ -12,7 +12,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@hummingbot/hbui": "^1.4.2",
+    "@hummingbot/hbui": "^1.4.31",
     "dotenv": "^16.0.1",
     "gatsby": "^4.3.0",
     "gatsby-plugin-amplitude": "^0.1.0",
