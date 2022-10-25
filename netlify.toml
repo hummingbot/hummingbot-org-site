@@ -1,6 +1,6 @@
 [[headers]]
   for = "/*"
-  [header.values]
+  [headers.values]
     X-Frame-Options = "DENY"
 
 [build]
