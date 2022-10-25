@@ -1,2 +1,8 @@
-[headers.values]
-  X-Frame-Options = "DENY"
+[[headers]]
+  for = "/*"
+  [header.values]
+    X-Frame-Options = "DENY"
+
+[build]
+    command = "yarn build"
+    publish = "public"
