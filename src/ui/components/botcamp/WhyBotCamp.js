@@ -9,7 +9,7 @@ function WhyBotcamp() {
   return (
   <Section tw='pt-xxxl'>
     <Container>
-      <H4 isWhite isBold>Why take BotCamp?</H4>
+      <H4 isWhite isBold>Why take Botcamp?</H4>
       <Columns tw="pb-lg">
         <CardB
           tw='mb-4 lg:mb-0'

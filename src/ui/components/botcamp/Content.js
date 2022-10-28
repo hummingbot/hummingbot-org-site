@@ -11,9 +11,9 @@ function BotcampContent() {
     <Container>
       <CustomContainer>
         <LeftColumn>
-          <H1 isBold tw='text-terminal'>
-            Content
-          </H1>
+          <H2 isBold tw='text-terminal'>
+            Botcamp content
+          </H2>
         </LeftColumn>
         <RightColumn>
           <Item>
@@ -22,7 +22,6 @@ function BotcampContent() {
               Get access to a private Discord channel and watch the pre-work videos to get familiar with basic trading terminology, Hummingbot codebase, and the script design/submission process.
             </Content>
 
-            <Snackbar type="info" label="optional" />
             <ol tw='pb-md'>
               <li>[video] Botcamp - Basic Training</li>
               <li>[video] Intro to the Hummingbot codebase</li>
@@ -57,7 +56,7 @@ function BotcampContent() {
           <Item>
             <Title>Week 2</Title>
             <Content tw='pb-md'>
-              In the second live session, we'll cover the basic theory and practice of two-sided market making strategies, code the simple arbitrage script implementation together, and provide feedback to student script designs.
+              During the second week's live session, we'll cover the basic theory and practice of two-sided market making strategies, code the simple arbitrage script implementation together, and provide feedback to student script designs.
             </Content>
             <CustomInnerContainer>
               <LeftInnerColumn>
@@ -81,7 +80,7 @@ function BotcampContent() {
           <Item>
             <Title>Week 3</Title>
             <Content tw='pb-md'>
-              In the third live session, we'll cover basic hedging techniques like cross-exchange market making, as well as advanced topics like accessing order book data. We'll also review the dynamic price ceiling/floor implementation, and provide final guidance to students coding their custom scripts.
+              In Week 3, you'll learn basic hedging techniques like cross-exchange market making, as well as advanced topics like accessing order book data. We'll also review the dynamic price ceiling/floor implementation, and provide final guidance to students coding their custom scripts.
             </Content>
 
             <CustomInnerContainer>
@@ -104,9 +103,8 @@ function BotcampContent() {
           <Item>
             <Title>Week 4: Demo Day</Title>
             <Content tw='pb-md'>
-              BotCamp ends with a final demo session during which we play script presentation videos submitted by students. All qualifying scripts receive HBOT rewards and a Hummingbot Script Developer NFT certificate. Student vote for their favorite scripts, and the lucky winners get extra HBOT rewards, lifelong bragging rights, and their scripts to be permanently enshrined in the Hummingbot codebase.
+              In the final Demo Day session, students present their videos and vote for for their favorite script submissions. The top submissions receive HBOT token prizes and get their scripts merged into the Hummingbot codebase, while all qualifying scripts receive a Hummingbot Script Developer NFT certificate.
             </Content>
-            <Snackbar type="warning" label="prizes" />
             <ol tw='pb-md'>
               <li>[star] NFT certificates for qualifying scripts</li>
               <li>[star] HBOT rewards for winning and qualifying scripts</li>

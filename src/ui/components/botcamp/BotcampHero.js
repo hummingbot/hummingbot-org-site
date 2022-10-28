@@ -12,7 +12,7 @@ function BotcampHero() {
       <Container tw='py-xxxl text-center'>
         <H1 isBold>
           Hummingbot 
-          <span tw='text-terminal'> BotCamp</span>
+          <span tw='text-terminal'> Botcamp</span>
         </H1>
 
         <H6 tw='pb-md'>
