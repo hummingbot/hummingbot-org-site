@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Triangular arbitrage",
+        "description": "To execute arbitrage trades on three markets of the same exchange when price discrepancy among those markets are found",
+        "author": "supervik",
+        "author_link": "https://github.com/supervik",
+        "link": "https://github.com/hummingbot/hummingbot/blob/development/scripts/triangular_arbitrage.py",
+        "cohort": "Sept 2022"
+    },
+    {
+        "title": "PMM with adjusted mid pice",
+        "description": "This is an example of a pure market making strategy with an adjusted mid price based on slippage",
+        "author": "cmichaeltimmons",
+        "author_link": "https://github.com/cmichaeltimmons",
+        "link": "https://github.com/hummingbot/hummingbot/blob/development/scripts/adjusted_mid_price.py",
+        "cohort": "Sept 2022"
+    },
+    {
+        "title": "VWAP market making",
+        "description": "Market making strategy that uses the VWAP buy/sell values to place offsetting limit orders on both sides of the midpoint price",
+        "author": "ajjcoppola",
+        "author_link": "https://github.com/ajjcoppola",
+        "link": "https://github.com/hummingbot/hummingbot/pull/5738",
+        "cohort": "Sept 2022"
+    }
+]

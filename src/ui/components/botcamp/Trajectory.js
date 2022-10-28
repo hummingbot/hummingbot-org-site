@@ -43,12 +43,14 @@ function Trajectory() {
       </CustomContainer>
     </Container>
     <Container>
-      <Certificate>
-        <H4 isBold tw='text-terminal'>Get certified &#x2713;</H4>
-        <P tw='text-secondary'>
-          Our Hummingbot community includes hedge funds and clients interested in working with our student developers. Receive a <span tw='text-terminal'>NFT certificate</span> after course completion that expands your opportunities as a scripts developer. 
-        </P>
-      </Certificate>
+      <div tw='flex justify-center'>
+        <Certificate>
+          <H4 isBold tw='text-terminal'>Get certified &#x2713;</H4>
+          <P tw='text-secondary'>
+            Our Hummingbot community includes hedge funds and clients interested in working with our student developers. Receive a <span tw='text-terminal'>NFT certificate</span> after course completion that expands your opportunities as a scripts developer. 
+          </P>
+        </Certificate>
+      </div>
     </Container>
     <Separator tw='pt-xxxl' />
   </Section>

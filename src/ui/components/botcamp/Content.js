@@ -12,7 +12,7 @@ function BotcampContent() {
       <CustomContainer>
         <LeftColumn>
           <H2 isBold tw='text-terminal'>
-            Botcamp content
+            Course content
           </H2>
         </LeftColumn>
         <RightColumn>
@@ -32,7 +32,7 @@ function BotcampContent() {
           <Item>
             <Title>Week 1</Title>
             <Content tw='pb-md'>
-              In the first live session, you'll learn how the course works, compete for HBOT rewards in quizzes about the pre-work, and sign up for mentor office hours. Your homework is to watch script teardown videos, start designing your custom script, and perform optional coding challenges.
+              In the first live session, you'll learn how the course works, test your knowledge in quizzes about the pre-work, and sign up for mentor office hours. Your homework is to watch script teardown videos, start designing your custom script, and perform optional coding challenges.
             </Content>
 
             <CustomInnerContainer>

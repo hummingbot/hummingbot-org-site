@@ -20,14 +20,14 @@ function BotcampHero() {
           in an intensive 4-week online course
         </H6>
 
-        <div tw='pb-xl flex justify-center'>
+        <div tw='flex justify-center'>
           <a href="https://botcamp.hummingbot.org" target="_blank" rel="noreferrer">
-            <Button isLarge isTerminal objectCenter>
+            <Button isLarge isTerminal>
               Enroll for next cohort
             </Button>
-            <P tw='text-sm mt-xxs'>Max 20 seats per cohort</P>
           </a>
         </div>
+        <P tw='text-sm mt-xxs pb-xl'>Max 20 seats per cohort</P>
 
         <VideoCard
           videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
