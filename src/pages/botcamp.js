@@ -5,6 +5,7 @@ import { Section } from '@hummingbot/hbui/elements/layout'
 import BotcampHero from '../ui/components/botcamp/BotcampHero'
 import WhyBotcamp from '../ui/components/botcamp/WhyBotCamp'
 import Testimonials from '../ui/components/botcamp/Testimonials'
+import BotcampContent from '../ui/components/botcamp/Content'
 import Trajectory from '../ui/components/botcamp/Trajectory'
 import BotcampFAQ from '../ui/components/botcamp/BotcampFAQ'
 import Footer from '../ui/components/footer'
@@ -18,8 +19,9 @@ function BotCamp() {
           <Navigation />
             <BotcampHero />
             <WhyBotcamp />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Trajectory />
+            <BotcampContent />
             <BotcampFAQ />
           <Footer />
         </Section>

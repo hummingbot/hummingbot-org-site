@@ -20,14 +20,14 @@ function WhyBotcamp() {
         <CardB
           tw='mb-4 lg:mb-0'
           iconElement={<IconBook/>}
-          headerText="Design and build your own trading strategy"
-          descriptionText="Have an idea for a killer trading algo? In BotCamp, you'll learn how to create any type of quant trading strategy using live order book data from multiple exchanges, in just a few lines of Python code."
+          headerText="Design and code your own trading strategy"
+          descriptionText="Have an idea for a killer trading algo? In BotCamp, you'll learn how to code your custom strategy using Hummingbot in just a few lines of basic Python code."
         />
         <CardB
           tw='mb-4 lg:mb-0'
           iconElement={<IconBook/>}
           headerText="Lifetime access to community and content library"
-          descriptionText="Join a community of pro trader mentors from the Hummingbot community, as well as BotCamp's expanding library of strategy deep dives, code samples, and other valuable content."
+          descriptionText="Join a community of developers and market makers, and get lifetime access to BotCamp's expanding library of strategy teardowns, tutorial videos, and other quant trading content."
         />
       </Columns>
     </Container>
