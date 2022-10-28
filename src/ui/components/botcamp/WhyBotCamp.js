@@ -7,15 +7,15 @@ import { CardB } from '@hummingbot/hbui/components/cards/CardB'
 
 function WhyBotcamp() {
   return (
-  <Section tw='py-xxxl'>
+  <Section tw='pt-xxxl'>
     <Container>
       <H4 isWhite isBold>Why take BotCamp?</H4>
-      <Columns>
+      <Columns tw="pb-lg">
         <CardB
           tw='mb-4 lg:mb-0'
           iconElement={<IconBook/>}
-          headerText="Learn the theory and practice of market making"
-          descriptionText="Hummingbot open sourced the code behind Wall Street's secretive market making algorithms. BotCamp teaches you how to run these algos successfully and profitably."
+          headerText="Learn the theory and practice of crypto market making"
+          descriptionText="Hummingbot open sourced the code behind Wall Street's secretive market making algorithms. BotCamp teaches you how to run these algos successfully in volatile crypto markets."
         />
         <CardB
           tw='mb-4 lg:mb-0'
@@ -31,7 +31,7 @@ function WhyBotcamp() {
         />
       </Columns>
     </Container>
-    <Separator />
+    <Separator tw='pt-xl' />
   </Section>
   )
 }

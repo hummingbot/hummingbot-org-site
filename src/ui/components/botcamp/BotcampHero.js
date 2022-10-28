@@ -16,7 +16,7 @@ function BotcampHero() {
         </H1>
 
         <H6 tw='pb-md'>
-          Learn the <span tw='text-magenta'> dark arts of market making </span>
+          Learn the <span tw='text-magenta'> dark arts of crypto market making </span>
           with our hands-on 4-week online course
         </H6>
 
