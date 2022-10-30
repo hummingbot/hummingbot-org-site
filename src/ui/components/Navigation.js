@@ -8,15 +8,12 @@ const siteNameA = 'Hummingbot'
 const siteNameB = ''
 const userData = null
 const linksRight = [
-  { url: '/botcamp',
-    label: 'BotCamp'
-  },
   { url: null,
     label: 'Developers',
     subLinks: [
       { label: 'Docs', url: 'https://docs.hummingbot.org', external: true },
       { label: 'Github', url: 'https://github.com/hummingbot/hummingbot', external: true },
-      { label: 'Botcamp', url: 'https://hummingbot.thinkific.com', external: true }
+      { label: 'Botcamp', url: '/botcamp', external: false }
     ] 
   },
   { url: null,
@@ -27,6 +24,9 @@ const linksRight = [
       { label: 'Snapshot', url: 'https://snapshot.org/#/hbot.eth', external: true },
       { label: 'Forum', url: 'https://forum.hummingbot.org', external: true },
     ] 
+  },
+  { url: '/botcamp',
+    label: 'Botcamp'
   },
   { url: null,
     label: 'Miner',
