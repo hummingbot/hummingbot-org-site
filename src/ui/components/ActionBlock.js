@@ -3,8 +3,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
-import { H6, H3, H4, H5, P, Green } from '@hummingbot/hbui/elements/typography'
+import { H6, H5, P } from '@hummingbot/hbui/elements/typography'
 import { ExternalLinkButton } from '../elements/buttons'
+import { Button } from '@hummingbot/hbui/elements/buttons'
 
 function ActionBlock() {
   return (
@@ -15,9 +16,9 @@ function ActionBlock() {
             <div tw='flex justify-between mb-md'>
               <H5 tw='font-bold text-white leading-none'>Learn the dark arts of market making with Hummingbot BotCamp</H5>
             </div>
-            <a href="https://hummingbot.thinkific.com" target='_blank' rel="noreferrer">
-              <ExternalLinkButton isLarge tw='w-full' label="Learn with BotCamp" />
-            </a>
+            <Link to="/botcamp">
+              <Button isLarge tw='w-full'>Learn with BotCamp</Button>
+            </Link>
           </ColumnA>
           <ColumnB>
             <div tw='flex justify-between mb-md'>

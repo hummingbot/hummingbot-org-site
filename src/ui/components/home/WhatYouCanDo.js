@@ -1,14 +1,13 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
-import tw from 'twin.macro'
-import { styled } from 'twin.macro'
+import tw, { styled, css } from 'twin.macro'
 import { Link } from 'gatsby'
 import { Section, Separator } from '@hummingbot/hbui/elements/layout'
 import { H4, H5, H6, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
 import { LinkButton } from '../../elements/buttons'
 import LiquidityMiningIllustration from './assets/bots_mining_illustration.svg'
-import { ExternalLinkButton } from "../../elements/buttons"
+import { ExternalLinkButton, InternalLinkButton } from "../../elements/buttons"
 
 function WhatCanYouDo() {
   return (
@@ -25,9 +24,9 @@ function WhatCanYouDo() {
               <Column>
                 <TitleP>Learn to build HFT bots</TitleP>
                 <LightP>Join Hummingbot BotCamp and build your own custom HFT and market making bots</LightP>
-                <a href="https://hummingbot.thinkific.com" target="_blank" rel="noreferrer">
-                  <ExternalLinkButton isLarge label="Hummingbot BotCamp" />
-                </a>
+                <Link to="/botcamp">
+                  <InternalLinkButton isLarge tw='w-full'>Learn with BotCamp</InternalLinkButton>
+                </Link>
               </Column>
               <Column>
                 <TitleP>Earn liquidity mining rewards</TitleP>

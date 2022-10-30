@@ -6,10 +6,9 @@ import { css, keyframes } from "styled-components";
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H1, H6 } from '@hummingbot/hbui/elements/typography'
 import { BackgroundNodes } from "../BackgroundNodes"
-import GradOval from './assets/OvalGradientLower.svg'
 import TerminalImage from './assets/hero_terminal_image.png'
 import { ItemsRow } from '@hummingbot/hbui/elements/layout'
-import { CustomRoundButton, ExternalLinkButton } from "../../elements/buttons"
+import { Button } from '@hummingbot/hbui/elements/buttons'
 
 function Hero() {
   return (
@@ -19,12 +18,12 @@ function Hero() {
         <H6 tw='text-white mb-lg max-w-[500px] lg:(max-w-[50%]) xl:(max-w-[600px])'>Hummingbot is open source software that helps you build <strong>high-frequency crypto trading bots
         </strong> that specialize in market making and arbitrage strategies</H6>
         <ItemsRow>
-        <a href="/test-drive">
-          <CustomRoundButton  isLarge>Test Drive</CustomRoundButton>
-        </a>
-          <a href="https://hummingbot.thinkific.com">
-            <ExternalLinkButton isLarge label="Learn with Botcamp" />
-          </a>
+        <Link to="/test-drive">
+          <Button isTerminal isLarge>Test Drive</Button>
+        </Link>
+        <Link to="/botcamp">
+          <Button isSecondary isLarge>Learn with Botcamp</Button>
+        </Link>
         </ItemsRow>
         <div tw='hidden lg:block'>
           <HummingbotBird />
