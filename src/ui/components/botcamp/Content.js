@@ -96,8 +96,6 @@ function BotcampContent() {
         </RightColumn>
       </CustomContainer>
     </Container>
-
-    <Separator tw='pt-xl' />
   </Section>
   )
 }
