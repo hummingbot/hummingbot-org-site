@@ -6,7 +6,7 @@ import { P, H1, H2, H3, H4, H6, Body } from '@hummingbot/hbui/elements/typograph
 
 function Trajectory() {
   return (
-  <Section tw='pt-xxxl'>
+  <Section tw='py-xl md:py-xxxl border-y-4 border-terminal'>
     <Container>
       <CustomContainer>
         <LeftColumn>
@@ -51,7 +51,6 @@ function Trajectory() {
         </CertificateContent>
       </Certificate>
     </Container>
-    <Separator tw='pt-xxxl' />
   </Section>
   )
 }
