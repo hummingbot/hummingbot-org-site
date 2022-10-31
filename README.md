@@ -1,4 +1,4 @@
-# CoinAlpha.com
+# hummingbot.org
 
 ## Table of contents
 
@@ -10,7 +10,7 @@
 
 ### About
 
-This is a [Gatsby](https://www.gatsbyjs.com/) website built using a custom configuration based on the [Hummingbot Design System](https://coinalpha-dsm.netlify.app), using elements and components from the Hummingbot [HBUI](https://www.npmjs.com/package/@hummingbot/hbui) library, and leveraging the power of [twin.macro](https://github.com/ben-rogerson/twin.macro). Developers interested in working on the project, have a look at the useful links section below.
+This is a [Gatsby](https://www.gatsbyjs.com/) website built using a custom configuration based on the [Hummingbot Design System](https://hbui.netlify.app), using elements and components from the Hummingbot [HBUI](https://www.npmjs.com/package/@hummingbot/hbui) library, and leveraging the power of [twin.macro](https://github.com/ben-rogerson/twin.macro). Developers interested in working on the project, have a look at the useful links section below.
 
 [](#installation)
 
@@ -20,7 +20,7 @@ This is a [Gatsby](https://www.gatsbyjs.com/) website built using a custom confi
 Clone the project to a folder of your choice
 
 ```bash
-git clone git@github.com:CoinAlpha/coinalpha.com.git destination-folder
+git clone git@github.com:hummingbot/hummingbot-org-site.git destination-folder
 ```
 
 Enter the folder
@@ -38,7 +38,7 @@ yarn
 Start the project
 
 ```bash
-yarn start
+yarn develop
 ```
 
 Build the project
@@ -51,7 +51,7 @@ yarn build
 
 ### Useful links for developers
 
-[HBUI Docs](https://coinalpha-dsm.netlify.app)
+[HBUI Docs](https://hbui.netlify.app)
 
 [twin.macro](https://github.com/ben-rogerson/twin.macro)
 
@@ -59,7 +59,7 @@ Twin.macro [prop-based styling guide](https://github.com/ben-rogerson/twin.macro
 
 Twin.macro [Styled-components guide](https://github.com/ben-rogerson/twin.macro/blob/master/docs/styled-component-guide.md)
 
-[TailwindCSS documentation](https://coinalpha-dsm.netlify.app)
+[TailwindCSS documentation](https://tailwindcss.com/docs)
 
 [Hummingbot HBUI Module](https://www.npmjs.com/package/@hummingbot/hbui) on NPM
 
