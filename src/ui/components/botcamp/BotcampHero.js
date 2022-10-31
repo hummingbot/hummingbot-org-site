@@ -8,7 +8,7 @@ import VideoCard from '@hummingbot/hbui/components/video/VideoCard'
 
 function BotcampHero() {
   return (
-    <Section>
+    <Section tw='border-b-4 border-terminal' style={{background: 'linear-gradient(177deg, black, rgba(95, 255, 215, 0.3))'}}>
       <Container tw='py-xxxl text-center'>
         <H1 isBold>
           Hummingbot 
