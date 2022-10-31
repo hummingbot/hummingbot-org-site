@@ -138,9 +138,6 @@ export const LogoA = styled.a({
   '& svg': {
     transform: 'scale(0.8)',
   },
-  '& svg *': {
-    fill: 'white'
-  }
 })
 
 export const CopyrightText = styled(P)({
