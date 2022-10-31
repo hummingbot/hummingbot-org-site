@@ -2,7 +2,7 @@
 import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { P, H1, H2, H4, H6, Body } from '@hummingbot/hbui/elements/typography'
+import { P, H1, H2, H3, H4, H6, Body } from '@hummingbot/hbui/elements/typography'
 
 function Trajectory() {
   return (
@@ -44,10 +44,10 @@ function Trajectory() {
     <Container>
       <Certificate>
         <CertificateContent>
-          <H4 isBold tw='text-terminal mb-xxs md:mb-xs'>Get certified &#x2713;</H4>
-          <Body tw='text-secondary'>
+          <H3 isBold tw='text-terminal mb-xxs md:mb-xs'>Get certified &#x2713;</H3>
+          <H6 tw='text-secondary'>
             Our Hummingbot community includes hedge funds and clients interested in working with our student developers. Receive a <span tw='text-terminal'>NFT certificate</span> after course completion that expands your opportunities as a scripts developer. 
-          </Body>
+          </H6>
         </CertificateContent>
       </Certificate>
     </Container>
