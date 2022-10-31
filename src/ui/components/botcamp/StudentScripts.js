@@ -19,6 +19,7 @@ function StudentScripts() {
         <ScriptsGrid>
           {StudentsJSON.map((data, index) => {
             return <CardA
+              key={index}
               tw="mx-xs my-md" 
               headerText={data.title}
               descriptionText={data.description}
