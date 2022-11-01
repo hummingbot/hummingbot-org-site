@@ -7,56 +7,61 @@ import VideoCard from '@hummingbot/hbui/components/video/VideoCard'
 
 function Testimonials() {
   return (
-  <Section tw='pt-xxxl'>
+  <Section tw='py-xxl lg:py-xxxl xl:py-52 border-t-4 border-terminal' style={{background: 'linear-gradient(177deg, rgba(95, 255, 215, 0.15), black)'}}>
+    
     <Container>
-      <H4 isWhite isBold>
-        Watch what our student have to say about BotCamp
+      <H4 isBold tw='mb-sm md:mb-md lg:mb-lg text-terminal'>
+        Watch what our students have to say about BotCamp
       </H4>
 
-      <VideoGrid>
-        <LeftColumn>
-          <VideoCard
-            videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
-            descriptionText="BotCamp testimonial 1"
-          />
-        </LeftColumn>
-        <RightColumn>
-          <H6 isBold tw='leading-none'>Vik</H6>
-          <P tw='text-secondary'>Microelectronics Engineer, Russia</P>
-          <P tw='mt-md'>"I learned how to create a working arbitrage strategy that I'm now running every day"</P>
-        </RightColumn>
-      </VideoGrid>
+      <div tw='grid grid-cols-1 gap-0 xl:(grid-cols-3 gap-8)'>
+        <VideoGrid>
+          <LeftColumn>
+            <VideoCard
+              videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
+              descriptionText="BotCamp testimonial 1"
+              tw='p-0 md:p-2'
+            />
+          </LeftColumn>
+          <RightColumn>
+            <H6 isBold tw='leading-none text-terminal'>Vik</H6>
+            <P tw='text-secondary'>Microelectronics Engineer, Russia</P>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I learned how to create a working arbitrage strategy that I'm now running every day"</H6>
+          </RightColumn>
+        </VideoGrid>
 
-      <VideoGrid>
-        <LeftColumn>
-          <VideoCard
-            videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
-            descriptionText="BotCamp testimonial 2"
-          />
-        </LeftColumn>
-        <RightColumn>
-          <H6 isBold tw='leading-none'>Alan</H6>
-          <P tw='text-secondary'>Quantitative Engineer, USA</P>
-          <P tw='mt-md'>"I learned how to create a working arbitrage strategy that I'm now running every day"</P>
-        </RightColumn>
-      </VideoGrid>
+        <VideoGrid>
+          <LeftColumn>
+            <VideoCard
+              videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
+              descriptionText="BotCamp testimonial 2"
+              tw='p-0 md:p-2'
+            />
+          </LeftColumn>
+          <RightColumn>
+            <H6 isBold tw='leading-none text-terminal'>Alan</H6>
+            <P tw='text-secondary'>Quantitative Engineer, USA</P>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I learned how to create a working arbitrage strategy that I'm now running every day"</H6>
+          </RightColumn>
+        </VideoGrid>
 
-      <VideoGrid>
-        <LeftColumn>
-          <VideoCard
-            videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
-            descriptionText="BotCamp testimonial 3"
-          />
-        </LeftColumn>
-        <RightColumn>
-          <H6 isBold tw='leading-none'>Vik</H6>
-          <P tw='text-secondary'>Microelectronics Engineer, Russia</P>
-          <P tw='mt-md'>"I learned how to create a working arbitrage strategy that I'm now running every day"</P>
-        </RightColumn>
-      </VideoGrid>
-
+        <VideoGrid>
+          <LeftColumn>
+            <VideoCard
+              videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
+              descriptionText="BotCamp testimonial 3"
+              tw='p-0 md:p-2'
+            />
+          </LeftColumn>
+          <RightColumn>
+            <H6 isBold tw='leading-none text-terminal'>Vik</H6>
+            <P tw='text-secondary'>Microelectronics Engineer, Russia</P>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I learned how to create a working arbitrage strategy that I'm now running every day"</H6>
+          </RightColumn>
+        </VideoGrid>
+      </div>
     </Container>
-    <Separator tw='pt-xl' />
+
   </Section>
   )
 }
@@ -64,13 +69,19 @@ function Testimonials() {
 export default Testimonials
   
 const VideoGrid = styled.div(() => [
-  tw`my-md flex flex-col md:(flex-row my-xl)`,
+  tw`my-xxs flex flex-col border-2 border-grey-dark-scale-400`,
+  tw`md:(my-xs flex-row border-none)`,
+  tw`xl:flex-col`,
 ])
 
 const LeftColumn = styled.div(() => [
-  tw`w-full pb-xs md:(w-1/3 pr-xl)`,
+  tw`w-full`,
+  tw`md:(w-7/12 pr-sm flex-row)`,
+  tw`xl:w-full`,
 ])
 
 const RightColumn = styled.div(() => [
-  tw`w-full md:w-2/3`,
+  tw`w-full bg-body p-4 border-t-2 border-terminal`,
+  tw`md:(border-none bg-transparent p-0 w-5/12)`,
+  tw`xl:(w-full pt-sm)`,
 ])
