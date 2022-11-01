@@ -2,35 +2,41 @@
 import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { H4 } from '@hummingbot/hbui/elements/typography'
+import { H4, H6, P } from '@hummingbot/hbui/elements/typography'
 import { CardB } from '@hummingbot/hbui/components/cards/CardB'
 
 function WhyBotcamp() {
   return (
   <Section tw='pt-xxxl'>
-    <Container>
-      <H4 isWhite isBold>Why take Botcamp?</H4>
-      <Columns tw="pb-lg">
-        <CardB
-          tw='mb-4 lg:mb-0'
-          iconElement={<IconBook/>}
-          headerText="Learn the theory and practice of crypto market making"
-          descriptionText="Hummingbot open sourced the code behind Wall Street's secretive market making algorithms. BotCamp teaches you how to run these algos successfully in volatile crypto markets."
-        />
-        <CardB
-          tw='mb-4 lg:mb-0'
-          iconElement={<IconBook/>}
-          headerText="Design and code your own trading strategy"
-          descriptionText="Have an idea for a killer trading algo? In BotCamp, you'll learn how to code your custom strategy using Hummingbot in just a few lines of basic Python code."
-        />
-        <CardB
-          tw='mb-4 lg:mb-0'
-          iconElement={<IconBook/>}
-          headerText="Lifetime access to community and content library"
-          descriptionText="Join a community of developers and market makers, and get lifetime access to BotCamp's expanding library of strategy teardowns, tutorial videos, and other quant trading content."
-        />
-      </Columns>
-    </Container>
+    <CustomContainer>
+      <LeftColumn>
+        <H4 isWhite isBold>
+          Why take Botcamp?
+        </H4>
+      </LeftColumn>
+      <RightColumn>
+        <Item>
+          <Title>Learn the theory and practice of crypto market making</Title>
+          <Content>
+            Hummingbot open sourced the code behind Wall Street's secretive market making algorithms. BotCamp teaches you how to run these algos successfully in volatile crypto markets.
+          </Content>
+        </Item>
+
+        <Item>
+          <Title>Design and code your own trading strategy</Title>
+          <Content>
+            Have an idea for a killer trading algo? In BotCamp, you'll learn how to code your custom strategy using Hummingbot in just a few lines of basic Python code.
+          </Content>
+        </Item>
+
+        <Item>
+          <Title>Lifetime access to community and content library</Title>
+          <Content>
+            Join a community of developers and market makers, and get lifetime access to BotCamp's expanding library of strategy teardowns, tutorial videos, and other quant trading content.
+          </Content>
+        </Item>
+      </RightColumn>
+    </CustomContainer>
     <Separator tw='pt-xl' />
   </Section>
   )
@@ -59,4 +65,28 @@ function IconBook() {
     </svg>
   );
 }
+
+const CustomContainer = styled(Container)(() => [
+  tw`my-md flex flex-col md:(flex-row my-xl)`,
+])
+
+const LeftColumn = styled.div(() => [
+  tw`w-full pb-xs md:(w-1/3 pr-xl)`,
+])
+
+const RightColumn = styled.div(() => [
+  tw`w-full block md:(grid grid-cols-3 gap-8 w-2/3)`,
+])
+
+const Item = styled.div(() => [
+  tw`w-full pb-md border-t-2 border-terminal`,
+])
+
+const Title = styled(H6)(() => [
+  tw`text-terminal leading-tight pt-xs`,
+])
+
+const Content = styled(P)(() => [
+  tw`text-white mt-xxs md:mt-xs opacity-70 mb-xs`,
+])
   

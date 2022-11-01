@@ -2,20 +2,19 @@
 import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { P, H1, H2, H4, H6 } from '@hummingbot/hbui/elements/typography'
+import { P, H1, H2, H3, H4, H6, Body } from '@hummingbot/hbui/elements/typography'
 
 function Trajectory() {
   return (
-  <Section tw='pt-xxxl'>
+  <Section tw='py-xl md:py-xxxl border-y-4 border-terminal'>
     <Container>
       <CustomContainer>
         <LeftColumn>
-          <H4 isWhite isBold>
+          <H4 isWhite isBold tw='leading-tight'>
             Accelerate your trajectory as a quant trader
           </H4>
           <P tw='text-secondary pt-md'>
             Botcamp equips you with the knowledge and skills you need to compete with the pros 
-
           </P>
         </LeftColumn>
         <RightColumn>
@@ -43,16 +42,15 @@ function Trajectory() {
       </CustomContainer>
     </Container>
     <Container>
-      <div tw='flex justify-center'>
-        <Certificate>
-          <H4 isBold tw='text-terminal'>Get certified &#x2713;</H4>
-          <P tw='text-secondary'>
+      <Certificate>
+        <CertificateContent>
+          <H3 isBold tw='text-terminal mb-xxs md:mb-xs'>Get certified &#x2713;</H3>
+          <H6 tw='text-secondary'>
             Our Hummingbot community includes hedge funds and clients interested in working with our student developers. Receive a <span tw='text-terminal'>NFT certificate</span> after course completion that expands your opportunities as a scripts developer. 
-          </P>
-        </Certificate>
-      </div>
+          </H6>
+        </CertificateContent>
+      </Certificate>
     </Container>
-    <Separator tw='pt-xxxl' />
   </Section>
   )
 }
@@ -76,7 +74,7 @@ const Item = styled.div(() => [
 ])
 
 const Title = styled(H6)(() => [
-  tw`text-terminal pt-xs`,
+  tw`text-terminal pt-xs leading-tight`,
 ])
 
 const Content = styled(P)(() => [
@@ -84,6 +82,13 @@ const Content = styled(P)(() => [
 ])
 
 const Certificate = styled.div(() => [
-  tw`w-[80%] py-xxxl px-xxxl border-2 border-terminal text-center`,
+  tw`flex flex-col`,
+  tw`justify-center items-center`,
+  tw`border-y-2 border-x-[20px] rounded border-terminal`,
+  tw`min-h-[300px] sm:min-h-[400px] md:min-h-[500px]`,
+])
+
+const CertificateContent = styled.div(() => [
+  tw`w-[90%] sm:w-[80%] md:w-[60%] max-w-[700px]`,
 ])
 
