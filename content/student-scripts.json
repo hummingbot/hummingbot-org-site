@@ -16,11 +16,11 @@
         "cohort": "Sept 2022"
     },
     {
-        "title": "VWAP market making",
-        "description": "Market making strategy that uses the VWAP buy/sell values to place offsetting limit orders on both sides of the midpoint price",
-        "author": "ajjcoppola",
-        "author_link": "https://github.com/ajjcoppola",
-        "link": "https://github.com/hummingbot/hummingbot/pull/5738",
+        "title": "Simple RSI",
+        "description": "This script aims to buy when RSI is below 30 and sell when above 70",
+        "author": "shibanovp",
+        "author_link": "https://github.com/shibanovp",
+        "link": "https://github.com/hummingbot/hummingbot/pull/5736",
         "cohort": "Sept 2022"
     }
 ]

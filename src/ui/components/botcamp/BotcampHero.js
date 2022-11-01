@@ -21,9 +21,9 @@ function BotcampHero() {
         </H5>
 
         <div tw='flex justify-center'>
-          <a href="https://botcamp.hummingbot.org" target="_blank" rel="noreferrer">
+          <a href="https://airtable.com/shrRj5bUAauDj2M4G" target="_blank" rel="noreferrer">
             <Button isLarge isTerminal>
-              Enroll for next cohort
+              Apply to next cohort
             </Button>
           </a>
         </div>
