@@ -8,23 +8,16 @@ import { H2 } from '@hummingbot/hbui/elements/typography'
 function Backers() {
   return (
     <Section id='investors'>
-      {/* <GradientContainer style={{zIndex: '1', position: 'relative', pointerEvents: 'none', width: '100%'}}>
-        <GradientContainerInner>
-          <ColorGradient style={{position: 'relative', left: '-815px', top: '-250px', transform: 'scale(1.4)', overflow: 'hidden'}} />
-        </GradientContainerInner>
-      </GradientContainer> */}
-      <Section tw='bg-[#0F1924] pt-24 pb-36' style={{position: 'relative', zIndex: '2'}}>
+      <Section tw='bg-[#0F1924] pt-24 pb-36' style={{position: 'relative'}}>
         <Container>
           <CustomH2 tw='max-w-none mx-auto! text-center leading-tight mb-xl! pb-6 md:max-w-[60%]' isBold>Backed by world-class investors and advisors</CustomH2>
-          <LogosGrid tw='flex flex-col items-center mb-sm md:(flex-row justify-between)'>
-            <InitializedLogo tw='mb-lg md:mb-0' />
-            <Baincapital tw='mb-lg md:mb-0' />
-            <SlowVentures tw='mb-0 md:mb-0' />
-          </LogosGrid>
-          <LogosGrid tw='flex flex-col items-center md:(flex-row justify-between)'>
-            <Arrington tw='mb-lg md:mb-0' />
-            <DefianceCapital tw='mb-lg md:mb-0' />
-            <StartX tw='mb-0 md:mb-0' />
+          <LogosGrid tw='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-lg sm:gap-y-xl'>
+            <InitializedLogo tw='w-full pr-[40%] ' />
+            <Baincapital tw='w-full pr-[40%] ' />
+            <SlowVentures tw='w-full pr-[40%] ' />
+            <Arrington tw='w-full pr-[40%] ' />
+            <DefianceCapital tw='w-full pr-[40%] ' />
+            <StartX tw='w-full pr-[40%] ' />
           </LogosGrid>
         </Container>
       </Section>
@@ -41,9 +34,7 @@ const CustomH2 = styled(H2)({
 })
 
 const LogosGrid = styled.div({
-  width: '80%',
-  margin: '0 auto',
-  maxWidth: '800px',
+  width: '100%',
 })
 
 const GradientContainer = styled.div({

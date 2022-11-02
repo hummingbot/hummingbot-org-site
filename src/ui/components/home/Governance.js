@@ -10,12 +10,12 @@ import { ExternalLinkButton } from "../../elements/buttons"
 
 function Governance() {
   return (
-    <Section tw='py-8 md:py-12 lg:py-24'>
-      <Container tw="pb-xl">
+    <Section tw='py-16 md:py-28 lg:py-36 border-b-2 border-terminal'>
+      <Container tw="pb-lg md:pb-xl">
         <H4 isBold>Hummingbot is maintained by community developers and governed by HBOT token holders</H4>
       </Container>
       <Container tw='mb-sm block md:flex'>
-        <BoxHBOT tw='p-sm md:p-md'>
+        <BoxHBOT tw='p-sm md:p-md border-2 border-terminal/25'>
           <H5 isBold tw='leading-none text-terminal!'>HBOT Token</H5>
           <P isWhite isMedium tw='relative z-20 mt-sm max-w-[100%] md:max-w-[50%]'>
             HBOT is an Ethereum ERC-20 token that lets holders decide how the Hummingbot codebase evolves, propose and approve developer bounties, and govern the Hummingbot Foundation. 
@@ -33,7 +33,7 @@ function Governance() {
         </BoxHBOT>
       </Container>
       <Container tw='block md:(flex justify-between)'>
-        <Box tw='w-full p-sm self-start md:(p-md w-[49%])'>
+        <Box tw='w-full p-sm self-start md:(p-md w-[49%]) border-2 border-magenta/25'>
           <H5 isBold tw='leading-none text-magenta!'>Community Channels</H5>
           <P isWhite isMedium tw='mt-sm'>
             Join the conversation on our official Discord server or Discourse forum.
@@ -48,7 +48,7 @@ function Governance() {
           </a>
           </ItemsRow>
         </Box>
-        <Box tw='p-sm w-full mt-sm mb-xxl self-start md:(p-md w-[49%] my-0)'>
+        <Box tw='p-sm w-full mt-sm mb-xxl self-start md:(p-md w-[49%] my-0) border-2 border-blue/25'>
           <H5 isBold tw='leading-none text-blue!'>Snapshot</H5>
           <P isMedium isWhite tw='mt-sm'>
             Vote without paying gas on pull requests, bounties, elections, and other proposals.

@@ -8,9 +8,9 @@ import { ExternalLinkButton, CustomRoundButton } from "../../elements/buttons"
 
 function Metrics() {
   return (
-    <Section tw='py-24 lg:(py-32) border-t-2 border-b-2 border-terminal' style={{background: '#0F1924'}}>
+    <Section tw='pt-32 lg:pt-44 border-t-2 border-terminal'>
       <CustomContainer>
-        <MetricsGrid tw='flex flex-col items-center mb-lg sm:(flex-row justify-between)'>
+        <MetricsGrid tw='flex items-start mb-lg justify-between'>
           <div>
             <H2 isHeavy tw='leading-none'>100M+</H2>
             <P tw='mt-xxs'>Avg 24H Volume</P>
@@ -25,7 +25,7 @@ function Metrics() {
           </div>
         </MetricsGrid>
       </CustomContainer>
-      <CustomContainer>
+      <CustomContainer tw='pb-32 lg:pb-44 border-b-2 border-terminal'>
         <TwoColumns>
           <div tw='mb-lg lg:(mb-0)'>
             <H6 isBold tw='col-span-3 border-b-2 border-blue text-terminal pb-xxs mb-xxs'>CEX Connectors</H6>

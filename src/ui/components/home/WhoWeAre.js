@@ -15,18 +15,15 @@ function WhoWeAre() {
 
       <Container tw='pb-xxxl'>
         <CustomH2 tw='max-w-none mx-auto! text-center leading-tight mb-xl! pb-6 md:max-w-[60%]' isBold>Backed by world-class investors and advisors</CustomH2>
-        <LogosGrid tw='flex flex-col items-center mb-sm md:(flex-row justify-between)'>
-          <InitializedLogo tw='mb-lg md:mb-0' />
-          <Baincapital tw='mb-lg md:mb-0' />
-          <SlowVentures tw='mb-0 md:mb-0' />
-        </LogosGrid>
-        <LogosGrid tw='flex flex-col items-center md:(flex-row justify-between)'>
-          <Arrington tw='mb-lg md:mb-0' />
-          <DefianceCapital tw='mb-lg md:mb-0' />
-          <StartX tw='mb-0 md:mb-0' />
+        <LogosGrid tw='grid grid-cols-2 gap-y-lg gap-8 sm:gap-y-xl md:grid-cols-3'>
+          <div tw='w-full flex self-center justify-center md:w-full'><InitializedLogo /></div>
+          <div tw='w-full flex self-center justify-center md:w-full'><Baincapital /></div>
+          <div tw='w-full flex self-center justify-center md:w-full'><SlowVentures /></div>
+          <div tw='w-full flex self-center justify-center md:w-full'><Arrington /></div>
+          <div tw='w-full flex self-center justify-center md:w-full'><DefianceCapital /></div>
+          <div tw='w-full flex self-center justify-center md:w-full'><StartX /></div>
         </LogosGrid>
       </Container>
-
 
       <Container tw='block md:flex' style={{zIndex: '5', position: 'relative'}}>
         <Side tw='self-start pr-0 md:pr-xl'>
@@ -86,9 +83,7 @@ const CustomH2 = styled(H2)({
 })
 
 const LogosGrid = styled.div({
-  width: '80%',
-  margin: '0 auto',
-  maxWidth: '800px',
+  width: '100%',
 })
 
 const GradientContainer = styled.div({
@@ -294,9 +289,10 @@ function ColorGradient({...props}) {
   );
 }
 
-function DefianceCapital() {
+function DefianceCapital({...props}) {
   return (
     <svg
+      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="125"
       height="41"
@@ -316,9 +312,10 @@ function DefianceCapital() {
   );
 }
 
-function StartX() {
+function StartX({...props}) {
   return (
     <svg
+      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="119"
       height="43"

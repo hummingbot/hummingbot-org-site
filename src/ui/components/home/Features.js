@@ -7,9 +7,9 @@ import { H4, H6, P } from '@hummingbot/hbui/elements/typography'
 
 function Features() {
   return (
-    <Section tw='py-8 md:py-12 lg:py-24'>
-      <ChartIllustration tw='hidden absolute bottom-[-750px] right-[-500px] lg:block xl:right-[-400px]' />
-      <Container style={{zIndex: '1'}}>
+    <Section tw='py-20 md:py-28 lg:py-36 relative'>
+      <ChartIllustration tw='hidden absolute top-[530px] right-[-410px] lg:block xl:right-[-350px]' />
+      <Container>
         <H4 isWhite isBold>Why use Hummingbot?</H4>
         <Columns>
           <Column>

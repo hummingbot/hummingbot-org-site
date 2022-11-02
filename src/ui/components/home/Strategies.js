@@ -9,14 +9,11 @@ import GradOval from './assets/OvalGradientLower.svg'
 
 function Strategies() {
   return (
-    <Section tw='relative py-8 md:py-12 lg:py-24'>
-      <div style={{position: 'absolute', top: '50%', left: '50%', width: '1989px', height: '1083px'}}>
-        <img src={GradOval} alt='test' style={{zIndex: '0', position: 'relative', top: '-50%', left: '-50%', width: '1989px', height: '1083px'}} />
-      </div>
-      <Container style={{zIndex: '1'}} tw="pb-xxxl">
+    <Section tw='relative py-20 md:py-32 lg:py-48 border-y-2 border-terminal' style={{background: 'rgba(95, 255, 215, 0.08)'}}>
+      <Container style={{zIndex: '1'}}>
         <H4 isBold>Explore our library of customizable strategies and scripts</H4>
         <Columns>
-          <Column>
+          <Column tw='border-2 border-transparent transition hover:(border-terminal)'>
             <a href="https://docs.hummingbot.org/strategies/pure-market-making/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
@@ -25,7 +22,7 @@ function Strategies() {
               <BoxesDescP>Highly configurable, popular with beginners</BoxesDescP>
             </a>
           </Column>
-          <Column>
+          <Column tw='border-2 border-transparent transition hover:(border-terminal)'>
             <a href="https://docs.hummingbot.org/strategies/cross-exchange-market-making/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
@@ -34,7 +31,7 @@ function Strategies() {
               <BoxesDescP>Protect against market volatility by hedging</BoxesDescP>
             </a>
           </Column>
-          <Column>
+          <Column tw='border-2 border-transparent transition hover:(border-terminal)'>
             <a href="https://docs.hummingbot.org/strategies/avellaneda-market-making/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
@@ -43,7 +40,7 @@ function Strategies() {
               <BoxesDescP>Based on the seminal Avellaneda & Skoikov paper</BoxesDescP>
             </a>
           </Column>
-          <Column>
+          <Column tw='border-2 border-transparent transition hover:(border-terminal)'>
             <a href="https://docs.hummingbot.org/strategies/amm-arbitrage/" target='_blank' rel="noreferrer">
               <div tw='flex'>
                 <SmallRectangle />
@@ -95,7 +92,7 @@ const SmallRectangle = styled.div(() => [
     background: #5FFFD7;
     position: relative;
     top: 5px;
-    left: 1px;
+    left: 0px;
   `,
 ])
 

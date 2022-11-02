@@ -13,68 +13,63 @@ function WhatCanYouDo() {
   return (
     <Section tw='py-8 md:py-12 lg:py-24'>
       <Container>
-        <H4 isWhite isBold>What can you do with Hummingbot?</H4>
-        {/* <H6 isWhite isLight style={{opacity: '0.6'}}>Empowering companies to take control of token liquidity</H6> */}
-        <CustomContainer>
+        <H4 isWhite isBold tw='pb-md md:pb-lg'>What can you do with Hummingbot?</H4>
+        <RowGroup>
           <LeftColumn>
             <H6 isBold>Traders & Developers</H6>
           </LeftColumn>
-          <RightColumn>
-            <ThreeColumnHolder>
-              <Column>
-                <TitleP>Learn to build HFT bots</TitleP>
-                <LightP>Join Hummingbot BotCamp and build your own custom HFT and market making bots</LightP>
-                <Link to="/botcamp">
-                  <InternalLinkButton isLarge tw='w-full'>Learn with BotCamp</InternalLinkButton>
-                </Link>
-              </Column>
-              <Column>
-                <TitleP>Earn liquidity mining rewards</TitleP>
-                <LightP>Run market making bots on Miner and earn rewards based on open order volume</LightP>
-                <a href="https://coinalpha.com/miner" target="_blank" rel="noreferrer">
-                  <ExternalLinkButton isLarge label="Hummingbot Miner" />
-                </a>
-              </Column>
-              <Column>
-                <TitleP>Capture HBOT bounties</TitleP>
-                <LightP>Earn HBOT bounties by fixing bugs and contributing to the Hummingbot codebase</LightP>
-                <a href="https://docs.hummingbot.org/maintenance/bounties" target="_blank" rel="noreferrer">
-                  <ExternalLinkButton isLarge label="Bounties" />
-                </a>
-              </Column>
-            </ThreeColumnHolder>
-          </RightColumn>
-        </CustomContainer>
-        <CustomContainer>
+          <ThreeColumnHolder>
+            <div tw='pb-md'>
+              <TitleP>Learn to build HFT bots</TitleP>
+              <LightP>Join Hummingbot BotCamp and build your own custom HFT and market making bots</LightP>
+              <Link to="/botcamp">
+                <InternalLinkButton isLarge tw='w-full'>Learn with BotCamp</InternalLinkButton>
+              </Link>
+            </div>
+            <div tw='pb-md'>
+              <TitleP>Earn liquidity mining rewards</TitleP>
+              <LightP>Run market making bots on Miner and earn rewards based on open order volume</LightP>
+              <a href="https://coinalpha.com/miner" target="_blank" rel="noreferrer">
+                <ExternalLinkButton tw='w-full justify-between' isLarge label="Hummingbot Miner" />
+              </a>
+            </div>
+            <div tw='pb-md'>
+              <TitleP>Capture HBOT bounties</TitleP>
+              <LightP>Earn HBOT bounties by fixing bugs and contributing to the Hummingbot codebase</LightP>
+              <a href="https://docs.hummingbot.org/maintenance/bounties" target="_blank" rel="noreferrer">
+                <ExternalLinkButton tw='w-full justify-between' isLarge label="Bounties" />
+              </a>
+            </div>
+          </ThreeColumnHolder>
+        </RowGroup>
+        <RowGroup>
           <LeftColumn>
             <H6 isBold>Exchanges & Protocols</H6>
           </LeftColumn>
-          <RightColumn>
-            <ThreeColumnHolder>
-              <Column>
-                <TitleP>Tap into our global market maker community</TitleP>
-                <LightP>Become a certified exchange and access thousands of market makers globally</LightP>
-                <a href="https://docs.hummingbot.org/maintenance/certification" target="_blank" rel="noreferrer">
-                  <ExternalLinkButton isLarge label="Exchange Certification" />
-                </a>
-              </Column>
-              <Column>
-                <TitleP>Own your liquidity with self-serve market making</TitleP>
-                <LightP>Save money vs hiring market makers by running your own market making bots</LightP>
-                <a href="https://docs.hummingbot.org/strategies" target="_blank" rel="noreferrer">
-                  <ExternalLinkButton isLarge label="Hummingbot Strategies" />
-                </a>
-              </Column>
-              <Column>
-                <TitleP>Add your own connector to the Hummingbot codebase</TitleP>
-                <LightP>Build and contribute your CEX and DEX connectors to our open source codebase</LightP>
-                <a href="https://docs.hummingbot.org/developers" target="_blank" rel="noreferrer">
-                  <ExternalLinkButton isLarge label="Developer Docs" />
-                </a>
-              </Column>
-            </ThreeColumnHolder>
-          </RightColumn>
-        </CustomContainer>
+          <ThreeColumnHolder>
+            <div>
+              <TitleP>Tap into our global market maker community</TitleP>
+              <LightP>Become a certified exchange and access thousands of market makers globally</LightP>
+              <a href="https://docs.hummingbot.org/maintenance/certification" target="_blank" rel="noreferrer">
+                <ExternalLinkButton tw='w-full justify-between' isLarge label="Exchange Certification" />
+              </a>
+            </div>
+            <div>
+              <TitleP>Own your liquidity with self-serve market making</TitleP>
+              <LightP>Save money vs hiring market makers by running your own market making bots</LightP>
+              <a href="https://docs.hummingbot.org/strategies" target="_blank" rel="noreferrer">
+                <ExternalLinkButton tw='w-full justify-between' isLarge label="Hummingbot Strategies" />
+              </a>
+            </div>
+            <div>
+              <TitleP>Add your own connector to the Hummingbot codebase</TitleP>
+              <LightP>Build and contribute your CEX and DEX connectors to our open source codebase</LightP>
+              <a href="https://docs.hummingbot.org/developers" target="_blank" rel="noreferrer">
+                <ExternalLinkButton tw='w-full justify-between' isLarge label="Developer Docs" />
+              </a>
+            </div>
+          </ThreeColumnHolder>
+        </RowGroup>
       </Container>
     </Section>
   )
@@ -82,16 +77,16 @@ function WhatCanYouDo() {
 
 export default WhatCanYouDo
 
-const CustomContainer = styled.div(() => [
-  tw`my-md flex flex-col md:(flex-row my-xl)`,
+const RowGroup = styled.div(() => [
+  tw`pb-12 block xl:(grid grid-cols-4 gap-8)`,
 ])
 
 const LeftColumn = styled.div(() => [
-  tw`w-full pb-xs md:(w-1/4 pr-xl)`,
+  tw`col-span-1 pb-sm md:pb-md xl:pb-0`,
 ])
 
 const RightColumn = styled.div(() => [
-  tw`w-full md:w-3/4`,
+  tw`w-full lg:w-3/4`,
 ])
 
 const TitleP = styled(P)(() => [
@@ -103,9 +98,9 @@ const LightP = styled(P)(() => [
 ])
 
 const Column = styled.div(() => [
-  tw`w-full pb-md sm:(w-1/3 pr-xs)`,
+  tw`w-full pb-md md:(w-1/3 pr-xs)`,
 ])
 
 const ThreeColumnHolder = styled.div(() => [
-  tw`flex flex-col pt-md border-t-2 border-terminal sm:(flex-row pt-xs)`,
+  tw`col-span-3 border-t-2 border-terminal pt-xs grid grid-cols-1 gap-0 md:(grid-cols-3 gap-4)`,
 ])
