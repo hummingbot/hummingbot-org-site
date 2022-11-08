@@ -30,7 +30,7 @@ function BotcampHero() {
         <P tw='text-sm mt-xxs pb-xl font-medium'>Max 20 seats per cohort</P>
 
         <VideoCard
-          videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
+          videoEmbedSrc={'https://www.youtube.com/embed/_xsJA3ApAPY'}
           // title="Botcamp Trailer"
           descriptionText="BotCamp trailer video"
         />

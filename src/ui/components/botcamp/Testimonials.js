@@ -18,45 +18,45 @@ function Testimonials() {
         <VideoGrid>
           <LeftColumn>
             <VideoCard
-              videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
-              descriptionText="BotCamp testimonial 1"
+              videoEmbedSrc={'https://www.youtube.com/embed/lamJjaHcRSs'}
+              descriptionText="Alkalifah testimonial"
               tw='p-0 md:p-2'
             />
           </LeftColumn>
           <RightColumn>
-            <H6 isBold tw='leading-none text-terminal'>Vik</H6>
-            <P tw='text-secondary'>Microelectronics Engineer, Russia</P>
-            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I learned how to create a working arbitrage strategy that I'm now running every day"</H6>
+            <H6 isBold tw='leading-none text-terminal'>Alkalifah</H6>
+            <P tw='text-secondary'>Trader</P>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I have never been hired for a coding job and I only studied computer science for two years, yet I was able to come up with a script that I'm proud of. I think everyone could do it. I also want to give a shout ut to Fede. Without his guidance, I could have not completed my strategy script."</H6>
           </RightColumn>
         </VideoGrid>
 
         <VideoGrid>
           <LeftColumn>
             <VideoCard
-              videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
-              descriptionText="BotCamp testimonial 2"
+              videoEmbedSrc={'https://www.youtube.com/embed/atoEWjF37B8'}
+              descriptionText="Alan testimonial"
               tw='p-0 md:p-2'
             />
           </LeftColumn>
           <RightColumn>
             <H6 isBold tw='leading-none text-terminal'>Alan</H6>
-            <P tw='text-secondary'>Quantitative Engineer, USA</P>
-            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I learned how to create a working arbitrage strategy that I'm now running every day"</H6>
+            <P tw='text-secondary'>Founder</P>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I wanted to be able to learn how to develop in Hummingbot because my goal is to do reinforcement learning with Hummingbot, which would involve me doing more than using someone else's scripts. It's also useful for people who just want learn the basic nuts and bolts of trading."</H6>
           </RightColumn>
         </VideoGrid>
 
         <VideoGrid>
           <LeftColumn>
             <VideoCard
-              videoEmbedSrc={'https://www.youtube.com/embed/HfHaQS-nWHw'}
-              descriptionText="BotCamp testimonial 3"
+              videoEmbedSrc={'https://www.youtube.com/embed/rFq0Add0qJ0'}
+              descriptionText="Vik testimonial"
               tw='p-0 md:p-2'
             />
           </LeftColumn>
           <RightColumn>
             <H6 isBold tw='leading-none text-terminal'>Vik</H6>
-            <P tw='text-secondary'>Microelectronics Engineer, Russia</P>
-            <H6 tw='mt-xxs md:mt-xs leading-tight'>"I learned how to create a working arbitrage strategy that I'm now running every day"</H6>
+            <P tw='text-secondary'>Mom</P>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"Coding was my hobby before, but then I understood that I can make money from quant trading. I live now from the trading and for almost all the money I get, I spend on my family needs. I thought that Hummingbot scripts were just something simple, but I learned that scripts can do complex logic or complex strategies too."</H6>
           </RightColumn>
         </VideoGrid>
       </div>
