@@ -12,8 +12,8 @@ const FooterLinks = () => {
       <div tw='md:(flex justify-between)'>
         <div style={{ position: "relative" }}>
           <LogoA href='/'>
-            <HummingbotLogo />
-            <H6 isWhite isBold tw='text-2xl'>
+            <HummingbotLogo colorStyle='terminal' />
+            <H6 isWhite isBold tw='text-2xl ml-xxs'>
               Hummingbot
             </H6>
           </LogoA>
@@ -46,11 +46,9 @@ const FooterLinks = () => {
         </div>
       </div>
 
-      <div tw='mt-xl flex justify-between'>
-        <CopyrightTextHolder>
-          <CopyrightText>{`© Hummingbot Foundation ${new Date().getFullYear()}`}</CopyrightText>
-        </CopyrightTextHolder>
-        <div tw='w-auto md:w-[340px]'>
+      <div tw='flex flex-col mt-xl justify-between md:flex-row'>
+        <CopyrightText tw='order-2 md:order-1'>{`© Hummingbot Foundation ${new Date().getFullYear()}`}</CopyrightText>
+        <div tw='order-1 w-auto mb-sm md:(mb-0 w-[340px] order-2)'>
           <IconsRow>
             {communities.map((cardData, key) => (
               <a
@@ -113,20 +111,6 @@ export const IconsRow = styled.div({
   },
   '@media only screen and (max-width: 480px)': {
     order: "0",
-  },
-})
-
-export const CopyrightTextHolder = styled.div({
-  '@media only screen and (max-width: 768px)': {
-    marginTop: "10px",
-    order: "1",
-  },
-  '@media only screen and (max-width: 1024px)': {
-    order: "0",
-  },
-  '@media only screen and (max-width: 480px)': {
-    marginTop: "10px",
-    order: "1",
   },
 })
 
