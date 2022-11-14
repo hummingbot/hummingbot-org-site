@@ -30,12 +30,11 @@ function Metrics() {
           <div tw='mb-lg lg:(mb-0)'>
             <H6 isBold tw='col-span-3 border-b-2 border-blue text-terminal pb-xxs mb-xxs'>CEX Connectors</H6>
             <div>
-              <Columns>
+              <Columns3>
                 <H6 isMedium tw='text-terminal'>Binance</H6>
-                <H6 isMedium tw='text-terminal'>FTX</H6>
                 <H6 isMedium tw='text-terminal'>Kucoin</H6>
                 <H6 isMedium tw='text-terminal'>Gate.io</H6>
-              </Columns>
+              </Columns3>
               <br />
               <div tw='col-span-3'>
                 <a tw='inline-flex' href="https://docs.hummingbot.org/exchanges" target="_blank" rel="noreferrer">
@@ -79,6 +78,9 @@ const TwoColumns = styled.div(() => [
 ])
 const Columns = styled.div(() => [
   tw`grid grid-cols-4 gap-0`,
+])
+const Columns3 = styled.div(() => [
+  tw`grid grid-cols-3 gap-0`,
 ])
 
 const LeftColumn = styled.div(() => [
