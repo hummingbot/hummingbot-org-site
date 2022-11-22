@@ -30,11 +30,11 @@ function Metrics() {
           <div tw='mb-lg lg:(mb-0)'>
             <H6 isBold tw='col-span-3 border-b-2 border-blue text-terminal pb-xxs mb-xxs'>CEX Connectors</H6>
             <div>
-              <Columns3>
+              <Columns>
                 <H6 isMedium tw='text-terminal'>Binance</H6>
-                <H6 isMedium tw='text-terminal'>Kucoin</H6>
-                <H6 isMedium tw='text-terminal'>Gate.io</H6>
-              </Columns3>
+                <H6 isMedium tw='text-terminal'>Coinbase</H6>
+                <H6 isMedium tw='text-terminal'>Kraken</H6>
+              </Columns>
               <br />
               <div tw='col-span-3'>
                 <a tw='inline-flex' href="https://docs.hummingbot.org/exchanges" target="_blank" rel="noreferrer">
@@ -49,8 +49,7 @@ function Metrics() {
               <Columns>
                 <H6 isMedium tw='text-terminal'>Uniswap</H6>
                 <H6 isMedium tw='text-terminal'>dYdX</H6>
-                <H6 isMedium tw='text-terminal'>TraderJoe</H6>
-                <H6 isMedium tw='text-terminal'>Serum</H6>
+                <H6 isMedium tw='text-terminal'>PancakeSwap</H6>
               </Columns>
               <br />
               <div tw='col-span-3'>
@@ -77,28 +76,5 @@ const TwoColumns = styled.div(() => [
   tw`grid grid-cols-1 gap-0 lg:(grid-cols-2 gap-8)`,
 ])
 const Columns = styled.div(() => [
-  tw`grid grid-cols-4 gap-0`,
-])
-const Columns3 = styled.div(() => [
   tw`grid grid-cols-3 gap-0`,
-])
-
-const LeftColumn = styled.div(() => [
-  tw`w-full pb-xs md:(w-1/4 pr-xl)`,
-])
-
-const RightColumn = styled.div(() => [
-  tw`w-full md:w-3/4`,
-])
-
-const CEXContainer = styled(H6)(() => [
-  tw`md:(mx-md) mr-sm text-terminal`,
-])
-
-const DEXContainer = styled(H6)(() => [
-  tw`md:(mx-md) mr-sm text-blue`,
-])
-
-const LinkContainer = styled.div(() => [
-  tw`md:(mx-md) sm:(mx-sm)`,
 ])
