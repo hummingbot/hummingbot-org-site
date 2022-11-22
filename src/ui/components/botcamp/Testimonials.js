@@ -56,7 +56,7 @@ function Testimonials() {
           <RightColumn>
             <H6 isBold tw='leading-none text-terminal'>Vik</H6>
             <P tw='text-secondary'>Mom</P>
-            <H6 tw='mt-xxs md:mt-xs leading-tight'>"Coding was my hobby before, but then I understood that I can make money from quant trading. I live now from the trading and for almost all the money I get, I spend on my family needs. I thought that Hummingbot scripts were just something simple, but I learned that scripts can do complex logic or complex strategies too."</H6>
+            <H6 tw='mt-xxs md:mt-xs leading-tight'>"Coding was my hobby before, but then I understood that I can make money from quant trading. For all the money I get from trading, I spend on my family's needs. I thought that Hummingbot scripts were just something simple, but I learned that scripts can implemetn complex logic and strategies too."</H6>
           </RightColumn>
         </VideoGrid>
       </div>

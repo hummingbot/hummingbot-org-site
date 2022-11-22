@@ -17,17 +17,18 @@ function BotcampHero() {
 
         <H5 tw='pb-md max-w-[741px] text-center mx-auto leading-tight'>
           Learn the <span tw='text-magenta'> dark arts of crypto market making </span>
-          in an intensive 4-week online course
+          with our hands-on, small-batch online course
         </H5>
 
         <div tw='flex justify-center'>
           <a href="https://airtable.com/shrRj5bUAauDj2M4G" target="_blank" rel="noreferrer">
             <Button isLarge isTerminal>
-              Apply to next cohort
+              Apply for Jan 2023 cohort
             </Button>
           </a>
         </div>
-        <P tw='text-sm mt-xxs pb-xl font-medium'>Max 20 seats per cohort</P>
+        <P tw='text-sm mt-xxs font-medium'>Max 20 seats per cohort</P>
+        <P tw='text-sm mt-xxs font-medium pb-xxl'>Tuiton: $1000 USD</P>
 
         <VideoCard
           videoEmbedSrc={'https://www.youtube.com/embed/_xsJA3ApAPY'}
