@@ -22,7 +22,7 @@ function BotCamp() {
           <Navigation />
             <BotcampHero />
             <WhyBotcamp />
-            {/* <Testimonials /> */}
+            <Testimonials /> 
             <Trajectory />
             <BotcampContent />
             <StudentScripts />
