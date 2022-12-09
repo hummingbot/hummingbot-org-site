@@ -35,6 +35,10 @@ function BotcampFAQ() {
             <Item>
               We will be opening up the Hummingbot community to partnerships with hedge funds and exchanges very soon, and there will be opportunities for developers to submit their own strategy / improvement proposals or collaborate with different people in the community to contribute to the Hummingbot codebase and earn rewards. Stay tuned!  
             </Item>
+            <Title>+ Is there a Refund Policy?</Title>
+            <Item>
+              Botcamp only allows refunds within 14 days of your payment and before the start of the cohort, whichever date is earlier. 
+            </Item>
 
           </RightColumn>
       </CustomContainer>
