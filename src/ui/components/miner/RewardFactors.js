@@ -5,7 +5,7 @@ import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H6, H5, P, Green } from '@hummingbot/hbui/elements/typography'
 import { Button } from '@hummingbot/hbui/elements/buttons'
 import { ExternalLinkButton } from '../../elements/buttons'
-import GradOval from './assets/OvalGradientLower.svg'
+import GradOval from '../../assets/OvalGradientLower.svg'
 
 function RewardFactors() {
   return (

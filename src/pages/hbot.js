@@ -4,7 +4,7 @@ import tw from 'twin.macro'
 import Layout from '../ui/components/Layout'
 import Navigation from '../ui/components/Navigation'
 import { Section } from '@hummingbot/hbui/elements/layout'
-import Hero from '../ui/components/miner/Hero'
+import Hero from '../ui/components/hbot/Hero'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
