@@ -1,33 +1,57 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import tw, { styled } from 'twin.macro'
-import { Section, Container } from '@hummingbot/hbui/elements/layout'
-import { P, H2 } from '@hummingbot/hbui/elements/typography'
+import { Link } from 'gatsby'
+import { Section, Container, ItemsRow } from '@hummingbot/hbui/elements/layout'
+import { P, H2, H6 } from '@hummingbot/hbui/elements/typography'
+import { Button } from '@hummingbot/hbui/components/button'
+import TriangleDown from '@hummingbot/hbui/assets/svgs/arrows/TriangleDown'
 import { CustomRoundButton } from '../../elements/buttons'
 import { GradientSideLine } from '../../elements/layout'
 import { BackgroundNodes } from '../BackgroundNodes'
 import GradOval from '../../assets/OvalGradientLower.svg'
+import tokenImage from './hbot-token.png'
 
 function Hero() {
   return (
-    <Section tw='relative h-[500px] md:h-[700px] lg:h-[800px]' style={{overflow: 'hidden'}}>
+    <Section tw='relative h-[600px] lg:h-[800px]' style={{overflow: 'hidden'}}>
       <div style={{opacity: '0.5', position: 'absolute', top: '100%', left: '50%', width: '1989px', height: '1083px'}}>
         <img src={GradOval} alt='test' style={{zIndex: '0', position: 'relative', top: '-50%', left: '-50%', width: '1989px', height: '1083px'}} />
       </div>
       <span tw='hidden md:inline'>
         <BackgroundNodes />
       </span>
-      <Section tw='h-[500px] md:h-[700px] lg:h-[800px]' style={{justifyContent: 'center'}}>
-        <Container tw='z-10 pt-0 pb-7 md:pb-8 lg:pb-9 xl:pb-10'>
-          <CustomH1 isBold tw='lg:max-w-4xl pb-xs'>Decide how the Hummingbot codebase evolves</CustomH1>
+      <Section tw='h-[600px] lg:h-[800px]' style={{justifyContent: 'center'}}>
+        <Container tw='z-10 mt-xxl'>
+          <CustomH1 isBold tw='pb-xs'>Decide how the Hummingbot codebase evolves</CustomH1>
           <CustomContainer>
             <LeftColumn>
-              <H2>Image</H2>
+              <TokenImageWrapper>
+                <img src={tokenImage} alt='HBOT Token' />
+              </TokenImageWrapper>
             </LeftColumn>
             <RightColumn>
-              <P>
-                The Hummingbot Governance Token (HBOT) lets holders decide which CEXs, DEXs, and strategies should be actively maintained and included in each Hummingbot release.
-              </P>
+              <H6>
+                <span tw='text-magenta'>HBOT</span> is a governance token lets holders allocate maintenance bandwidth and developer bounties toward various components in the open source Hummingbot codebase.
+              </H6>
+              <ItemsRow tw='mt-xs'>
+                <Link to="#earn-hbot">
+                  <Button 
+                    isLarge
+                    isSecondary
+                    iconAfter={<TriangleDown tw='fill-current'/>}
+                    label="Earn HBOT"
+                  />
+                </Link>
+                <Link to="#use-hbot">
+                  <Button
+                    isLarge
+                    isSecondary
+                    iconAfter={<TriangleDown tw='fill-current'/>}
+                    label="Use HBOT"
+                  />
+                </Link>
+              </ItemsRow>
             </RightColumn>
           </CustomContainer>
         </Container>
@@ -52,8 +76,13 @@ const CustomContainer = styled(Container)(() => [
 ])
 
 const LeftColumn = styled.div(() => [
-  tw`w-full pb-xs`,
-  tw`md:(w-1/2 pr-xl)`,
+  tw`w-full pb-xs flex justify-center`,
+  tw`md:(w-1/2 pr-xxxl justify-end)`,
+])
+
+const TokenImageWrapper = styled.div(() => [
+  tw`w-1/4`,
+  tw`md:w-3/4 lg:w-1/2 xl:w-1/3`,
 ])
 
 const RightColumn = styled.div(() => [
@@ -66,6 +95,6 @@ const BottomGradientLine = styled.div({
   bottom: '0',
   left: '0',
   width: '100%',
-  height: '3px',
+  height: '1px',
   background: 'linear-gradient(270deg, #00C2CE 25.96%, #318DFF 100%)',
 })
