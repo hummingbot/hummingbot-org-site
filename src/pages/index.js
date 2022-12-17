@@ -6,7 +6,7 @@ import Metrics from '../ui/components/home/Metrics'
 import WhatCanYouDo from '../ui/components/home/WhatYouCanDo'
 import Features from '../ui/components/home/Features'
 import Strategies from '../ui/components/home/Strategies'
-import Governance from '../ui/components/home/Governance'
+import HbotLinks from '../ui/components/hbot/HbotLinks'
 import WhoWeAre from '../ui/components/home/WhoWeAre'
 import ActionBlock from '../ui/components/ActionBlock'
 import Footer from '../ui/components/footer'
@@ -22,7 +22,7 @@ function Home() {
       <Features />
       <WhatCanYouDo />
       <Strategies />
-      <Governance />
+      <HbotLinks />
       <WhoWeAre />
       <ActionBlock />
       <Footer />

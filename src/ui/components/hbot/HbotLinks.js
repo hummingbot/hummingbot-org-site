@@ -1,7 +1,7 @@
 import React from 'react'
-import tw, { styled } from 'twin.macro'
+import { styled } from 'twin.macro'
 import { Section, ItemsRow } from '@hummingbot/hbui/elements/layout'
-import { H4, H5, P } from '@hummingbot/hbui/elements/typography'
+import { H5, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
 import LiquidityMiningIllustration from '../../assets/bots_mining_illustration.svg'
 import { ExternalLinkButton } from "../../elements/buttons"
@@ -68,6 +68,20 @@ function HbotLinks() {
             </a>
             <a href="https://snapshot.org/#/hbot.eth" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge label="HBOT Tracker" />
+            </a>
+          </ItemsRow>
+        </Box>
+      </Container>
+      <Container>
+        <Box tw='w-full p-sm self-start border-2 border-orange/25'>
+          <H5 isBold tw='leading-none text-orange!'>Reported Volumes</H5>
+          <P isWhite isMedium tw='mt-sm'>
+          A real-time, customizable Datadog dashboard of the daily aggregated, anonymized trade volumes reported by Hummingbot clients.
+          </P>
+          <br />
+          <ItemsRow>
+            <a href="https://discord.gg/hummingbot" target='_blank' rel="noreferrer">
+              <ExternalLinkButton isLarge label="Reported Volumes" />
             </a>
           </ItemsRow>
         </Box>
