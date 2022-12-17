@@ -2,71 +2,66 @@
 import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { H4, H6, P } from '@hummingbot/hbui/elements/typography'
-import { CardB } from '@hummingbot/hbui/components/cards/CardB'
+import { P, H1, H2, H3, H4, H6, Body } from '@hummingbot/hbui/elements/typography'
+import { ExternalLinkButton } from "../../elements/buttons"
 
 function UseHbot() {
   return (
-  <Section tw='pt-xxxl'>
-    <CustomContainer>
-      <LeftColumn>
-        <H4 isWhite isBold>
-          Why take Botcamp?
-        </H4>
-      </LeftColumn>
-      <RightColumn>
-        <Item>
-          <Title>Learn the theory and practice of crypto market making</Title>
-          <Content>
-            Hummingbot open sourced the code behind Wall Street's secretive market making algorithms. BotCamp teaches you how to run these algos successfully in volatile crypto markets.
-          </Content>
-        </Item>
+  <Section
+    tw='py-xl md:py-xxxl border-y-2 border-terminal'
+    id='use-hbot'
+  >
+    <Container>
+      <CustomContainer>
+        <LeftColumn>
+          <H4 isWhite isBold tw='leading-tight'>
+            Ways to use HBOT
+          </H4>
+          <P tw='text-secondary pt-md'>
+            Help us make Hummingbot better through governance
+          </P>
+        </LeftColumn>
+        <RightColumn>
+          <Item>
+            <Title>Propose changes</Title>
+            <Content>
+              Vote on polls and proposals that decide which exchanges and strategies are included in the Hummingbot codebase.
+            </Content>
+            <a href="https://docs.hummingbot.org/proposals" target='_blank' rel="noreferrer">
+              <ExternalLinkButton label="Types of Proposals" />
+            </a>
+          </Item>
 
-        <Item>
-          <Title>Design and code your own trading strategy</Title>
-          <Content>
-            Have an idea for a killer trading algo? In BotCamp, you'll learn how to code your custom strategy using Hummingbot in just a few lines of basic Python code.
-          </Content>
-        </Item>
+          <Item>
+            <Title>Allocate bounties</Title>
+            <Content>
+              Allocate HBOT bounties to developers for fixing bugs or adding new connectors, strategies, and enhancements.
+            </Content>
+            <a href="https://github.com/orgs/hummingbot/projects/7" target='_blank' rel="noreferrer">
+              <ExternalLinkButton label="Bounties Board" />
+            </a>
+          </Item>
 
-        <Item>
-          <Title>Lifetime access to community and content library</Title>
-          <Content>
-            Join a community of developers and market makers, and get lifetime access to BotCamp's expanding library of strategy teardowns, tutorial videos, and other quant trading content.
-          </Content>
-        </Item>
-      </RightColumn>
-    </CustomContainer>
-    <Separator tw='pt-xl' />
+          <Item>
+            <Title>Prioritize issues</Title>
+            <Content>
+            Decide which issues and pull requests are included in each monthly release.
+            </Content>
+            <a href="https://github.com/orgs/hummingbot/projects/1" target='_blank' rel="noreferrer">
+              <ExternalLinkButton label="Pull Request Status" />
+            </a>
+          </Item>
+
+        </RightColumn>
+      </CustomContainer>
+    </Container>
   </Section>
   )
 }
 
 export default UseHbot
 
-const Columns = styled.div(() => [
-  tw`my-md grid grid-cols-1 gap-0 lg:(my-xl grid-cols-3 gap-4)`,
-])
-
-function IconBook() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      viewBox="0 0 24 24"
-    >
-      <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"></path>
-    </svg>
-  );
-}
-
-const CustomContainer = styled(Container)(() => [
+const CustomContainer = styled.div(() => [
   tw`my-md flex flex-col md:(flex-row my-xl)`,
 ])
 
@@ -75,7 +70,7 @@ const LeftColumn = styled.div(() => [
 ])
 
 const RightColumn = styled.div(() => [
-  tw`w-full block md:(grid grid-cols-3 gap-8 w-2/3)`,
+  tw`w-full md:w-2/3`,
 ])
 
 const Item = styled.div(() => [
@@ -83,10 +78,9 @@ const Item = styled.div(() => [
 ])
 
 const Title = styled(H6)(() => [
-  tw`text-terminal leading-tight pt-xs`,
+  tw`text-terminal pt-xs leading-tight`,
 ])
 
 const Content = styled(P)(() => [
   tw`text-white mt-xxs md:mt-xs opacity-70 mb-xs`,
 ])
-  
