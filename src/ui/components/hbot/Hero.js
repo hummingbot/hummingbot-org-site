@@ -10,7 +10,7 @@ import { CustomRoundButton } from '../../elements/buttons'
 import { GradientSideLine } from '../../elements/layout'
 import { BackgroundNodes } from '../BackgroundNodes'
 import GradOval from '../../assets/OvalGradientLower.svg'
-import tokenImage from './hbot-token.png'
+import tokenImage from '../../assets/hbot-token.png'
 
 function Hero() {
   return (
@@ -32,7 +32,7 @@ function Hero() {
             </LeftColumn>
             <RightColumn>
               <H6>
-                <span tw='text-magenta'>HBOT</span> is a governance token lets holders allocate maintenance bandwidth and developer bounties toward various components in the open source Hummingbot codebase.
+                The HBOT governance token lets holders decide which <span tw='text-magenta'>exchanges</span> and <span tw='text-blue'>strategies</span> should be included in the Hummingbot codebase, prioritize Github <span tw='text-orange'>issues</span>, and allocate developer <span tw='text-terminal'>bounties</span>.
               </H6>
               <ItemsRow tw='mt-xs'>
                 <Link to="#earn-hbot">
