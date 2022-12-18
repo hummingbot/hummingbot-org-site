@@ -7,6 +7,7 @@ import { Section } from '@hummingbot/hbui/elements/layout'
 import Hero from '../ui/components/hbot/Hero'
 import HbotLinks from '../ui/components/hbot/HbotLinks'
 import UseHbot from '../ui/components/hbot/UseHbot'
+import EarnHbot from '../ui/components/hbot/EarnHbot'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
@@ -19,6 +20,7 @@ function HBOT() {
         <Hero />
         <HbotLinks />
         <UseHbot />
+        <EarnHbot />
         <Footer />
       </Section>
     </Layout>

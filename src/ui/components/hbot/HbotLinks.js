@@ -13,7 +13,7 @@ function HbotLinks() {
         <BoxHBOT tw='p-sm md:p-md border-2 border-terminal/25'>
           <H5 isBold tw='leading-none text-terminal!'>HBOT Token</H5>
           <P isWhite isMedium tw='relative z-20 mt-sm max-w-[100%] md:max-w-[50%]'>
-          HBOT is an Ethereum ERC-20 token that trades on Uniswap, where holders can trade it or earn fees for providing liquidity. Future venues will be listed here.
+          HBOT is an Ethereum ERC-20 token that trades on Uniswap, where holders can trade it or earn fees for providing liquidity.
           </P>
           <br />
           <div tw='flex flex-col gap-2'>

@@ -1,14 +1,14 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
-import tw, { styled, css } from 'twin.macro'
-import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { P, H1, H2, H3, H4, H6, Body } from '@hummingbot/hbui/elements/typography'
+import tw, { styled } from 'twin.macro'
+import { Section, Container, ItemsRow } from '@hummingbot/hbui/elements/layout'
+import { P, H4, H6 } from '@hummingbot/hbui/elements/typography'
 import { ExternalLinkButton } from "../../elements/buttons"
 
 function UseHbot() {
   return (
   <Section
-    tw='py-xl md:py-xxxl border-y-2 border-terminal'
+    tw='py-xl md:py-xxxl'
     id='use-hbot'
   >
     <Container>
@@ -23,29 +23,29 @@ function UseHbot() {
         </LeftColumn>
         <RightColumn>
           <Item>
-            <Title>Propose changes</Title>
+            <Title>Vote in polls</Title>
             <Content>
-              Vote on polls and proposals that decide which exchanges and strategies are included in the Hummingbot codebase.
+              Participate in regular polls that decide which exchanges and strategies should be included in the Hummingbot codebase.
             </Content>
-            <a href="https://docs.hummingbot.org/proposals" target='_blank' rel="noreferrer">
-              <ExternalLinkButton label="Types of Proposals" />
+            <a href="https://blog.hummingbot.org/changes-to-hummingbot-maintenance-and-governance-processes/" target='_blank' rel="noreferrer">
+              <ExternalLinkButton label="Upcoming Polls" />
             </a>
           </Item>
 
           <Item>
-            <Title>Allocate bounties</Title>
+            <Title>Submit proposals</Title>
             <Content>
-              Allocate HBOT bounties to developers for fixing bugs or adding new connectors, strategies, and enhancements.
+              Use various types of proposals to propose changes to the codebase via pull requests and new developer bounties.
             </Content>
-            <a href="https://github.com/orgs/hummingbot/projects/7" target='_blank' rel="noreferrer">
-              <ExternalLinkButton label="Bounties Board" />
+            <a href="https://docs.hummingbot.org/governance/proposals" target='_blank' rel="noreferrer">
+              <ExternalLinkButton label="Types of Proposals" />
             </a>
           </Item>
 
           <Item>
             <Title>Prioritize issues</Title>
             <Content>
-            Decide which issues and pull requests are included in each monthly release.
+              Decide which issues and pull requests are included in each monthly release.
             </Content>
             <a href="https://github.com/orgs/hummingbot/projects/1" target='_blank' rel="noreferrer">
               <ExternalLinkButton label="Pull Request Status" />

@@ -35,20 +35,12 @@ function Hero() {
                 HBOT is a governance token lets holders decide which <span tw='text-magenta'>exchanges</span> and <span tw='text-blue'>strategies</span> should be included in the Hummingbot codebase, prioritize Github <span tw='text-orange'>issues</span>, and allocate developer <span tw='text-terminal'>bounties</span>.
               </H6>
               <ItemsRow tw='mt-xs'>
-                <Link to="#earn-hbot">
+                <Link to="#use-hbot">
                   <Button 
                     isLarge
                     isSecondary
                     iconAfter={<TriangleDown tw='fill-current'/>}
-                    label="Earn HBOT"
-                  />
-                </Link>
-                <Link to="#use-hbot">
-                  <Button
-                    isLarge
-                    isSecondary
-                    iconAfter={<TriangleDown tw='fill-current'/>}
-                    label="Use HBOT"
+                    label="Earn and use HBOT"
                   />
                 </Link>
               </ItemsRow>
