@@ -8,6 +8,7 @@ import Hero from '../ui/components/hbot/Hero'
 import HbotLinks from '../ui/components/hbot/HbotLinks'
 import UseHbot from '../ui/components/hbot/UseHbot'
 import EarnHbot from '../ui/components/hbot/EarnHbot'
+import HbotFaq from '../ui/components/hbot/HbotFaq'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
@@ -21,6 +22,7 @@ function HBOT() {
         <HbotLinks />
         <UseHbot />
         <EarnHbot />
+        <HbotFaq />
         <Footer />
       </Section>
     </Layout>
