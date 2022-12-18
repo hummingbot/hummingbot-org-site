@@ -6,7 +6,7 @@ import { P, H1 } from '@hummingbot/hbui/elements/typography'
 import { CustomRoundButton } from '../../elements/buttons'
 import { GradientSideLine } from '../../elements/layout'
 import { BackgroundNodes } from '../BackgroundNodes'
-import GradOval from './assets/OvalGradientLower.svg'
+import GradOval from '../../assets/OvalGradientLower.svg'
 
 function Hero() {
   return (

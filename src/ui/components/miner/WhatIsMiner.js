@@ -3,7 +3,7 @@ import React from 'react'
 import tw, { styled } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { P, H6, Green } from '@hummingbot/hbui/elements/typography'
-import TerminalWindows from './assets/terminal_windows.png'
+import TerminalWindows from '../../assets/terminal_windows.png'
 
 function WhatIsMiner() {
   return (

@@ -2,62 +2,67 @@
 import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
-import { H6, H3, H4, H5, P, Green } from '@hummingbot/hbui/elements/typography'
-import { ExternalLinkButton, CustomRoundButton } from '../../elements/buttons'
-import GradOval from '../../assets/OvalGradientFat.svg'
+import { H4, H6, P } from '@hummingbot/hbui/elements/typography'
+import { ExternalLinkButton } from "../../elements/buttons"
 
-function ActionBlock() {
+function EarnHbot() {
   return (
-    <Section tw='relative py-20 md:py-28'>
-      <div style={{position: 'absolute', top: '50%', left: '50%', width: '1501px', height: '1084px'}}>
-        <img src={GradOval} alt='test' style={{zIndex: '0', position: 'relative', top: '-50%', left: '-50%', width: '1501px', height: '1084px'}} />
-      </div>
-      <Container style={{zIndex: '1'}}>
+    <Section tw='pb-20 md:pb-28 lg:pb-36 relative border-b-2 border-terminal'>
+      <Container>
+        <H4 isWhite isBold>How to earn HBOT</H4>
         <Columns>
-          <ColumnA>
+          <Column>
             <div tw='flex justify-between mb-md'>
-              <H5 tw='font-bold text-white leading-none'>Sign up to Hummingbot to get started</H5>
+              <OpenOrdersIcon tw='relative top-[4px]' />
+              <CustomH6>Developer bounties</CustomH6>
             </div>
+            <P tw='text-white mb-xs'>
+              Get assigned bounties for fixing bugs, upgrading exchange connectors, and other maintenance work.
+            </P>
+            <a href="https://github.com/orgs/hummingbot/projects/7" target='_blank' rel="noreferrer">
+              <ExternalLinkButton label="Bounties Board" />
+            </a>
+          </Column>
+          <Column>
+            <div tw='flex justify-between mb-md'>
+              <SpreadIcon tw='relative top-[4px]' />
+              <CustomH6>Provide liquidity</CustomH6>
+            </div>
+            <P tw='text-white mb-xs'>
+              Earn HBOT rewards for providing liquidity to select pairs on Hummingbot Miner.
+            </P>
             <a href="https://miner.hummingbot.io" target='_blank' rel="noreferrer">
-              <CustomRoundButton isLarge tw='w-full'>Get started</CustomRoundButton>
+              <ExternalLinkButton label="Hummingbot Miner" />
             </a>
-          </ColumnA>
-          <ColumnB>
+          </Column>
+          <Column>
             <div tw='flex justify-between mb-md'>
-              <CustomH6>Learn from Hummingbot Academy and Community</CustomH6>
+              <ClockIcon tw='relative top-[4px]' />
+              <CustomH6>Support the community</CustomH6>
             </div>
-            <P tw='text-white mb-md'>Learn how to become a successful market maker through Hummingbot Academy and joining our Hummingbot Discord server</P>
-            <a href="https://hummingbot.io/en/academy/" target='_blank' rel="noreferrer">
-              <ExternalLinkButton tw='justify-between mb-xxs min-w-[280px]' isLarge label='Learn through Academy' />
-            </a>
-            <a href="https://discord.gg/V4PfK2tHC6" target='_blank' rel="noreferrer">
-              <ExternalLinkButton tw='justify-between min-w-[280px]' isLarge label='Join Discord server' />
-            </a>
-          </ColumnB>
+              <P tw='text-white mb-xs'>
+                Provide answers to community questions on Discord to earn weekly HBOT incentives.
+              </P>
+              <a href="https://discord.com/channels/530578568154054663/537722826342400001/1050416395655061574" target='_blank' rel="noreferrer">
+                <ExternalLinkButton label="Learn more" />
+              </a>
+          </Column>
         </Columns>
       </Container>
     </Section>
   )
 }
 
-export default ActionBlock
+export default EarnHbot
 
 const Columns = styled.div(() => [
-  tw`items-start my-md grid grid-cols-1 gap-0 lg:(my-xl grid-cols-2 gap-8)`,
+  tw`my-md grid grid-cols-1 gap-0 lg:(my-xl grid-cols-3 gap-8)`,
 ])
 
-const ColumnA = styled.div(() => [
-  tw`mb-sm border-2 border-terminal p-sm lg:(p-md mb-0)`,
-  css`
-    background: #161C18;
-    border-radius: 10px;
-  `,
-])
-
-const ColumnB = styled.div(() => [
+const Column = styled.div(() => [
   tw`mb-sm p-sm lg:(p-md mb-0)`,
   css`
-    background: rgba(95, 255, 215, 0.04);
+    background: #161C18;
     border-radius: 10px;
   `,
 ])
@@ -65,8 +70,6 @@ const ColumnB = styled.div(() => [
 const CustomH6 = styled(H6)(() => [
   tw`font-medium text-terminal leading-tight w-[calc(100% - 38px)]`,
 ])
-
-
 
 function OpenOrdersIcon({...props}) {
   return (

@@ -6,7 +6,7 @@ import { css, keyframes } from "styled-components";
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H1, H6 } from '@hummingbot/hbui/elements/typography'
 import { BackgroundNodes } from "../BackgroundNodes"
-import TerminalImage from './assets/hero_terminal_image.png'
+import TerminalImage from '../../assets/hero_terminal_image.png'
 import { ItemsRow } from '@hummingbot/hbui/elements/layout'
 import { Button } from '@hummingbot/hbui/elements/buttons'
 

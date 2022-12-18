@@ -4,8 +4,7 @@ import { styled } from 'twin.macro'
 import { Section, ItemsRow } from '@hummingbot/hbui/elements/layout'
 import { H4, H5, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
-import { LinkButton } from '../../elements/buttons'
-import LiquidityMiningIllustration from './assets/bots_mining_illustration.svg'
+import LiquidityMiningIllustration from '../../assets/bots_mining_illustration.svg'
 import { ExternalLinkButton } from "../../elements/buttons"
 
 function Governance() {
@@ -18,7 +17,7 @@ function Governance() {
         <BoxHBOT tw='p-sm md:p-md border-2 border-terminal/25'>
           <H5 isBold tw='leading-none text-terminal!'>HBOT Token</H5>
           <P isWhite isMedium tw='relative z-20 mt-sm max-w-[100%] md:max-w-[50%]'>
-            HBOT is an Ethereum ERC-20 token that lets holders decide how the Hummingbot codebase evolves, propose and approve developer bounties, and govern the Hummingbot Foundation. 
+            The HBOT governance token lets holders decide which exchanges and strategies should be included in the Hummingbot codebase, prioritize Github issues, and allocate developer bounties.
           </P>
           <br />
           <ItemsRow>

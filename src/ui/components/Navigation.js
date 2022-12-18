@@ -1,6 +1,5 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
-import tw, { styled } from 'twin.macro'
 import NavBar from '@hummingbot/hbui/components/navigation/NavBar'
 import { Link } from 'gatsby'
 
@@ -8,6 +7,12 @@ const siteNameA = 'Hummingbot'
 const siteNameB = ''
 const userData = null
 const linksRight = [
+  { url: '/hbot',
+    label: 'HBOT'
+  },
+  { url: '/botcamp',
+    label: 'Botcamp'
+  },
   { url: null,
     label: 'Developers',
     subLinks: [
@@ -15,18 +20,6 @@ const linksRight = [
       { label: 'Github', url: 'https://github.com/hummingbot/hummingbot', external: true },
       { label: 'Botcamp', url: '/botcamp', external: false }
     ] 
-  },
-  { url: null,
-    label: 'Governance',
-    subLinks: [
-      { label: 'Governance', url: 'https://docs.hummingbot.org/governance', external: true },
-      { label: 'HBOT', url: 'https://docs.hummingbot.org/hbot', external: true },
-      { label: 'Snapshot', url: 'https://snapshot.org/#/hbot.eth', external: true },
-      { label: 'Forum', url: 'https://forum.hummingbot.org', external: true },
-    ] 
-  },
-  { url: '/botcamp',
-    label: 'Botcamp'
   },
   { url: null,
     label: 'Miner',

@@ -5,8 +5,7 @@ import { Link } from 'gatsby'
 import { Section, Separator } from '@hummingbot/hbui/elements/layout'
 import { H4, H5, H6, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
-import { LinkButton } from '../../elements/buttons'
-import LiquidityMiningIllustration from './assets/bots_mining_illustration.svg'
+import LiquidityMiningIllustration from '../../assets/bots_mining_illustration.svg'
 import { ExternalLinkButton, InternalLinkButton } from "../../elements/buttons"
 
 function WhatCanYouDo() {
