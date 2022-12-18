@@ -31,7 +31,7 @@ function Hero() {
               </TokenImageWrapper>
             </LeftColumn>
             <RightColumn>
-              <H6>
+              <H6 tw='xl:mt-xl'>
                 HBOT is a governance token lets holders decide which <span tw='text-magenta'>exchanges</span> and <span tw='text-blue'>strategies</span> should be included in the Hummingbot codebase, prioritize Github <span tw='text-orange'>issues</span>, and allocate developer <span tw='text-terminal'>bounties</span>.
               </H6>
               <ItemsRow tw='mt-xs'>
@@ -74,7 +74,7 @@ const LeftColumn = styled.div(() => [
 
 const TokenImageWrapper = styled.div(() => [
   tw`w-1/4`,
-  tw`md:w-3/4 lg:w-1/2 xl:w-1/3`,
+  tw`md:w-3/4 lg:w-1/2`,
 ])
 
 const RightColumn = styled.div(() => [
