@@ -28,7 +28,7 @@ function BotcampHero() {
           </a>
         </div>
         <P tw='text-sm mt-xxs font-medium'>Max 20 seats per cohort</P>
-        <P tw='text-sm mt-xxs font-medium pb-xxl'>Tuiton: $1000 USD</P>
+        <P tw='text-sm mt-xxs font-medium pb-xxl'>Tuiton: $1000 USD. Prices increase by Jan 10th.</P>
 
         <VideoCard
           videoEmbedSrc={'https://www.youtube.com/embed/_xsJA3ApAPY'}
