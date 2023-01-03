@@ -17,11 +17,11 @@ function BotcampFAQ() {
           <RightColumn>
             <Title>+ How much does BotCamp cost? </Title>
             <Item>
-              The 4-week Botcamp course costs <span tw='text-terminal'>$1000 USD</span>, because our staff and mentors devote hands-on, 1:1 coaching time to help each and every student learn and build their custom script. That's why we cap each cohort at <span tw='text-terminal'>max 20 students</span>. Students also get lifetime access to all the content in library, which we will expand with more strategy teardowns, tutorials, and other content. Prices increase by Jan 10th.
+              The 4-week Botcamp course costs <span tw='text-terminal'>$1000 USD</span>, because our staff and mentors devote hands-on, 1:1 coaching time to help each and every student learn and build their custom script. That's why we cap each cohort at <span tw='text-terminal'>max 20 students</span>. Students also get lifetime access to all the content in library, which we will expand with more strategy teardowns, tutorials, and other content. Prices increase to US$1750 in Cohort #4.
             </Item>
             <Title>+ Can I apply for a scholarship to Botcamp?</Title>
             <Item>
-              We plan to offer scholarships to Botcamp sponsored by crypto exchanges, as well as educational discounts in the future. To learn more, please email operations@hummingbot.org and provide rationale for why you think you deserve a scholarship.
+              We may have a few extra spots for scholarships on a highly selective basis. 
             <Title>+ How much coding knowledge is required?</Title>
             <Item>
               Our scripts developer course requires only basic knowledge in coding - having taken any computer programming 101 course is fine. The scripts are designed to be simple and can be creating with 40 lines of code. We will also provide a dedicated onboarding guide for students who have less developer experience.        
