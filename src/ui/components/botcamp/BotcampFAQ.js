@@ -22,6 +22,7 @@ function BotcampFAQ() {
             <Title>+ Can I apply for a scholarship to Botcamp?</Title>
             <Item>
               We may have a few extra spots for scholarships on a highly selective basis. 
+            </Item>
             <Title>+ How much coding knowledge is required?</Title>
             <Item>
               Our scripts developer course requires only basic knowledge in coding - having taken any computer programming 101 course is fine. The scripts are designed to be simple and can be creating with 40 lines of code. We will also provide a dedicated onboarding guide for students who have less developer experience.
