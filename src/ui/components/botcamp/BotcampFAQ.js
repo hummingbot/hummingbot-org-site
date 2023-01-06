@@ -15,26 +15,36 @@ function BotcampFAQ() {
             </H1>
           </LeftColumn>
           <RightColumn>
-            <Title>+ How much does BotCamp cost? </Title>
-            <Item>
-              The 4-week Botcamp course costs <span tw='text-terminal'>$1000 USD</span>, because our staff and mentors devote hands-on, 1:1 coaching time to help each and every student learn and build their custom script. That's why we cap each cohort at <span tw='text-terminal'>max 20 students</span>. Students also get lifetime access to all the content in library, which we will expand with more strategy teardowns, tutorials, and other content. Prices increase to US$1750 in Cohort #4.
+            <Title>+ How much does Botcamp cost? </Title>
+            <Item>              
+              The 4-week Botcamp course along with 1 year of access to the content library and community costs $1750. Students can also opt to take the course and get lifetime access to the content library and community for $3500. We will regularly add fresh content to the content library and introduce new modules accessible by all students in the Botcamp community.
             </Item>
+
             <Title>+ Can I apply for a scholarship to Botcamp?</Title>
             <Item>
               We may have a few extra spots for scholarships on a highly selective basis. 
             </Item>
+            <Title>+ How many students are in a cohort? </Title>
+
+            <Item>              
+              Currently, each cohort is <span tw='text-terminal'>capped at 25 students</span> so that we and our mentors devote hands-on, 1:1 coaching time to help each student build their custom script. Students can book office hours with mentors and opt into 1:1 sessions with other students to learn collaboratively. At the end of Botcamp, students present the scripts they have built to the community at Demo Day.
+            </Item>
+
             <Title>+ How much coding knowledge is required?</Title>
             <Item>
               Our scripts developer course requires only basic knowledge in coding - having taken any computer programming 101 course is fine. The scripts are designed to be simple and can be creating with 40 lines of code. We will also provide a dedicated onboarding guide for students who have less developer experience.
             </Item>
+
             <Title>+ How much time should be spent in the program?</Title>
             <Item>
               Students typically spend a few hours per week in the program, while we are flexible on your schedule and time. That said, how much you get is based on how much you spend learning and reaching out to our community of mentors and students. The goal of the courses is to provide you with an overview of the knowledge, and pointers for you to continue work on your own based on your goals. Reach out to our mentors who will be able to provide you with 1-1 guidance if needed!     
             </Item>
+
             <Title>+ What can you do after being certified?</Title>
             <Item>
               We will be opening up the Hummingbot community to partnerships with hedge funds and exchanges very soon, and there will be opportunities for developers to submit their own strategy / improvement proposals or collaborate with different people in the community to contribute to the Hummingbot codebase and earn rewards. Stay tuned!  
             </Item>
+
             <Title>+ Is there a Refund Policy?</Title>
             <Item>
               Botcamp only allows refunds within 14 days of your payment and before the start of the cohort, whichever date is earlier. 
