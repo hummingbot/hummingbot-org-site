@@ -23,12 +23,12 @@ function BotcampHero() {
         <div tw='flex justify-center'>
           <a href="https://airtable.com/shrRj5bUAauDj2M4G" target="_blank" rel="noreferrer">
             <Button isLarge isTerminal>
-              Apply for Jan 2023 cohort
+              Apply for March 2023 cohort
             </Button>
           </a>
         </div>
-        <P tw='text-sm mt-xxs font-medium'>Max 20 seats per cohort</P>
-        <P tw='text-sm mt-xxs font-medium pb-xxl'>Tuition: $1000 for Cohort #3 (4 spots left). Prices increase to $1750 Cohort #4.</P>
+        <P tw='text-sm mt-xxs font-medium'>Max 25 seats per cohort</P>
+        <P tw='text-sm mt-xxs font-medium pb-xxl'>Tuition: $1750/year or $3500/lifetime</P>
 
         <VideoCard
           videoEmbedSrc={'https://www.youtube.com/embed/_xsJA3ApAPY'}
