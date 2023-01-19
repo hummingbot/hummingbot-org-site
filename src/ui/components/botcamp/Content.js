@@ -69,7 +69,25 @@ function BotcampContent() {
           <Item>
             <Title>Week 3</Title>
             <ContentDescription tw='pb-md'>
-              In Week 3, you'll learn basic hedging techniques like cross-exchange market making, as well as advanced topics like accessing order book data. We'll also review the dynamic price ceiling/floor implementation, and provide final guidance to students coding their custom scripts.
+              In Week 3, you'll learn basic hedging techniques like cross-exchange market making, as well as advanced topics like accessing order book data. We'll also review the dynamic price ceiling/floor implementation.
+            </ContentDescription>
+
+            <CustomInnerContainer>
+              <LeftInnerColumn>
+              <Body tw='text-terminal font-medium leading-none pb-sm'>Homework</Body>
+              <ContentItem>- [code] Work on your custom script</ContentItem>
+              </LeftInnerColumn>
+              <RightInnerColumn>
+              <Body tw='text-blue font-bold leading-none pb-sm'>Optional</Body>
+              <ContentItem>- [help] Get help from mentors during office hours</ContentItem>
+              </RightInnerColumn>
+            </CustomInnerContainer>
+          </Item>
+
+          <Item>
+            <Title>Week 4-5</Title>
+            <ContentDescription tw='pb-md'>
+              In Week 4 and 5, you'll get guidance from mentors in weekly office hours and work on your custom scripts that you will present in the final Demo Day session.
             </ContentDescription>
 
             <CustomInnerContainer>
@@ -86,7 +104,7 @@ function BotcampContent() {
           </Item>
 
           <Item>
-            <Title>Week 4: Demo Day</Title>
+            <Title>Week 6: Demo Day</Title>
             <ContentDescription tw='pb-md'>
               In the final Demo Day session, students present their videos and vote for for their favorite script submissions. The top submissions receive HBOT token prizes and get their scripts merged into the Hummingbot codebase, while all qualifying scripts receive a Hummingbot Script Developer NFT certificate.
             </ContentDescription>
