@@ -27,7 +27,7 @@ function BotcampHero() {
             </Button>
           </a>
         </div>
-        <P tw='text-sm mt-xxs font-medium'>Max 25 seats per cohort</P>
+        <P tw='text-sm mt-xxs font-medium'>Max 30 seats per cohort</P>
         <P tw='text-sm mt-xxs font-medium pb-xxl'>Tuition: $1750/year or $3500/lifetime</P>
 
         <VideoCard

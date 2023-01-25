@@ -17,7 +17,7 @@ function BotcampFAQ() {
           <RightColumn>
             <Title>+ How much does Botcamp cost? </Title>
             <Item>              
-              The 4-week Botcamp course along with 1 year of access to the content library and community costs $1750. Students can also opt to take the course and get lifetime access to the content library and community for $3500. We will regularly add fresh content to the content library and introduce new modules accessible by all students in the Botcamp community.
+              The 6-week Botcamp course along with 1 year of access to the content library and community costs $1750. Students can also opt to take the course and get lifetime access to the content library and community for $3500. We will regularly add fresh content to the content library and introduce new modules accessible by all students in the Botcamp community.
             </Item>
 
             <Title>+ Can I apply for a scholarship to Botcamp?</Title>
@@ -27,7 +27,7 @@ function BotcampFAQ() {
             <Title>+ How many students are in a cohort? </Title>
 
             <Item>              
-              Currently, each cohort is <span tw='text-terminal'>capped at 25 students</span> so that we and our mentors devote hands-on, 1:1 coaching time to help each student build their custom script. Students can book office hours with mentors and opt into 1:1 sessions with other students to learn collaboratively. At the end of Botcamp, students present the scripts they have built to the community at Demo Day.
+              Currently, each cohort is <span tw='text-terminal'>capped at 30 students</span> so that we and our mentors devote hands-on, 1:1 coaching time to help each student build their custom script. Students can book office hours with mentors and opt into 1:1 sessions with other students to learn collaboratively. At the end of Botcamp, students present the scripts they have built to the community at Demo Day.
             </Item>
 
             <Title>+ How much coding knowledge is required?</Title>
