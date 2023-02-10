@@ -53,7 +53,7 @@ function Strategies() {
           <div>
             <DescP><span tw="text-terminal">Scripts</span> let you define any trading strategy with just a few lines of Python.</DescP>
           </div>
-          <a href="https://docs.hummingbot.org/developers/scripts/" target='_blank' rel="noreferrer">
+          <a href="https://docs.hummingbot.org/scripts/getting-started/" target='_blank' rel="noreferrer">
             <ExternalLinkButton isLarge label="Explore Scripts" />
           </a>
         </LargeBox>

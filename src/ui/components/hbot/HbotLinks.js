@@ -63,7 +63,7 @@ function HbotLinks() {
           </P>
           <br />
           <ItemsRow>
-            <a href="https://snapshot.org/#/hbot.eth" target='_blank' rel="noreferrer">
+            <a href="https://docs.hummingbot.org/governance/whitepaper/" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge label="Whitepaper" />
             </a>
             <a href="https://docs.google.com/spreadsheets/u/1/d/1UNAumPMnXfsghAAXrfKkPGRH9QlC8k7Cu1FGQVL1t0M/edit?usp=sharing" target='_blank' rel="noreferrer">
