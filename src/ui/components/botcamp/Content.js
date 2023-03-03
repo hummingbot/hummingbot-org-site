@@ -2,7 +2,7 @@
 import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
-import { P, H1, H2, H4, H6, Body } from '@hummingbot/hbui/elements/typography'
+import { P, H1, H2, H4, H6, Label } from '@hummingbot/hbui/elements/typography'
 import Snackbar from '@hummingbot/hbui/components/snackbar'
 
 function BotcampContent() {
@@ -34,12 +34,12 @@ function BotcampContent() {
 
             <CustomInnerContainer>
               <LeftInnerColumn>
-              <Body tw='text-terminal font-medium leading-none pb-sm'>Homework</Body>
+              <Label tw='text-terminal font-medium leading-none pb-sm'>Homework</Label>
               <ContentItem>- [video] Teardown: Simple Pure Market Making</ContentItem>
               <ContentItem>- [code] Design your custom strategy using the template</ContentItem>
               </LeftInnerColumn>
               <RightInnerColumn>
-              <Body tw='text-blue font-bold leading-none pb-sm'>Optional</Body>
+              <Label tw='text-blue font-bold leading-none pb-sm'>Optional</Label>
               <ContentItem>- [code] Implement a simple arbitrage script</ContentItem>
               <ContentItem>- [help] Submit questions for discussion during next live session</ContentItem>
               </RightInnerColumn>
@@ -53,13 +53,13 @@ function BotcampContent() {
             </ContentDescription>
             <CustomInnerContainer>
               <LeftInnerColumn>
-                <Body tw='text-terminal font-medium leading-none pb-sm'>Homework</Body>
+                <Label tw='text-terminal font-medium leading-none pb-sm'>Homework</Label>
                 <ContentItem>- [video] Teardown: Simple XEMM</ContentItem>
                 <ContentItem>- [video] Teardown: Simple VWAP</ContentItem>
                 <ContentItem>- [code] Start coding your custom script</ContentItem>
               </LeftInnerColumn>
               <RightInnerColumn>
-                <Body tw='text-blue font-bold leading-none pb-sm'>Optional</Body>
+                <Label tw='text-blue font-bold leading-none pb-sm'>Optional</Label>
                 <ContentItem>- [help] Get help from mentors during office hours</ContentItem>
                 <ContentItem>- [code] Extend the Simple PMM script with a dynamic price ceiling/floor feature</ContentItem>
               </RightInnerColumn>
@@ -74,11 +74,11 @@ function BotcampContent() {
 
             <CustomInnerContainer>
               <LeftInnerColumn>
-              <Body tw='text-terminal font-medium leading-none pb-sm'>Homework</Body>
+              <Label tw='text-terminal font-medium leading-none pb-sm'>Homework</Label>
               <ContentItem>- [code] Work on your custom script</ContentItem>
               </LeftInnerColumn>
               <RightInnerColumn>
-              <Body tw='text-blue font-bold leading-none pb-sm'>Optional</Body>
+              <Label tw='text-blue font-bold leading-none pb-sm'>Optional</Label>
               <ContentItem>- [help] Get help from mentors during office hours</ContentItem>
               </RightInnerColumn>
             </CustomInnerContainer>
@@ -92,12 +92,12 @@ function BotcampContent() {
 
             <CustomInnerContainer>
               <LeftInnerColumn>
-              <Body tw='text-terminal font-medium leading-none pb-sm'>Homework</Body>
+              <Label tw='text-terminal font-medium leading-none pb-sm'>Homework</Label>
               <ContentItem>- [code] Submit a pull request with the code of your script</ContentItem>
               <ContentItem>- [video] Create a video presenting your script</ContentItem>
               </LeftInnerColumn>
               <RightInnerColumn>
-              <Body tw='text-blue font-bold leading-none pb-sm'>Optional</Body>
+              <Label tw='text-blue font-bold leading-none pb-sm'>Optional</Label>
               <ContentItem>- [help] Get help from mentors during office hours</ContentItem>
               </RightInnerColumn>
             </CustomInnerContainer>

@@ -5,7 +5,7 @@ import Layout from '../ui/components/Layout'
 import Navigation from '../ui/components/Navigation'
 import { Link } from "gatsby"
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
-import { P, H1, H5, H6, Body, Bold, Green } from '@hummingbot/hbui/elements/typography'
+import { P, H1, H5, H6, Label, Bold, Green } from '@hummingbot/hbui/elements/typography'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
@@ -18,7 +18,7 @@ function CookiePolicy() {
         <Container>
           <div tw='py-36 mb-36 border-b border-green'>
             <H1><Green>Cookie Policy</Green> of coinalpha.com</H1>
-            <Body>This document informs Users about the technologies that help this Website to achieve the purposes described below. Such technologies allow the Owner to access and store information (for example by using a Cookie) or use resources (for example by running a script) on a User’s device as they interact with this Website.</Body>
+            <Label>This document informs Users about the technologies that help this Website to achieve the purposes described below. Such technologies allow the Owner to access and store information (for example by using a Cookie) or use resources (for example by running a script) on a User’s device as they interact with this Website.</Label>
           </div>
           <P><Bold>VERSION 2.0</Bold></P>
           <br />

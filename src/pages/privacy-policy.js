@@ -5,7 +5,7 @@ import Layout from '../ui/components/Layout'
 import Navigation from '../ui/components/Navigation'
 import { Link } from "gatsby"
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
-import { P, H1, H5, Body, Bold, Green } from '@hummingbot/hbui/elements/typography'
+import { P, H1, H5, Label, Bold, Green } from '@hummingbot/hbui/elements/typography'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
@@ -18,7 +18,7 @@ function PrivacyPolicy() {
         <Container>
           <div tw='py-36 mb-36 border-b border-green'>
             <H1><Green>Privacy Policy</Green> of hummingbot.org</H1>
-            <Body>This Website collects some Personal Data from its Users.</Body>
+            <Label>This Website collects some Personal Data from its Users.</Label>
           </div>
           <br />
           <P isBold isItalic>Latest update: August 31, 2022</P>
@@ -44,7 +44,7 @@ function PrivacyPolicy() {
           <P>Users are responsible for any third-party Personal Data obtained, published or shared through this Website and confirm that they have the third party's consent to provide the Data to the Owner.</P>
           <br />
           <br />
-          <Body isBold isGreen>Mode and place of processing the Data</Body>
+          <Label isBold isGreen>Mode and place of processing the Data</Label>
           <P isGreen isBold>Methods of processing</P>
           <br />
           <P>The Owner takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.</P>
@@ -87,13 +87,13 @@ function PrivacyPolicy() {
           <P>Once the retention period expires, Personal Data shall be deleted. Therefore, the right to access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period.</P>
           <br />
           <br />
-          <Body isBold isGreen>The purposes of processing</Body>
+          <Label isBold isGreen>The purposes of processing</Label>
           <P>The Data concerning the User is collected to allow the Owner to provide its Services, as well as for the following purposes: Analytics, Contacting the User, User database management, Data transfer outside the EU and Managing contacts and sending messages.</P>
           <br />
           <P>Users can find further detailed information about such purposes of processing and about the specific Personal Data used for each purpose in the respective sections of this document.</P>
           <br />
           <br />
-          <Body isBold isGreen>Detailed information on the processing of Personal Data</Body>
+          <Label isBold isGreen>Detailed information on the processing of Personal Data</Label>
           <P>Personal Data is collected for the following purposes and using the following services:</P>
           <br />
           <P isGreen isBold>Analytics</P>
@@ -101,7 +101,7 @@ function PrivacyPolicy() {
           <P>The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.</P>
           <br />
           <br />
-          <Body isBold isGreen>Google Analytics (Google LLC)</Body>
+          <Label isBold isGreen>Google Analytics (Google LLC)</Label>
           <P>Google Analytics is a web analysis service provided by Google LLC (“Google”). Google utilizes the Data collected to track and examine the use of this Website, to prepare reports on its activities and share them with other Google services. Google may use the Data collected to contextualize and personalize the ads of its own advertising network.</P>
           <br />
           <P>Personal Data collected: Cookies; Usage Data.</P>
@@ -109,7 +109,7 @@ function PrivacyPolicy() {
           <P>Place of processing: United States – <Link to='/privacy-policy'><Green>Privacy Policy</Green></Link> – <a href='https://tools.google.com/dlpage/gaoptout?hl=en' target='_blank' rel="noreferrer">Opt Out</a>. Privacy Shield participant.</P>
           <br />
           <br />
-          <Body isBold isGreen>PostHog (PostHog Inc.)</Body>
+          <Label isBold isGreen>PostHog (PostHog Inc.)</Label>
           <P>PostHog is an open source analytics service provided by PostHog Inc. Personal Data collected: Cookies; Usage Data.</P>
           <br />
           <P>Place of processing: United States – <Link to='/privacy-policy'><Green>Privacy Policy</Green></Link>.</P>
@@ -117,13 +117,13 @@ function PrivacyPolicy() {
           <br />
           <H5 isGreen isBold>Contacting the User</H5>
           <br />
-          <Body isBold isGreen>Mailing list or newsletter (this Website)</Body>
+          <Label isBold isGreen>Mailing list or newsletter (this Website)</Label>
           <P>By registering on the mailing list or for the newsletter, the User’s email address will be added to the contact list of those who may receive email messages containing information of commercial or promotional nature concerning this Website. Your email address might also be added to this list as a result of signing up to this Website or after making a purchase.</P>
           <br />
           <P>Personal Data collected: email address.</P>
           <br />
           <br />
-          <Body isBold isGreen>Contact form (this Website)</Body>
+          <Label isBold isGreen>Contact form (this Website)</Label>
           <P>By filling in the contact form with their Data, the User authorizes this Website to use these details to reply to requests for information, quotes or any other kind of request as indicated by the form’s header.</P>
           <br />
           <P>Personal Data collected: email address.</P>
@@ -133,19 +133,19 @@ function PrivacyPolicy() {
           <P>The Owner is allowed to transfer Personal Data collected within the EU to third countries (i.e. any country not part of the EU) only pursuant to a specific legal basis. Any such Data transfer is based on one of the legal bases described below. Users can inquire with the Owner to learn which legal basis applies to which specific service.</P>
           <br />
           <br />
-          <Body isBold isGreen>Data transfer abroad based on consent (this Website)</Body>
+          <Label isBold isGreen>Data transfer abroad based on consent (this Website)</Label>
           <P>If this is the legal basis, Personal Data of Users shall be transferred from the EU to third countries only if the User has explicitly consented to such transfer, after having been informed of the possible risks due to the absence of an adequacy decision and appropriate safeguards. In such cases, the Owner shall inform Users appropriately and collect their explicit consent via this Website.</P>
           <br />
           <P>Personal Data collected: various types of Data.</P>
           <br />
           <br />
-          <Body isBold isGreen>Data transfer abroad based on standard contractual clauses (this Website)</Body>
+          <Label isBold isGreen>Data transfer abroad based on standard contractual clauses (this Website)</Label>
           <P>If this is the legal basis, the transfer of Personal Data from the EU to third countries is carried out by the Owner according to “standard contractual clauses” provided by the European Commission. This means that Data recipients have committed to process Personal Data in compliance with the data protection standards set forth by EU data protection legislation. For further information, Users are requested to contact the Owner through the contact details provided in the present document.</P>
           <br />
           <P>Personal Data collected: various types of Data.</P>
           <br />
           <br />
-          <Body isBold isGreen>Data transfer to countries that guarantee European standards (this Website)</Body>
+          <Label isBold isGreen>Data transfer to countries that guarantee European standards (this Website)</Label>
           <P>If this is the legal basis, the transfer of Personal Data from the EU to third countries is carried out according to an adequacy decision of the European Commission.</P>
           <br />
           <P>The European Commission adopts adequacy decisions for specific countries whenever it considers that country to possess and provide Personal Data protection standards comparable to those set forth by EU data protection legislation. Users can find an updated list of all adequacy decisions issued on the European Commission's website.</P>
@@ -153,7 +153,7 @@ function PrivacyPolicy() {
           <P>Personal Data collected: various types of Data.</P>
           <br />
           <br />
-          <Body isBold isGreen>Other legal basis for Data transfer abroad (this Website)</Body>
+          <Label isBold isGreen>Other legal basis for Data transfer abroad (this Website)</Label>
           <P>If no other legal basis applies, Personal Data shall be transferred from the EU to third countries only if at least one of the following conditions is met:</P>
           <br />
           <P tw='pl-4 border-l border-green mb-xxs'>the transfer is necessary for the performance of a contract between the User and the Owner or of pre-contractual measures taken at the User’s request;</P>
@@ -169,7 +169,7 @@ function PrivacyPolicy() {
           <P>These services may also collect data concerning the date and time when the message was viewed by the User, as well as when the User interacted with it, such as by clicking on links included in the message.</P>
           <br />
           <br />
-          <Body isBold isGreen>Mailchimp (The Rocket Science Group, LLC.)</Body>
+          <Label isBold isGreen>Mailchimp (The Rocket Science Group, LLC.)</Label>
           <P>Mailchimp is an email address management and message sending service provided by The Rocket Science Group, LLC.</P>
           <br />
           <P>Personal Data collected: email address.</P>
@@ -244,7 +244,7 @@ function PrivacyPolicy() {
           <br />
           <br />
           <br />
-          <Body isBold isGreen>Definitions and legal references</Body>
+          <Label isBold isGreen>Definitions and legal references</Label>
           <P><Bold>Personal Data (or Data)</Bold>: Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</P>
           <br />
           <P><Bold>Usage Data</Bold>: Information collected automatically through this Website (or third-party services employed in this Website), which can include: the IP addresses or domain names of the computers utilized by the Users who use this Website, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.</P>

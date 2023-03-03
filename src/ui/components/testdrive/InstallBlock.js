@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { Section } from '@hummingbot/hbui/elements/layout'
 import { Container } from '../../elements/layout' /* custom container with more left-right padding */
 import { H2 } from '@hummingbot/hbui/elements/typography'
-import { Button } from '@hummingbot/hbui/components/button'
+import { Button } from '@hummingbot/hbui/components/buttons'
 
 function InstallBlock() {
   return (
