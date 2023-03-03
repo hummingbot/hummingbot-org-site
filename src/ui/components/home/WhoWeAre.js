@@ -4,7 +4,7 @@ import tw from 'twin.macro'
 import styled from 'styled-components'
 import { Section } from '@hummingbot/hbui/elements/layout'
 import { Container } from '../../elements/layout'
-import { ExternalLinkButton } from '../../elements/buttons'
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 import { H2, H5, P, Body, Green } from '@hummingbot/hbui/elements/typography'
 import HummingbotLogo from "../../../svgs/HummingbotLogo"
 import CoinAlphaLogo from "../../../svgs/CoinAlphaLogo"

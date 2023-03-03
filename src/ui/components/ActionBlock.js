@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H6, H5, P } from '@hummingbot/hbui/elements/typography'
-import { ExternalLinkButton } from '../elements/buttons'
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 import { Button } from '@hummingbot/hbui/elements/buttons'
 
 function ActionBlock() {
@@ -17,7 +17,7 @@ function ActionBlock() {
               <H5 tw='font-bold text-white leading-none'>Learn the dark arts of market making with Hummingbot BotCamp</H5>
             </div>
             <Link to="/botcamp">
-              <Button isLarge tw='w-full'>Learn with BotCamp</Button>
+              <Button isLarge variant='terminal' tw='w-full'>Learn with BotCamp</Button>
             </Link>
           </ColumnA>
           <ColumnB>

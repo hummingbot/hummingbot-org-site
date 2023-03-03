@@ -15,14 +15,15 @@ function Hero() {
     <CustomSection style={{background: 'url(/assets/OvalGradientLower.svg) no-repeat'}}>
       <Container tw='z-10 pt-0 pb-7 md:pb-8 lg:pb-9 xl:pb-10'>
         <CustomH1 isWhite isBold tw='lg:max-w-4xl pb-xs'>Open Source<br />Market Making</CustomH1>
-        <H6 tw='text-white mb-lg max-w-[500px] lg:(max-w-[50%]) xl:(max-w-[600px])'>Hummingbot is open source software that helps you build <strong>high-frequency crypto trading bots
+        <H6 tw='text-white pb-lg max-w-[500px] lg:(max-w-[50%]) xl:(max-w-[600px])'>
+          Hummingbot is open source software that helps you build <strong>high-frequency crypto trading bots
         </strong> that specialize in market making and arbitrage strategies</H6>
         <ItemsRow>
-        <Link to="/test-drive">
-          <Button isTerminal isLarge>Test Drive</Button>
-        </Link>
         <Link to="/botcamp">
-          <Button isSecondary isLarge>Learn with Botcamp</Button>
+          <Button variant="terminal" isLarge>Learn with Botcamp</Button>
+        </Link>
+        <Link to="/test-drive">
+          <Button isLarge>Test Drive</Button>
         </Link>
         </ItemsRow>
         <div tw='hidden lg:block'>

@@ -4,8 +4,7 @@ import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
 import { P, H1, H2, H4, H6 } from '@hummingbot/hbui/elements/typography'
 import StudentsJSON from "../../../../content/student-scripts.json"
-import { CardA } from '@hummingbot/hbui/components/cards/CardA'
-import { ExternalLinkButton } from '../../elements/buttons'
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 
 function StudentScripts() {
   return (

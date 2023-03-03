@@ -63,6 +63,7 @@ function Navigation({ disableBreakcrumbs }) {
       linkCTA={linkCTA}
       position='absolute'
       bgColor='#121212'
+      containerVariant='full'
     />
   )
 }

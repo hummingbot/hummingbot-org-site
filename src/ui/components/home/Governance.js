@@ -5,7 +5,7 @@ import { Section, ItemsRow } from '@hummingbot/hbui/elements/layout'
 import { H4, H5, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
 import LiquidityMiningIllustration from '../../assets/bots_mining_illustration.svg'
-import { ExternalLinkButton } from "../../elements/buttons"
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 
 function Governance() {
   return (

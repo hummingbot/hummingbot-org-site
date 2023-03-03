@@ -3,7 +3,7 @@ import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H4, H6, P } from '@hummingbot/hbui/elements/typography'
-import { ExternalLinkButton } from "../../elements/buttons"
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 
 function EarnHbot() {
   return (

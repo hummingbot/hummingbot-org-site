@@ -3,7 +3,8 @@ import React from 'react'
 import tw, { styled, css } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H6, H3, H4, H5, P, Green } from '@hummingbot/hbui/elements/typography'
-import { ExternalLinkButton, CustomRoundButton } from '../../elements/buttons'
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
+import { CustomRoundButton } from '../../elements/buttons'
 import GradOval from '../../assets/OvalGradientFat.svg'
 
 function ActionBlock() {

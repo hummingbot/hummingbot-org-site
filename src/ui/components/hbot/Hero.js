@@ -21,7 +21,6 @@ function Hero() {
       <span tw='hidden md:inline'>
         <BackgroundNodes />
       </span>
-      <Section tw='h-[600px] lg:h-[800px]' style={{justifyContent: 'center'}}>
         <Container tw='z-10 mt-xxl'>
           <CustomH1 isBold tw='pb-xs'>Decide how the Hummingbot codebase evolves</CustomH1>
           <CustomContainer>
@@ -47,7 +46,6 @@ function Hero() {
             </RightColumn>
           </CustomContainer>
         </Container>
-      </Section>
       <BottomGradientLine />
     </Section>
   )

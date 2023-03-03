@@ -1,10 +1,10 @@
 /* eslint no-unused-vars: [ "off", { "argsIgnorePattern": "tw" } ] */
 import React from 'react'
 import tw, { css, styled } from 'twin.macro'
-import { Section, ItemsRow, Container } from '@hummingbot/hbui/elements/layout'
+import { Section } from '@hummingbot/hbui/elements/layout'
 import { H2, H6, P } from '@hummingbot/hbui/elements/typography'
 import { Container as CustomContainer } from '../../elements/layout'
-import { ExternalLinkButton, CustomRoundButton } from "../../elements/buttons"
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 
 function Metrics() {
   return (

@@ -5,8 +5,7 @@ import { Link } from 'gatsby'
 import { Section, Separator } from '@hummingbot/hbui/elements/layout'
 import { H4, H5, H6, P } from '@hummingbot/hbui/elements/typography'
 import { Container } from '../../elements/layout'
-import LiquidityMiningIllustration from '../../assets/bots_mining_illustration.svg'
-import { ExternalLinkButton, InternalLinkButton } from "../../elements/buttons"
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 
 function WhatCanYouDo() {
   return (
@@ -22,7 +21,7 @@ function WhatCanYouDo() {
               <TitleP>Learn to build HFT bots</TitleP>
               <LightP>Join Hummingbot BotCamp and build your own custom HFT and market making bots</LightP>
               <Link to="/botcamp">
-                <InternalLinkButton isLarge tw='w-full'>Learn with BotCamp</InternalLinkButton>
+                <ExternalLinkButton isLarge tw='w-full' label="Learn with BotCamp" />
               </Link>
             </div>
             <div tw='pb-md'>

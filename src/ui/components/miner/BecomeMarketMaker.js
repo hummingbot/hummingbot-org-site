@@ -3,8 +3,7 @@ import React from 'react'
 import tw, { styled } from 'twin.macro'
 import { Section, Container } from '@hummingbot/hbui/elements/layout'
 import { H5, P } from '@hummingbot/hbui/elements/typography'
-import { Button } from '@hummingbot/hbui/elements/buttons'
-import { ExternalLinkButton } from '../../elements/buttons'
+import { ExternalLinkButton } from '@hummingbot/hbui/components/buttons'
 
 function BecomeMarketMaker() {
   return (
