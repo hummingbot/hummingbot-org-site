@@ -19,12 +19,12 @@ function Hero() {
           Hummingbot is open source software that helps you build <strong>high-frequency crypto trading bots
         </strong> that specialize in market making and arbitrage strategies</H6>
         <ItemsRow>
-        <Link to="/botcamp">
-          <Button variant="terminal" isLarge>Learn with Botcamp</Button>
-        </Link>
-        <Link to="/test-drive">
-          <Button isLarge>Test Drive</Button>
-        </Link>
+          <Link to="/botcamp">
+            <Button variant="terminal" isLarge>Learn with Botcamp</Button>
+          </Link>
+          <a href="https://docs.hummingbot.org" target="_blank">
+            <Button variant="secondary" isLarge>See the Docs</Button>
+          </a>
         </ItemsRow>
         <div tw='hidden lg:block'>
           <HummingbotBird />

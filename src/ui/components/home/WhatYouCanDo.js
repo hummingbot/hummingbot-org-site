@@ -47,9 +47,9 @@ function WhatCanYouDo() {
           <ThreeColumnHolder>
             <div>
               <TitleP>Tap into our global market maker community</TitleP>
-              <LightP>Become a certified exchange and access thousands of market makers globally</LightP>
-              <a href="https://docs.hummingbot.org/maintenance/certification" target="_blank" rel="noreferrer">
-                <ExternalLinkButton tw='w-full justify-between' isLarge label="Exchange Certification" />
+              <LightP>Get exposure to thousands of market makers who run Hummingbot daily</LightP>
+              <a href="https://docs.hummingbot.org/governance/polls" target="_blank" rel="noreferrer">
+                <ExternalLinkButton tw='w-full justify-between' isLarge label="Exchange Polls" />
               </a>
             </div>
             <div>
