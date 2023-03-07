@@ -22,7 +22,7 @@ function Hero() {
           <Link to="/botcamp">
             <Button variant="terminal" isLarge>Learn with Botcamp</Button>
           </Link>
-          <a href="https://docs.hummingbot.org" target="_blank">
+          <a href="https://docs.hummingbot.org" target="_blank" rel="noreferrer">
             <Button variant="secondary" isLarge>See the Docs</Button>
           </a>
         </ItemsRow>
@@ -54,10 +54,11 @@ const CustomH1 = styled(H1)({
 })
 
 const TerminalImageElement = styled.img(() => [
-  tw`hidden`,
-  tw`lg:(block right-[-400px])`,
-  tw`xl:(right-[-130px])`,
-  tw`2xl:(right-[5%])`,
+  tw`hidden min-[1200px]:block`,
+  tw`min-[1200px]:left-[60%]`,
+  tw`min-[1600px]:left-[55%]`,
+  tw`min-[2000px]:left-[50%]`,
+  tw`min-[2200px]:left-[45%]`,
   css`
     position: absolute;
     bottom: -70px;
@@ -126,10 +127,11 @@ const AnimatedBirdSVGBase = styled.svg({
 })
 
 const AnimatedBirdSVG = styled(AnimatedBirdSVGBase)(() => [
-  tw`hidden`,
-  tw`lg:(block right-[420px])`,
-  tw`xl:(right-[700px])`,
-  tw`2xl:(right-[930px])`,
+  tw`hidden min-[1200px]:block`,
+  tw`min-[1200px]:left-[60%]`,
+  tw`min-[1600px]:left-[55%]`,
+  tw`min-[2000px]:left-[50%]`,
+  tw`min-[2200px]:left-[45%]`,
 ])
 
 function HummingbotBird() {
