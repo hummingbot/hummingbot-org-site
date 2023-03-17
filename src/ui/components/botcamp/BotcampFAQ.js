@@ -35,6 +35,13 @@ function BotcampFAQ() {
               Our scripts developer course requires only basic knowledge in coding - having taken any computer programming 101 course is fine. The scripts are designed to be simple and can be creating with 40 lines of code. We will also provide a dedicated onboarding guide for students who have less developer experience.
             </Item>
 
+            <Title>+ How can I assess if my coding knowledge is sufficient?</Title>
+            <Item>
+              As students will need to build their own algo trading script to get certified, here are some sample scripts from the Hummingbot codebase: <a href="https://github.com/hummingbot/hummingbot/blob/master/scripts/buy_only_three_times_example.py" target="_blank" rel="noreferrer">Simple</a>, <a href="https://github.com/hummingbot/hummingbot/blob/master/scripts/simple_pmm_example.py" target="_blank" rel="noreferrer">Intermediate</a>, <a href="https://github.com/hummingbot/hummingbot/blob/master/scripts/simple_directional_strategy_example.py" target="_blank" rel="noreferrer">Advanced</a>.
+              <br /><br />
+              At a minimum, students should be able to basically understand the Python code in the Simple script and want to learn how to build the Intermediate and Advanced scripts.
+            </Item>
+
             <Title>+ How much time should be spent in the program?</Title>
             <Item>
               Students typically spend a few hours per week in the program, while we are flexible on your schedule and time. That said, how much you get is based on how much you spend learning and reaching out to our community of mentors and students. The goal of the courses is to provide you with an overview of the knowledge, and pointers for you to continue work on your own based on your goals. Reach out to our mentors who will be able to provide you with 1-1 guidance if needed!     

@@ -51,7 +51,7 @@ function HbotLinks() {
             <a href="https://snapshot.org/#/hbot.eth" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge label="Snapshot" />
             </a>
-            <a href="https://snapshot.org/#/hbot.eth" target='_blank' rel="noreferrer">
+            <a href="https://www.notion.so/hummingbot-foundation/5c767683f80b45c4934aa8cf755a2ff5?v=4dd057ac162f49c9813e11cec0688204&pvs=4" target='_blank' rel="noreferrer">
               <ExternalLinkButton isLarge label="Calendar" />
             </a>
           </ItemsRow>
