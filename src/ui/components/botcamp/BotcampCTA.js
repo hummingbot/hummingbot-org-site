@@ -13,7 +13,7 @@ function BotcampCTA() {
           Learn to code crypto trading bots
         </H2>
         <H6 tw='text-terminal pb-md'>
-          Each batch is limited to max 30 seats. Sign up now to secure your spot!
+          Each batch is limited to a small group. Sign up now to secure your spot!
         </H6>
 
         <div tw='flex justify-center'>
