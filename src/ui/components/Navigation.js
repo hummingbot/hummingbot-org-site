@@ -44,8 +44,8 @@ const linksRight = [
 ]
 const linksLeft = null
 const linkCTA = {
-  label: 'Test Drive',
-  url: '/test-drive',
+  label: 'Learn with Botcamp',
+  url: '/botcamp',
   external: false,
   buttonStyle: 'terminal',
 }
