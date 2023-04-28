@@ -9,6 +9,7 @@ import Strategies from '../ui/components/home/Strategies'
 import HbotLinks from '../ui/components/hbot/HbotLinks'
 import WhoWeAre from '../ui/components/home/WhoWeAre'
 import ActionBlock from '../ui/components/ActionBlock'
+import Newsletter from '../ui/components/Newsletter'
 import Footer from '../ui/components/footer'
 import Seo from "../system/seo"
 
@@ -25,6 +26,7 @@ function Home() {
       <HbotLinks />
       <WhoWeAre />
       <ActionBlock />
+      <Newsletter />
       <Footer />
     </Layout>
   )
