@@ -106,5 +106,12 @@ module.exports = {
         isEnabledDevMode: true
       }
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://hummingbot.us9.list-manage.com/subscribe/post?u=548b8c3eb87a1b029fd4f9f2b&amp;id=b726be68bd&amp;f_id=003621e1f0',
+          timeout: 3500, // amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out
+      },
+    },
   ],
 }
