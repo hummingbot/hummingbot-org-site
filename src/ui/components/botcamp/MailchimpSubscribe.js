@@ -69,7 +69,7 @@ class MailchimpSubscribe extends Component {
           />
           <CustomRoundButton
             tw='px-2 py-2 rounded-md focus:outline-none'
-            variant='default'
+            variant='success'
             type='submit'
             id='mc-embedded-subscribe'
           >
