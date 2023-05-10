@@ -4,6 +4,7 @@ import tw, { styled, css } from 'twin.macro'
 import { Section, Container, Separator } from '@hummingbot/hbui/elements/layout'
 import { P, H1, H2, H4, H6 } from '@hummingbot/hbui/elements/typography'
 import { Button } from '@hummingbot/hbui/elements/buttons'
+import GetNewsletter from './GetNewsletter'
 
 function BotcampCTA() {
   return (
@@ -25,6 +26,7 @@ function BotcampCTA() {
         </div>
 
     </Container>
+    <GetNewsletter />
   </Section>
   )
 }
