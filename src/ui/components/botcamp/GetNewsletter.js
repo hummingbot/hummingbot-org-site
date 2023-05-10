@@ -39,9 +39,11 @@ function GetNewsletter() {
           <br />
           <br />
           <div tw='flex justify-center'>
-            <Button isLarge variant="success">
-              Book a slot
-            </Button>
+            <a href="https://calendly.com/michelle-hummingbot-botcamp/applications" target="_blank" rel="noreferrer">
+              <Button isLarge variant="success">
+                Book a slot
+              </Button>
+            </a>
           </div>
         </Item>
       </RightColumn>
