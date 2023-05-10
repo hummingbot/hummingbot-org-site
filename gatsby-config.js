@@ -92,6 +92,16 @@ module.exports = {
         includeInDevelopment: true,
         // exclude: ["/preview/**", "https://"],
       },
+      resolve: `gatsby-plugin-posthog`,
+      options: {
+        // Specify the API key for your Posthog Project (required)
+        apiKey: process.env.POSTHOG_API_KEY,
+        // Specify the app host if self-hosting (optional, default: https://app.posthog.com)
+        apiHost: process.env.POSTHOG_APP_HOST_URL,
+        // Puts tracking script in the head instead of the body (optional, default: true)
+        head: true,
+        // Enable posthog analytics tracking during development (optional, default: false)
+        isEnabledDevMode: true
     },
   ],
 }
