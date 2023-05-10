@@ -76,13 +76,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-    //     name: `CoinAlpha, Inc.`,
+        icon: './src/svgs/favicon.png',
+        name: `Hummingbot Foundation`,
     //     short_name: `starter`,
     //     start_url: `/`,
     //     background_color: `#663399`,
     //     theme_color: `#663399`,
     //     display: `minimal-ui`,
-      icon: './src/svgs/favicon.png',
        },
      },
      {
@@ -92,6 +92,8 @@ module.exports = {
         includeInDevelopment: true,
         // exclude: ["/preview/**", "https://"],
       },
+    },
+    {
       resolve: `gatsby-plugin-posthog`,
       options: {
         // Specify the API key for your Posthog Project (required)
@@ -102,6 +104,7 @@ module.exports = {
         head: true,
         // Enable posthog analytics tracking during development (optional, default: false)
         isEnabledDevMode: true
+      }
     },
   ],
 }
