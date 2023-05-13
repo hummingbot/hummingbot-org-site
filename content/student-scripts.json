@@ -22,5 +22,29 @@
         "author_link": "https://github.com/shibanovp",
         "link": "https://github.com/hummingbot/hummingbot/pull/5736",
         "cohort": "Sept 2022"
+    },
+    {
+        "title": "Volume Pumpr",
+        "description": "This script aims to maximize trading volume without losing (too much) money, prioritizing high volume, and low risk over profitability.",
+        "author": "keo",
+        "author_link": "https://github.com/keo",
+        "link": "https://github.com/hummingbot/hummingbot/pull/5991",
+        "cohort": "Nov 2022"
+    },
+    {
+        "title": "Trailing Geometric Grid",
+        "description": "This script execute a trailing grid strategy with geometric price that increment & decrement.",
+        "author": "talkinandy",
+        "author_link": "https://github.com/talkinandy",
+        "link": "https://github.com/hummingbot/hummingbot/pull/6117",
+        "cohort": "Jan 2023"
+    },
+    {
+        "title": "1/N Index Portfolio",
+        "description": "This strategy aims to create a 1/N cryptocurrency portfolio, providing perfect diversification without parametrization and giving a reasonable baseline performance.",
+        "author": "rolandkofler",
+        "author_link": "https://github.com/rolandkofler",
+        "link": "https://github.com/hummingbot/hummingbot/pull/6254",
+        "cohort": "March 2023"
     }
 ]
