@@ -11,18 +11,18 @@ import CoinAlphaLogo from "../../../svgs/CoinAlphaLogo"
 
 function WhoWeAre() {
   return (
-    <Section id='who-we-are' tw='z-10 py-20 md:py-32 lg:py-40 xl:py-44' style={{background: 'url(assets/grid_perspective.png) no-repeat', backgroundSize: 'cover', position: 'relative', zIndex: '0'}}>
+    <Section id='who-we-are' tw='z-10 py-20 md:py-32 lg:py-40 xl:py-44 border-b-2 border-terminal' style={{background: 'url(assets/grid_perspective.png) no-repeat', backgroundSize: 'cover', position: 'relative', zIndex: '0'}}>
 
-      <Container tw='pb-xxxl'>
-        <CustomH2 tw='max-w-none mx-auto! text-center leading-tight mb-xl! pb-6 md:max-w-[60%]' isBold>Backed by world-class investors and advisors</CustomH2>
-        <LogosGrid tw='grid grid-cols-2 gap-y-lg gap-8 sm:gap-y-xl md:grid-cols-3'>
+      <Container tw='pb-xl'>
+        <CustomH2 tw='max-w-none mx-auto! text-center leading-tight mb-xl! pb-6' isBold>Open source ecosystem that serves both institutional and individual users</CustomH2>
+        {/* <LogosGrid tw='grid grid-cols-2 gap-y-lg gap-8 sm:gap-y-xl md:grid-cols-3'>
           <div tw='w-full flex self-center justify-center md:w-full'><InitializedLogo /></div>
           <div tw='w-full flex self-center justify-center md:w-full'><Baincapital /></div>
           <div tw='w-full flex self-center justify-center md:w-full'><SlowVentures /></div>
           <div tw='w-full flex self-center justify-center md:w-full'><Arrington /></div>
           <div tw='w-full flex self-center justify-center md:w-full'><DefianceCapital /></div>
           <div tw='w-full flex self-center justify-center md:w-full'><StartX /></div>
-        </LogosGrid>
+        </LogosGrid> */}
       </Container>
 
       <Container tw='block md:flex' style={{zIndex: '5', position: 'relative'}}>
@@ -34,8 +34,11 @@ function WhoWeAre() {
             </H5>
           </LogoHolder>
           <P tw='mt-[8px] mb-sm leading-tight max-w-none md:max-w-[560px]' isWhite>
-            Open source foundation that coordinates maintenance of Hummingbot by community developers and governance by HBOT token holders.
+            Open source foundation that mobilizes the global community of Hummingbot developers and HBOT token holders to maintain and govern Hummingbot.
           </P>
+          <a href="https://docs.hummingbot.org">
+            <ExternalLinkButton label='Hummingbot docs' target="_blank" rel="noreferrer"/>
+          </a>
         </Side>
         <Side tw='self-start mt-xxl md:mt-0' className='Side'>
           <LogoHolder>

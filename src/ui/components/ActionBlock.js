@@ -22,9 +22,9 @@ function ActionBlock() {
           </ColumnA>
           <ColumnB>
             <div tw='flex justify-between mb-md'>
-              <CustomH6>Join a global community of quant traders</CustomH6>
+              <CustomH6>Join a global community of algo traders</CustomH6>
             </div>
-            <P tw='text-white mb-md'>Join the 20,000+ quant traders and market makers in the global Hummingbot community</P>
+            <P tw='text-white mb-md'>Join the 10,000+ algo traders and market makers in the global Hummingbot community</P>
             <a href="https://discord.gg/hummingbot" target='_blank' rel="noreferrer">
               <ExternalLinkButton tw='justify-between mb-xxs min-w-[280px]' isLarge label='Join Discord server' />
             </a>
