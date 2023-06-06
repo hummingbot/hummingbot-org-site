@@ -17,7 +17,7 @@ function BotcampCTA() {
         </H6>
 
         <div tw='flex justify-center'>
-          <a href="https://airtable.com/shrRj5bUAauDj2M4G" target="_blank" rel="noreferrer">
+          <a href="https://forms.gle/h8Z47PkKonzb3ptSA" target="_blank" rel="noreferrer">
             <Button isLarge variant="terminal">
              Apply to next cohort
             </Button>
