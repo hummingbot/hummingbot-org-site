@@ -22,7 +22,7 @@ function BotcampFAQ() {
 
             <Title>+ Can I apply for a scholarship to Botcamp?</Title>
             <Item>
-              We may have a few extra spots for scholarships on a highly selective basis. 
+              We understand that financial constraints can often limit one's access to the individualized, high-quality education that we offer in Hummingbot Botcamp. That's why we can offer a 60% discount to self-motivated, technical students who commit to completing the course and submitting a script. For more information, see the [Botcamp Educational Discount Application Form](https://forms.gle/44DXbSdFat1UMSSw7).
             </Item>
             <Title>+ How many students are in a cohort? </Title>
 
