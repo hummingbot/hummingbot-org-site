@@ -23,7 +23,7 @@ function BotcampHero() {
         <div tw='flex justify-center'>
           <a href="https://forms.gle/h8Z47PkKonzb3ptSA" target="_blank" rel="noreferrer">
             <Button isLarge variant="terminal">
-              Apply for June 2023 cohort
+              Apply to next cohort
             </Button>
           </a>
         </div>
